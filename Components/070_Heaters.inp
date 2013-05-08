@@ -1,0 +1,115 @@
+AllowReplace
+
+
+HS_INPUT
+! ==================================================================================== !
+!                                        Heaters                                       !
+! ==================================================================================== !
+
+!==================  Heat Structure 7001  ==================
+HS_ID   'Heater-HS-01'  7001
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.784972       1.00
+HS_ND   2
+        1   1   0.0000   293.00   'HeaterCeramic'
+        2   2   0.0127   293.00
+HS_LB   FluxTimeTF  'LinearRamp'       No
+HS_RB   CalcCoefHS  'Cavity-Vol-02'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.27870912  0.4572            0.4572
+HS_RBS  0.27870912  0.4572            0.4572
+HS_FT   Off
+
+!==================  Heat Structure 7002  ==================
+HS_ID   'Heater-HS-02'  7002
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.257287       1.00
+HS_ND   2
+        1   1   0.0000   293.00   'HeaterCeramic'
+        2   2   0.0127   293.00
+HS_LB   FluxTimeTF  'LinearRamp'       No
+HS_RB   CalcCoefHS  'Cavity-Vol-02'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.27870912  0.4572            0.4572
+HS_RBS  0.27870912  0.4572            0.4572
+HS_FT   Off
+
+!==================  Heat Structure 7003  ==================
+HS_ID   'Heater-HS-03'  7003
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -3.729602       1.00
+HS_ND   2
+        1   1   0.0000   293.00   'HeaterCeramic'
+        2   2   0.0127   293.00
+HS_LB   FluxTimeTF  'LinearRamp'       No
+HS_RB   CalcCoefHS  'Cavity-Vol-02'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.27870912  0.4572            0.4572
+HS_RBS  0.27870912  0.4572            0.4572
+HS_FT   Off
+
+!==================  Heat Structure 7004  ==================
+HS_ID   'Heater-HS-04'  7004
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -3.213665       1.00
+HS_ND   2
+        1   1   0.0000   293.00   'HeaterCeramic'
+        2   2   0.0127   293.00
+HS_LB   FluxTimeTF  'LinearRamp'       No
+HS_RB   CalcCoefHS  'Cavity-Vol-02'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.18580608  0.4572            0.3048
+HS_RBS  0.18580608  0.4572            0.3048
+HS_FT   Off
+
+!==================  Heat Structure 7005  ==================
+HS_ID   'Heater-HS-05'  7005
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -2.850127       1.00
+HS_ND   2
+        1   1   0.0000   293.00   'HeaterCeramic'
+        2   2   0.0127   293.00
+HS_LB   FluxTimeTF  'LinearRamp'       No
+HS_RB   CalcCoefHS  'Cavity-Vol-02'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.27870912  0.4572            0.4572
+HS_RBS  0.27870912  0.4572            0.4572
+HS_FT   Off
+
+!==================  Heat Structure 7006  ==================
+HS_ID   'Heater-HS-06'  7006
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -2.322442       1.00
+HS_ND   2
+        1   1   0.0000   293.00   'HeaterCeramic'
+        2   2   0.0127   293.00
+HS_LB   FluxTimeTF  'LinearRamp'       No
+HS_RB   CalcCoefHS  'Cavity-Vol-02'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.27870912  0.4572            0.4572
+HS_RBS  0.27870912  0.4572            0.4572
+HS_FT   Off

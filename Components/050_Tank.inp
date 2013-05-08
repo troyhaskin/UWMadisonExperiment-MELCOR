@@ -1,0 +1,28 @@
+AllowReplace
+
+
+CVH_INPUT
+! ==================================================================================== !
+!                                        Tank                                          !
+! ==================================================================================== !
+CV_ID   'Tank'  5000
+CV_TYP  'RCCS'
+CV_VAT  4 ! Number Elevation Volume
+        1   0.0000000    0.000000E+0
+        2   0.1714500   -7.506000E-2
+        3   1.8521172   -1.103682E+0
+        4   1.9886422   -5.977000E-2
+CV_THR  NonEquil  NoFog       Active
+CV_PAS  Separate  PoolAndAtm  Subcooled SuperHeated
+CV_PTD  Pvol  106684.0
+CV_AAD  Tatm  333.16
+CV_BND  Vpol  1.089374278 ! 0.9797866         !1.178742
+CV_PAD 333.16 
+CV_SOU  1
+        1 PE  Rate  TF  'Sink'
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+
+
+

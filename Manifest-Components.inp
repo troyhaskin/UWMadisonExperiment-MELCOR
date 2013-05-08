@@ -1,0 +1,24 @@
+AllowReplace
+
+! ==================================================================================== !
+!                                       Train                                          !
+! ==================================================================================== !
+
+! Physical-ish Components
+  Include   'Components/010_Downer.inp'
+  Include   'Components/020_LowerPlenum.inp'
+  Include   'Components/031_Riser1.inp'
+  Include   'Components/032_Riser2.inp'
+  Include   'Components/033_Riser3.inp'
+  Include   'Components/040_UpperPlenum.inp'
+  Include   'Components/050_Tank.inp'
+  Include   'Components/060_Cavity.inp'
+  Include   'Components/070_Heaters.inp'
+  Include   'Components/080_Walls.inp'
+  Include   'Components/420_Universe.inp'
+  
+! Component Communication
+  Include   'Components/__SystemLinker.inp'
+  Include   'Components/__RadiationInput.inp'
+
+

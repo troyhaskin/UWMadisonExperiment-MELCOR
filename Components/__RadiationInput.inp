@@ -1,0 +1,1329 @@
+AllowReplace
+
+HS_Input
+! ==================================================================================== !
+!                           Radiation Enclosure Input                                  !
+! ==================================================================================== !
+HS_RD 705
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 1 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  1     'Heater-HS-01'   Right   'Riser1-HS-01'   Right   8.192044E-002   'HeaterEps' 'RiserEps'
+  2     'Heater-HS-01'   Right   'Riser1-HS-02'   Right   8.340951E-002   'HeaterEps' 'RiserEps'
+  3     'Heater-HS-01'   Right   'Riser1-HS-03'   Right   2.097486E-002   'HeaterEps' 'RiserEps'
+  4     'Heater-HS-01'   Right   'Riser1-HS-04'   Right   3.314889E-003   'HeaterEps' 'RiserEps'
+  5     'Heater-HS-01'   Right   'Riser1-HS-05'   Right   8.782695E-004   'HeaterEps' 'RiserEps'
+  6     'Heater-HS-01'   Right   'Riser1-HS-06'   Right   3.190481E-004   'HeaterEps' 'RiserEps'
+  7     'Heater-HS-01'   Right   'Riser1-HS-07'   Right   1.417515E-004   'HeaterEps' 'RiserEps'
+  8     'Heater-HS-01'   Right   'Riser1-HS-08'   Right   7.132938E-005   'HeaterEps' 'RiserEps'
+  9     'Heater-HS-01'   Right   'Riser1-HS-09'   Right   3.998955E-005   'HeaterEps' 'RiserEps'
+  10    'Heater-HS-01'   Right   'Riser1-HS-10'   Right   2.322928E-005   'HeaterEps' 'RiserEps'
+  11    'Heater-HS-01'   Right   'Riser2-HS-01'   Right   1.097287E-001   'HeaterEps' 'RiserEps'
+  12    'Heater-HS-01'   Right   'Riser2-HS-02'   Right   1.137998E-001   'HeaterEps' 'RiserEps'
+  13    'Heater-HS-01'   Right   'Riser2-HS-03'   Right   2.900253E-002   'HeaterEps' 'RiserEps'
+  14    'Heater-HS-01'   Right   'Riser2-HS-04'   Right   4.366579E-003   'HeaterEps' 'RiserEps'
+  15    'Heater-HS-01'   Right   'Riser2-HS-05'   Right   1.096828E-003   'HeaterEps' 'RiserEps'
+  16    'Heater-HS-01'   Right   'Riser2-HS-06'   Right   3.842180E-004   'HeaterEps' 'RiserEps'
+  17    'Heater-HS-01'   Right   'Riser2-HS-07'   Right   1.690563E-004   'HeaterEps' 'RiserEps'
+  18    'Heater-HS-01'   Right   'Riser2-HS-08'   Right   8.724716E-005   'HeaterEps' 'RiserEps'
+  19    'Heater-HS-01'   Right   'Riser2-HS-09'   Right   4.898686E-005   'HeaterEps' 'RiserEps'
+  20    'Heater-HS-01'   Right   'Riser2-HS-10'   Right   2.872550E-005   'HeaterEps' 'RiserEps'
+  21    'Heater-HS-01'   Right   'Riser3-HS-01'   Right   1.023662E-001   'HeaterEps' 'RiserEps'
+  22    'Heater-HS-01'   Right   'Riser3-HS-02'   Right   1.078167E-001   'HeaterEps' 'RiserEps'
+  23    'Heater-HS-01'   Right   'Riser3-HS-03'   Right   2.724096E-002   'HeaterEps' 'RiserEps'
+  24    'Heater-HS-01'   Right   'Riser3-HS-04'   Right   4.287501E-003   'HeaterEps' 'RiserEps'
+  25    'Heater-HS-01'   Right   'Riser3-HS-05'   Right   1.125356E-003   'HeaterEps' 'RiserEps'
+  26    'Heater-HS-01'   Right   'Riser3-HS-06'   Right   4.063810E-004   'HeaterEps' 'RiserEps'
+  27    'Heater-HS-01'   Right   'Riser3-HS-07'   Right   1.867993E-004   'HeaterEps' 'RiserEps'
+  28    'Heater-HS-01'   Right   'Riser3-HS-08'   Right   9.436912E-005   'HeaterEps' 'RiserEps'
+  29    'Heater-HS-01'   Right   'Riser3-HS-09'   Right   5.378444E-005   'HeaterEps' 'RiserEps'
+  30    'Heater-HS-01'   Right   'Riser3-HS-10'   Right   3.028926E-005   'HeaterEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 2 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  31    'Heater-HS-02'   Right   'Riser1-HS-01'   Right   4.750925E-003   'HeaterEps' 'RiserEps'
+  32    'Heater-HS-02'   Right   'Riser1-HS-02'   Right   3.267080E-002   'HeaterEps' 'RiserEps'
+  33    'Heater-HS-02'   Right   'Riser1-HS-03'   Right   9.198444E-002   'HeaterEps' 'RiserEps'
+  34    'Heater-HS-02'   Right   'Riser1-HS-04'   Right   6.562183E-002   'HeaterEps' 'RiserEps'
+  35    'Heater-HS-02'   Right   'Riser1-HS-05'   Right   1.190632E-002   'HeaterEps' 'RiserEps'
+  36    'Heater-HS-02'   Right   'Riser1-HS-06'   Right   2.158432E-003   'HeaterEps' 'RiserEps'
+  37    'Heater-HS-02'   Right   'Riser1-HS-07'   Right   6.285574E-004   'HeaterEps' 'RiserEps'
+  38    'Heater-HS-02'   Right   'Riser1-HS-08'   Right   2.442835E-004   'HeaterEps' 'RiserEps'
+  39    'Heater-HS-02'   Right   'Riser1-HS-09'   Right   1.112633E-004   'HeaterEps' 'RiserEps'
+  40    'Heater-HS-02'   Right   'Riser1-HS-10'   Right   5.730354E-005   'HeaterEps' 'RiserEps'
+  41    'Heater-HS-02'   Right   'Riser2-HS-01'   Right   6.226853E-003   'HeaterEps' 'RiserEps'
+  42    'Heater-HS-02'   Right   'Riser2-HS-02'   Right   4.483041E-002   'HeaterEps' 'RiserEps'
+  43    'Heater-HS-02'   Right   'Riser2-HS-03'   Right   1.259806E-001   'HeaterEps' 'RiserEps'
+  44    'Heater-HS-02'   Right   'Riser2-HS-04'   Right   9.011579E-002   'HeaterEps' 'RiserEps'
+  45    'Heater-HS-02'   Right   'Riser2-HS-05'   Right   1.641721E-002   'HeaterEps' 'RiserEps'
+  46    'Heater-HS-02'   Right   'Riser2-HS-06'   Right   2.788479E-003   'HeaterEps' 'RiserEps'
+  47    'Heater-HS-02'   Right   'Riser2-HS-07'   Right   7.788392E-004   'HeaterEps' 'RiserEps'
+  48    'Heater-HS-02'   Right   'Riser2-HS-08'   Right   2.924561E-004   'HeaterEps' 'RiserEps'
+  49    'Heater-HS-02'   Right   'Riser2-HS-09'   Right   1.325653E-004   'HeaterEps' 'RiserEps'
+  50    'Heater-HS-02'   Right   'Riser2-HS-10'   Right   6.874994E-005   'HeaterEps' 'RiserEps'
+  51    'Heater-HS-02'   Right   'Riser3-HS-01'   Right   5.922359E-003   'HeaterEps' 'RiserEps'
+  52    'Heater-HS-02'   Right   'Riser3-HS-02'   Right   4.219168E-002   'HeaterEps' 'RiserEps'
+  53    'Heater-HS-02'   Right   'Riser3-HS-03'   Right   1.191294E-001   'HeaterEps' 'RiserEps'
+  54    'Heater-HS-02'   Right   'Riser3-HS-04'   Right   8.507265E-002   'HeaterEps' 'RiserEps'
+  55    'Heater-HS-02'   Right   'Riser3-HS-05'   Right   1.546749E-002   'HeaterEps' 'RiserEps'
+  56    'Heater-HS-02'   Right   'Riser3-HS-06'   Right   2.786251E-003   'HeaterEps' 'RiserEps'
+  57    'Heater-HS-02'   Right   'Riser3-HS-07'   Right   8.045394E-004   'HeaterEps' 'RiserEps'
+  58    'Heater-HS-02'   Right   'Riser3-HS-08'   Right   3.134914E-004   'HeaterEps' 'RiserEps'
+  59    'Heater-HS-02'   Right   'Riser3-HS-09'   Right   1.457277E-004   'HeaterEps' 'RiserEps'
+  60    'Heater-HS-02'   Right   'Riser3-HS-10'   Right   7.454794E-005   'HeaterEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 3 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  61    'Heater-HS-03'   Right   'Riser1-HS-01'   Right   4.921914E-004   'HeaterEps' 'RiserEps'
+  62    'Heater-HS-03'   Right   'Riser1-HS-02'   Right   1.566214E-003   'HeaterEps' 'RiserEps'
+  63    'Heater-HS-03'   Right   'Riser1-HS-03'   Right   7.831754E-003   'HeaterEps' 'RiserEps'
+  64    'Heater-HS-03'   Right   'Riser1-HS-04'   Right   5.061121E-002   'HeaterEps' 'RiserEps'
+  65    'Heater-HS-03'   Right   'Riser1-HS-05'   Right   9.513369E-002   'HeaterEps' 'RiserEps'
+  66    'Heater-HS-03'   Right   'Riser1-HS-06'   Right   4.652943E-002   'HeaterEps' 'RiserEps'
+  67    'Heater-HS-03'   Right   'Riser1-HS-07'   Right   7.026176E-003   'HeaterEps' 'RiserEps'
+  68    'Heater-HS-03'   Right   'Riser1-HS-08'   Right   1.476260E-003   'HeaterEps' 'RiserEps'
+  69    'Heater-HS-03'   Right   'Riser1-HS-09'   Right   4.671882E-004   'HeaterEps' 'RiserEps'
+  70    'Heater-HS-03'   Right   'Riser1-HS-10'   Right   1.913129E-004   'HeaterEps' 'RiserEps'
+  71    'Heater-HS-03'   Right   'Riser2-HS-01'   Right   5.870238E-004   'HeaterEps' 'RiserEps'
+  72    'Heater-HS-03'   Right   'Riser2-HS-02'   Right   2.006390E-003   'HeaterEps' 'RiserEps'
+  73    'Heater-HS-03'   Right   'Riser2-HS-03'   Right   1.066411E-002   'HeaterEps' 'RiserEps'
+  74    'Heater-HS-03'   Right   'Riser2-HS-04'   Right   6.962334E-002   'HeaterEps' 'RiserEps'
+  75    'Heater-HS-03'   Right   'Riser2-HS-05'   Right   1.304979E-001   'HeaterEps' 'RiserEps'
+  76    'Heater-HS-03'   Right   'Riser2-HS-06'   Right   6.411548E-002   'HeaterEps' 'RiserEps'
+  77    'Heater-HS-03'   Right   'Riser2-HS-07'   Right   9.568418E-003   'HeaterEps' 'RiserEps'
+  78    'Heater-HS-03'   Right   'Riser2-HS-08'   Right   1.875133E-003   'HeaterEps' 'RiserEps'
+  79    'Heater-HS-03'   Right   'Riser2-HS-09'   Right   5.686650E-004   'HeaterEps' 'RiserEps'
+  80    'Heater-HS-03'   Right   'Riser2-HS-10'   Right   2.206159E-004   'HeaterEps' 'RiserEps'
+  81    'Heater-HS-03'   Right   'Riser3-HS-01'   Right   6.123095E-004   'HeaterEps' 'RiserEps'
+  82    'Heater-HS-03'   Right   'Riser3-HS-02'   Right   2.028244E-003   'HeaterEps' 'RiserEps'
+  83    'Heater-HS-03'   Right   'Riser3-HS-03'   Right   1.012696E-002   'HeaterEps' 'RiserEps'
+  84    'Heater-HS-03'   Right   'Riser3-HS-04'   Right   6.555148E-002   'HeaterEps' 'RiserEps'
+  85    'Heater-HS-03'   Right   'Riser3-HS-05'   Right   1.233081E-001   'HeaterEps' 'RiserEps'
+  86    'Heater-HS-03'   Right   'Riser3-HS-06'   Right   6.036159E-002   'HeaterEps' 'RiserEps'
+  87    'Heater-HS-03'   Right   'Riser3-HS-07'   Right   9.127670E-003   'HeaterEps' 'RiserEps'
+  88    'Heater-HS-03'   Right   'Riser3-HS-08'   Right   1.899164E-003   'HeaterEps' 'RiserEps'
+  89    'Heater-HS-03'   Right   'Riser3-HS-09'   Right   5.935629E-004   'HeaterEps' 'RiserEps'
+  90    'Heater-HS-03'   Right   'Riser3-HS-10'   Right   2.370454E-004   'HeaterEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 4 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  91    'Heater-HS-04'   Right   'Riser1-HS-01'   Right   1.358109E-004   'HeaterEps' 'RiserEps'
+  92    'Heater-HS-04'   Right   'Riser1-HS-02'   Right   3.050881E-004   'HeaterEps' 'RiserEps'
+  93    'Heater-HS-04'   Right   'Riser1-HS-03'   Right   8.293624E-004   'HeaterEps' 'RiserEps'
+  94    'Heater-HS-04'   Right   'Riser1-HS-04'   Right   3.022068E-003   'HeaterEps' 'RiserEps'
+  95    'Heater-HS-04'   Right   'Riser1-HS-05'   Right   1.836371E-002   'HeaterEps' 'RiserEps'
+  96    'Heater-HS-04'   Right   'Riser1-HS-06'   Right   9.397625E-002   'HeaterEps' 'RiserEps'
+  97    'Heater-HS-04'   Right   'Riser1-HS-07'   Right   7.885625E-002   'HeaterEps' 'RiserEps'
+  98    'Heater-HS-04'   Right   'Riser1-HS-08'   Right   1.277820E-002   'HeaterEps' 'RiserEps'
+  99    'Heater-HS-04'   Right   'Riser1-HS-09'   Right   2.322431E-003   'HeaterEps' 'RiserEps'
+  100   'Heater-HS-04'   Right   'Riser1-HS-10'   Right   6.705769E-004   'HeaterEps' 'RiserEps'
+  101   'Heater-HS-04'   Right   'Riser2-HS-01'   Right   1.607976E-004   'HeaterEps' 'RiserEps'
+  102   'Heater-HS-04'   Right   'Riser2-HS-02'   Right   3.672491E-004   'HeaterEps' 'RiserEps'
+  103   'Heater-HS-04'   Right   'Riser2-HS-03'   Right   1.029751E-003   'HeaterEps' 'RiserEps'
+  104   'Heater-HS-04'   Right   'Riser2-HS-04'   Right   3.969949E-003   'HeaterEps' 'RiserEps'
+  105   'Heater-HS-04'   Right   'Riser2-HS-05'   Right   2.543906E-002   'HeaterEps' 'RiserEps'
+  106   'Heater-HS-04'   Right   'Riser2-HS-06'   Right   1.288912E-001   'HeaterEps' 'RiserEps'
+  107   'Heater-HS-04'   Right   'Riser2-HS-07'   Right   1.083568E-001   'HeaterEps' 'RiserEps'
+  108   'Heater-HS-04'   Right   'Riser2-HS-08'   Right   1.762180E-002   'HeaterEps' 'RiserEps'
+  109   'Heater-HS-04'   Right   'Riser2-HS-09'   Right   2.979750E-003   'HeaterEps' 'RiserEps'
+  110   'Heater-HS-04'   Right   'Riser2-HS-10'   Right   8.057992E-004   'HeaterEps' 'RiserEps'
+  111   'Heater-HS-04'   Right   'Riser3-HS-01'   Right   1.686550E-004   'HeaterEps' 'RiserEps'
+  112   'Heater-HS-04'   Right   'Riser3-HS-02'   Right   3.917597E-004   'HeaterEps' 'RiserEps'
+  113   'Heater-HS-04'   Right   'Riser3-HS-03'   Right   1.071745E-003   'HeaterEps' 'RiserEps'
+  114   'Heater-HS-04'   Right   'Riser3-HS-04'   Right   3.915444E-003   'HeaterEps' 'RiserEps'
+  115   'Heater-HS-04'   Right   'Riser3-HS-05'   Right   2.377395E-002   'HeaterEps' 'RiserEps'
+  116   'Heater-HS-04'   Right   'Riser3-HS-06'   Right   1.218044E-001   'HeaterEps' 'RiserEps'
+  117   'Heater-HS-04'   Right   'Riser3-HS-07'   Right   1.022061E-001   'HeaterEps' 'RiserEps'
+  118   'Heater-HS-04'   Right   'Riser3-HS-08'   Right   1.660579E-002   'HeaterEps' 'RiserEps'
+  119   'Heater-HS-04'   Right   'Riser3-HS-09'   Right   2.987814E-003   'HeaterEps' 'RiserEps'
+  120   'Heater-HS-04'   Right   'Riser3-HS-10'   Right   8.251129E-004   'HeaterEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 5 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  121   'Heater-HS-05'   Right   'Riser1-HS-01'   Right   5.711073E-005   'HeaterEps' 'RiserEps'
+  122   'Heater-HS-05'   Right   'Riser1-HS-02'   Right   1.058662E-004   'HeaterEps' 'RiserEps'
+  123   'Heater-HS-05'   Right   'Riser1-HS-03'   Right   2.257051E-004   'HeaterEps' 'RiserEps'
+  124   'Heater-HS-05'   Right   'Riser1-HS-04'   Right   5.734771E-004   'HeaterEps' 'RiserEps'
+  125   'Heater-HS-05'   Right   'Riser1-HS-05'   Right   1.874879E-003   'HeaterEps' 'RiserEps'
+  126   'Heater-HS-05'   Right   'Riser1-HS-06'   Right   9.893348E-003   'HeaterEps' 'RiserEps'
+  127   'Heater-HS-05'   Right   'Riser1-HS-07'   Right   5.908207E-002   'HeaterEps' 'RiserEps'
+  128   'Heater-HS-05'   Right   'Riser1-HS-08'   Right   9.409925E-002   'HeaterEps' 'RiserEps'
+  129   'Heater-HS-05'   Right   'Riser1-HS-09'   Right   3.843738E-002   'HeaterEps' 'RiserEps'
+  130   'Heater-HS-05'   Right   'Riser1-HS-10'   Right   5.597396E-003   'HeaterEps' 'RiserEps'
+  131   'Heater-HS-05'   Right   'Riser2-HS-01'   Right   6.484431E-005   'HeaterEps' 'RiserEps'
+  132   'Heater-HS-05'   Right   'Riser2-HS-02'   Right   1.270181E-004   'HeaterEps' 'RiserEps'
+  133   'Heater-HS-05'   Right   'Riser2-HS-03'   Right   2.734745E-004   'HeaterEps' 'RiserEps'
+  134   'Heater-HS-05'   Right   'Riser2-HS-04'   Right   7.032123E-004   'HeaterEps' 'RiserEps'
+  135   'Heater-HS-05'   Right   'Riser2-HS-05'   Right   2.429178E-003   'HeaterEps' 'RiserEps'
+  136   'Heater-HS-05'   Right   'Riser2-HS-06'   Right   1.357912E-002   'HeaterEps' 'RiserEps'
+  137   'Heater-HS-05'   Right   'Riser2-HS-07'   Right   8.120392E-002   'HeaterEps' 'RiserEps'
+  138   'Heater-HS-05'   Right   'Riser2-HS-08'   Right   1.288611E-001   'HeaterEps' 'RiserEps'
+  139   'Heater-HS-05'   Right   'Riser2-HS-09'   Right   5.271006E-002   'HeaterEps' 'RiserEps'
+  140   'Heater-HS-05'   Right   'Riser2-HS-10'   Right   7.378681E-003   'HeaterEps' 'RiserEps'
+  141   'Heater-HS-05'   Right   'Riser3-HS-01'   Right   6.943847E-005   'HeaterEps' 'RiserEps'
+  142   'Heater-HS-05'   Right   'Riser3-HS-02'   Right   1.360541E-004   'HeaterEps' 'RiserEps'
+  143   'Heater-HS-05'   Right   'Riser3-HS-03'   Right   2.920565E-004   'HeaterEps' 'RiserEps'
+  144   'Heater-HS-05'   Right   'Riser3-HS-04'   Right   7.368417E-004   'HeaterEps' 'RiserEps'
+  145   'Heater-HS-05'   Right   'Riser3-HS-05'   Right   2.438499E-003   'HeaterEps' 'RiserEps'
+  146   'Heater-HS-05'   Right   'Riser3-HS-06'   Right   1.280791E-002   'HeaterEps' 'RiserEps'
+  147   'Heater-HS-05'   Right   'Riser3-HS-07'   Right   7.657660E-002   'HeaterEps' 'RiserEps'
+  148   'Heater-HS-05'   Right   'Riser3-HS-08'   Right   1.218836E-001   'HeaterEps' 'RiserEps'
+  149   'Heater-HS-05'   Right   'Riser3-HS-09'   Right   4.970140E-002   'HeaterEps' 'RiserEps'
+  150   'Heater-HS-05'   Right   'Riser3-HS-10'   Right   6.993475E-003   'HeaterEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 6 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  151   'Heater-HS-06'   Right   'Riser1-HS-01'   Right   2.244559E-005   'HeaterEps' 'RiserEps'
+  152   'Heater-HS-06'   Right   'Riser1-HS-02'   Right   3.859844E-005   'HeaterEps' 'RiserEps'
+  153   'Heater-HS-06'   Right   'Riser1-HS-03'   Right   7.099367E-005   'HeaterEps' 'RiserEps'
+  154   'Heater-HS-06'   Right   'Riser1-HS-04'   Right   1.344260E-004   'HeaterEps' 'RiserEps'
+  155   'Heater-HS-06'   Right   'Riser1-HS-05'   Right   2.963302E-004   'HeaterEps' 'RiserEps'
+  156   'Heater-HS-06'   Right   'Riser1-HS-06'   Right   7.905087E-004   'HeaterEps' 'RiserEps'
+  157   'Heater-HS-06'   Right   'Riser1-HS-07'   Right   2.866959E-003   'HeaterEps' 'RiserEps'
+  158   'Heater-HS-06'   Right   'Riser1-HS-08'   Right   1.744401E-002   'HeaterEps' 'RiserEps'
+  159   'Heater-HS-06'   Right   'Riser1-HS-09'   Right   7.842632E-002   'HeaterEps' 'RiserEps'
+  160   'Heater-HS-06'   Right   'Riser1-HS-10'   Right   8.682593E-002   'HeaterEps' 'RiserEps'
+  161   'Heater-HS-06'   Right   'Riser2-HS-01'   Right   2.607422E-005   'HeaterEps' 'RiserEps'
+  162   'Heater-HS-06'   Right   'Riser2-HS-02'   Right   4.511922E-005   'HeaterEps' 'RiserEps'
+  163   'Heater-HS-06'   Right   'Riser2-HS-03'   Right   8.327214E-005   'HeaterEps' 'RiserEps'
+  164   'Heater-HS-06'   Right   'Riser2-HS-04'   Right   1.624121E-004   'HeaterEps' 'RiserEps'
+  165   'Heater-HS-06'   Right   'Riser2-HS-05'   Right   3.591142E-004   'HeaterEps' 'RiserEps'
+  166   'Heater-HS-06'   Right   'Riser2-HS-06'   Right   9.839145E-004   'HeaterEps' 'RiserEps'
+  167   'Heater-HS-06'   Right   'Riser2-HS-07'   Right   3.768803E-003   'HeaterEps' 'RiserEps'
+  168   'Heater-HS-06'   Right   'Riser2-HS-08'   Right   2.408023E-002   'HeaterEps' 'RiserEps'
+  169   'Heater-HS-06'   Right   'Riser2-HS-09'   Right   1.069985E-001   'HeaterEps' 'RiserEps'
+  170   'Heater-HS-06'   Right   'Riser2-HS-10'   Right   1.161782E-001   'HeaterEps' 'RiserEps'
+  171   'Heater-HS-06'   Right   'Riser3-HS-01'   Right   2.746680E-005   'HeaterEps' 'RiserEps'
+  172   'Heater-HS-06'   Right   'Riser3-HS-02'   Right   4.858284E-005   'HeaterEps' 'RiserEps'
+  173   'Heater-HS-06'   Right   'Riser3-HS-03'   Right   8.929636E-005   'HeaterEps' 'RiserEps'
+  174   'Heater-HS-06'   Right   'Riser3-HS-04'   Right   1.734041E-004   'HeaterEps' 'RiserEps'
+  175   'Heater-HS-06'   Right   'Riser3-HS-05'   Right   3.825257E-004   'HeaterEps' 'RiserEps'
+  176   'Heater-HS-06'   Right   'Riser3-HS-06'   Right   1.021431E-003   'HeaterEps' 'RiserEps'
+  177   'Heater-HS-06'   Right   'Riser3-HS-07'   Right   3.716695E-003   'HeaterEps' 'RiserEps'
+  178   'Heater-HS-06'   Right   'Riser3-HS-08'   Right   2.258472E-002   'HeaterEps' 'RiserEps'
+  179   'Heater-HS-06'   Right   'Riser3-HS-09'   Right   1.013160E-001   'HeaterEps' 'RiserEps'
+  180   'Heater-HS-06'   Right   'Riser3-HS-10'   Right   1.084391E-001   'HeaterEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 1 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  181   'Riser1-HS-01'   Right   'Riser1-HS-02'   Right   4.015853E-003   'RiserEps' 'RiserEps'
+  182   'Riser1-HS-01'   Right   'Riser1-HS-03'   Right   9.257477E-005   'RiserEps' 'RiserEps'
+  183   'Riser1-HS-01'   Right   'Riser1-HS-04'   Right   2.179519E-005   'RiserEps' 'RiserEps'
+  184   'Riser1-HS-01'   Right   'Riser1-HS-05'   Right   8.175793E-006   'RiserEps' 'RiserEps'
+  185   'Riser1-HS-01'   Right   'Riser1-HS-06'   Right   4.565291E-006   'RiserEps' 'RiserEps'
+  186   'Riser1-HS-01'   Right   'Riser1-HS-07'   Right   2.745559E-006   'RiserEps' 'RiserEps'
+  187   'Riser1-HS-01'   Right   'Riser1-HS-08'   Right   1.257109E-006   'RiserEps' 'RiserEps'
+  188   'Riser1-HS-01'   Right   'Riser1-HS-09'   Right   8.888967E-007   'RiserEps' 'RiserEps'
+  189   'Riser1-HS-01'   Right   'Riser1-HS-10'   Right   2.215103E-007   'RiserEps' 'RiserEps'
+  190   'Riser1-HS-01'   Right   'Riser2-HS-01'   Right   9.100343E-003   'RiserEps' 'RiserEps'
+  191   'Riser1-HS-01'   Right   'Riser2-HS-02'   Right   2.496531E-003   'RiserEps' 'RiserEps'
+  192   'Riser1-HS-01'   Right   'Riser2-HS-03'   Right   3.162499E-004   'RiserEps' 'RiserEps'
+  193   'Riser1-HS-01'   Right   'Riser2-HS-04'   Right   8.988309E-005   'RiserEps' 'RiserEps'
+  194   'Riser1-HS-01'   Right   'Riser2-HS-05'   Right   3.637273E-005   'RiserEps' 'RiserEps'
+  195   'Riser1-HS-01'   Right   'Riser2-HS-06'   Right   1.707161E-005   'RiserEps' 'RiserEps'
+  196   'Riser1-HS-01'   Right   'Riser2-HS-07'   Right   1.049916E-005   'RiserEps' 'RiserEps'
+  197   'Riser1-HS-01'   Right   'Riser2-HS-08'   Right   6.276569E-006   'RiserEps' 'RiserEps'
+  198   'Riser1-HS-01'   Right   'Riser2-HS-09'   Right   4.261522E-006   'RiserEps' 'RiserEps'
+  199   'Riser1-HS-01'   Right   'Riser2-HS-10'   Right   3.289233E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 2 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  200   'Riser1-HS-02'   Right   'Riser1-HS-03'   Right   4.108872E-003   'RiserEps' 'RiserEps'
+  201   'Riser1-HS-02'   Right   'Riser1-HS-04'   Right   9.381095E-005   'RiserEps' 'RiserEps'
+  202   'Riser1-HS-02'   Right   'Riser1-HS-05'   Right   2.205024E-005   'RiserEps' 'RiserEps'
+  203   'Riser1-HS-02'   Right   'Riser1-HS-06'   Right   8.250847E-006   'RiserEps' 'RiserEps'
+  204   'Riser1-HS-02'   Right   'Riser1-HS-07'   Right   4.589930E-006   'RiserEps' 'RiserEps'
+  205   'Riser1-HS-02'   Right   'Riser1-HS-08'   Right   2.758475E-006   'RiserEps' 'RiserEps'
+  206   'Riser1-HS-02'   Right   'Riser1-HS-09'   Right   1.249644E-006   'RiserEps' 'RiserEps'
+  207   'Riser1-HS-02'   Right   'Riser1-HS-10'   Right   8.816851E-007   'RiserEps' 'RiserEps'
+  208   'Riser1-HS-02'   Right   'Riser2-HS-01'   Right   2.494797E-003   'RiserEps' 'RiserEps'
+  209   'Riser1-HS-02'   Right   'Riser2-HS-02'   Right   9.467251E-003   'RiserEps' 'RiserEps'
+  210   'Riser1-HS-02'   Right   'Riser2-HS-03'   Right   2.563365E-003   'RiserEps' 'RiserEps'
+  211   'Riser1-HS-02'   Right   'Riser2-HS-04'   Right   3.208943E-004   'RiserEps' 'RiserEps'
+  212   'Riser1-HS-02'   Right   'Riser2-HS-05'   Right   9.084888E-005   'RiserEps' 'RiserEps'
+  213   'Riser1-HS-02'   Right   'Riser2-HS-06'   Right   3.665541E-005   'RiserEps' 'RiserEps'
+  214   'Riser1-HS-02'   Right   'Riser2-HS-07'   Right   1.716066E-005   'RiserEps' 'RiserEps'
+  215   'Riser1-HS-02'   Right   'Riser2-HS-08'   Right   1.050314E-005   'RiserEps' 'RiserEps'
+  216   'Riser1-HS-02'   Right   'Riser2-HS-09'   Right   6.223365E-006   'RiserEps' 'RiserEps'
+  217   'Riser1-HS-02'   Right   'Riser2-HS-10'   Right   4.165043E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 3 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  218   'Riser1-HS-03'   Right   'Riser1-HS-04'   Right   4.180104E-003   'RiserEps' 'RiserEps'
+  219   'Riser1-HS-03'   Right   'Riser1-HS-05'   Right   9.516428E-005   'RiserEps' 'RiserEps'
+  220   'Riser1-HS-03'   Right   'Riser1-HS-06'   Right   2.232479E-005   'RiserEps' 'RiserEps'
+  221   'Riser1-HS-03'   Right   'Riser1-HS-07'   Right   8.336723E-006   'RiserEps' 'RiserEps'
+  222   'Riser1-HS-03'   Right   'Riser1-HS-08'   Right   4.622733E-006   'RiserEps' 'RiserEps'
+  223   'Riser1-HS-03'   Right   'Riser1-HS-09'   Right   2.759943E-006   'RiserEps' 'RiserEps'
+  224   'Riser1-HS-03'   Right   'Riser1-HS-10'   Right   1.250975E-006   'RiserEps' 'RiserEps'
+  225   'Riser1-HS-03'   Right   'Riser2-HS-01'   Right   2.987346E-004   'RiserEps' 'RiserEps'
+  226   'Riser1-HS-03'   Right   'Riser2-HS-02'   Right   2.599951E-003   'RiserEps' 'RiserEps'
+  227   'Riser1-HS-03'   Right   'Riser2-HS-03'   Right   9.754916E-003   'RiserEps' 'RiserEps'
+  228   'Riser1-HS-03'   Right   'Riser2-HS-04'   Right   2.610581E-003   'RiserEps' 'RiserEps'
+  229   'Riser1-HS-03'   Right   'Riser2-HS-05'   Right   3.255679E-004   'RiserEps' 'RiserEps'
+  230   'Riser1-HS-03'   Right   'Riser2-HS-06'   Right   9.193498E-005   'RiserEps' 'RiserEps'
+  231   'Riser1-HS-03'   Right   'Riser2-HS-07'   Right   3.699606E-005   'RiserEps' 'RiserEps'
+  232   'Riser1-HS-03'   Right   'Riser2-HS-08'   Right   1.725455E-005   'RiserEps' 'RiserEps'
+  233   'Riser1-HS-03'   Right   'Riser2-HS-09'   Right   1.043437E-005   'RiserEps' 'RiserEps'
+  234   'Riser1-HS-03'   Right   'Riser2-HS-10'   Right   6.109087E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 4 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  235   'Riser1-HS-04'   Right   'Riser1-HS-05'   Right   4.207290E-003   'RiserEps' 'RiserEps'
+  236   'Riser1-HS-04'   Right   'Riser1-HS-06'   Right   9.557854E-005   'RiserEps' 'RiserEps'
+  237   'Riser1-HS-04'   Right   'Riser1-HS-07'   Right   2.238049E-005   'RiserEps' 'RiserEps'
+  238   'Riser1-HS-04'   Right   'Riser1-HS-08'   Right   8.335255E-006   'RiserEps' 'RiserEps'
+  239   'Riser1-HS-04'   Right   'Riser1-HS-09'   Right   4.585350E-006   'RiserEps' 'RiserEps'
+  240   'Riser1-HS-04'   Right   'Riser1-HS-10'   Right   2.745566E-006   'RiserEps' 'RiserEps'
+  241   'Riser1-HS-04'   Right   'Riser2-HS-01'   Right   8.553944E-005   'RiserEps' 'RiserEps'
+  242   'Riser1-HS-04'   Right   'Riser2-HS-02'   Right   3.085717E-004   'RiserEps' 'RiserEps'
+  243   'Riser1-HS-04'   Right   'Riser2-HS-03'   Right   2.656829E-003   'RiserEps' 'RiserEps'
+  244   'Riser1-HS-04'   Right   'Riser2-HS-04'   Right   9.857815E-003   'RiserEps' 'RiserEps'
+  245   'Riser1-HS-04'   Right   'Riser2-HS-05'   Right   2.628469E-003   'RiserEps' 'RiserEps'
+  246   'Riser1-HS-04'   Right   'Riser2-HS-06'   Right   3.269721E-004   'RiserEps' 'RiserEps'
+  247   'Riser1-HS-04'   Right   'Riser2-HS-07'   Right   9.209895E-005   'RiserEps' 'RiserEps'
+  248   'Riser1-HS-04'   Right   'Riser2-HS-08'   Right   3.692024E-005   'RiserEps' 'RiserEps'
+  249   'Riser1-HS-04'   Right   'Riser2-HS-09'   Right   1.702342E-005   'RiserEps' 'RiserEps'
+  250   'Riser1-HS-04'   Right   'Riser2-HS-10'   Right   1.013848E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 5 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  251   'Riser1-HS-05'   Right   'Riser1-HS-06'   Right   4.215987E-003   'RiserEps' 'RiserEps'
+  252   'Riser1-HS-05'   Right   'Riser1-HS-07'   Right   9.559409E-005   'RiserEps' 'RiserEps'
+  253   'Riser1-HS-05'   Right   'Riser1-HS-08'   Right   2.232560E-005   'RiserEps' 'RiserEps'
+  254   'Riser1-HS-05'   Right   'Riser1-HS-09'   Right   8.255093E-006   'RiserEps' 'RiserEps'
+  255   'Riser1-HS-05'   Right   'Riser1-HS-10'   Right   4.547594E-006   'RiserEps' 'RiserEps'
+  256   'Riser1-HS-05'   Right   'Riser2-HS-01'   Right   3.371014E-005   'RiserEps' 'RiserEps'
+  257   'Riser1-HS-05'   Right   'Riser2-HS-02'   Right   8.818287E-005   'RiserEps' 'RiserEps'
+  258   'Riser1-HS-05'   Right   'Riser2-HS-03'   Right   3.144852E-004   'RiserEps' 'RiserEps'
+  259   'Riser1-HS-05'   Right   'Riser2-HS-04'   Right   2.678563E-003   'RiserEps' 'RiserEps'
+  260   'Riser1-HS-05'   Right   'Riser2-HS-05'   Right   9.902874E-003   'RiserEps' 'RiserEps'
+  261   'Riser1-HS-05'   Right   'Riser2-HS-06'   Right   2.633953E-003   'RiserEps' 'RiserEps'
+  262   'Riser1-HS-05'   Right   'Riser2-HS-07'   Right   3.268371E-004   'RiserEps' 'RiserEps'
+  263   'Riser1-HS-05'   Right   'Riser2-HS-08'   Right   9.171429E-005   'RiserEps' 'RiserEps'
+  264   'Riser1-HS-05'   Right   'Riser2-HS-09'   Right   3.634561E-005   'RiserEps' 'RiserEps'
+  265   'Riser1-HS-05'   Right   'Riser2-HS-10'   Right   1.652128E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 6 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  266   'Riser1-HS-06'   Right   'Riser1-HS-07'   Right   4.208070E-003   'RiserEps' 'RiserEps'
+  267   'Riser1-HS-06'   Right   'Riser1-HS-08'   Right   9.515217E-005   'RiserEps' 'RiserEps'
+  268   'Riser1-HS-06'   Right   'Riser1-HS-09'   Right   2.206370E-005   'RiserEps' 'RiserEps'
+  269   'Riser1-HS-06'   Right   'Riser1-HS-10'   Right   8.176145E-006   'RiserEps' 'RiserEps'
+  270   'Riser1-HS-06'   Right   'Riser2-HS-01'   Right   1.858554E-005   'RiserEps' 'RiserEps'
+  271   'Riser1-HS-06'   Right   'Riser2-HS-02'   Right   3.465226E-005   'RiserEps' 'RiserEps'
+  272   'Riser1-HS-06'   Right   'Riser2-HS-03'   Right   8.970513E-005   'RiserEps' 'RiserEps'
+  273   'Riser1-HS-06'   Right   'Riser2-HS-04'   Right   3.163895E-004   'RiserEps' 'RiserEps'
+  274   'Riser1-HS-06'   Right   'Riser2-HS-05'   Right   2.685390E-003   'RiserEps' 'RiserEps'
+  275   'Riser1-HS-06'   Right   'Riser2-HS-06'   Right   9.903643E-003   'RiserEps' 'RiserEps'
+  276   'Riser1-HS-06'   Right   'Riser2-HS-07'   Right   2.627533E-003   'RiserEps' 'RiserEps'
+  277   'Riser1-HS-06'   Right   'Riser2-HS-08'   Right   3.248249E-004   'RiserEps' 'RiserEps'
+  278   'Riser1-HS-06'   Right   'Riser2-HS-09'   Right   9.011773E-005   'RiserEps' 'RiserEps'
+  279   'Riser1-HS-06'   Right   'Riser2-HS-10'   Right   3.520083E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 7 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  280   'Riser1-HS-07'   Right   'Riser1-HS-08'   Right   4.179948E-003   'RiserEps' 'RiserEps'
+  281   'Riser1-HS-07'   Right   'Riser1-HS-09'   Right   9.382934E-005   'RiserEps' 'RiserEps'
+  282   'Riser1-HS-07'   Right   'Riser1-HS-10'   Right   2.180373E-005   'RiserEps' 'RiserEps'
+  283   'Riser1-HS-07'   Right   'Riser2-HS-01'   Right   9.456922E-006   'RiserEps' 'RiserEps'
+  284   'Riser1-HS-07'   Right   'Riser2-HS-02'   Right   1.908410E-005   'RiserEps' 'RiserEps'
+  285   'Riser1-HS-07'   Right   'Riser2-HS-03'   Right   3.516980E-005   'RiserEps' 'RiserEps'
+  286   'Riser1-HS-07'   Right   'Riser2-HS-04'   Right   9.008407E-005   'RiserEps' 'RiserEps'
+  287   'Riser1-HS-07'   Right   'Riser2-HS-05'   Right   3.165934E-004   'RiserEps' 'RiserEps'
+  288   'Riser1-HS-07'   Right   'Riser2-HS-06'   Right   2.680503E-003   'RiserEps' 'RiserEps'
+  289   'Riser1-HS-07'   Right   'Riser2-HS-07'   Right   9.860852E-003   'RiserEps' 'RiserEps'
+  290   'Riser1-HS-07'   Right   'Riser2-HS-08'   Right   2.606172E-003   'RiserEps' 'RiserEps'
+  291   'Riser1-HS-07'   Right   'Riser2-HS-09'   Right   3.185960E-004   'RiserEps' 'RiserEps'
+  292   'Riser1-HS-07'   Right   'Riser2-HS-10'   Right   8.714721E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 8 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  293   'Riser1-HS-08'   Right   'Riser1-HS-09'   Right   4.107301E-003   'RiserEps' 'RiserEps'
+  294   'Riser1-HS-08'   Right   'Riser1-HS-10'   Right   9.242799E-005   'RiserEps' 'RiserEps'
+  295   'Riser1-HS-08'   Right   'Riser2-HS-01'   Right   6.305321E-006   'RiserEps' 'RiserEps'
+  296   'Riser1-HS-08'   Right   'Riser2-HS-02'   Right   9.667165E-006   'RiserEps' 'RiserEps'
+  297   'Riser1-HS-08'   Right   'Riser2-HS-03'   Right   1.932413E-005   'RiserEps' 'RiserEps'
+  298   'Riser1-HS-08'   Right   'Riser2-HS-04'   Right   3.521661E-005   'RiserEps' 'RiserEps'
+  299   'Riser1-HS-08'   Right   'Riser2-HS-05'   Right   8.989971E-005   'RiserEps' 'RiserEps'
+  300   'Riser1-HS-08'   Right   'Riser2-HS-06'   Right   3.151421E-004   'RiserEps' 'RiserEps'
+  301   'Riser1-HS-08'   Right   'Riser2-HS-07'   Right   2.661442E-003   'RiserEps' 'RiserEps'
+  302   'Riser1-HS-08'   Right   'Riser2-HS-08'   Right   9.752099E-003   'RiserEps' 'RiserEps'
+  303   'Riser1-HS-08'   Right   'Riser2-HS-09'   Right   2.548161E-003   'RiserEps' 'RiserEps'
+  304   'Riser1-HS-08'   Right   'Riser2-HS-10'   Right   3.072980E-004   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 9 to Unique Riser Sections (except self)                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  305   'Riser1-HS-09'   Right   'Riser1-HS-10'   Right   4.006731E-003   'RiserEps' 'RiserEps'
+  306   'Riser1-HS-09'   Right   'Riser2-HS-01'   Right   4.222962E-006   'RiserEps' 'RiserEps'
+  307   'Riser1-HS-09'   Right   'Riser2-HS-02'   Right   6.396139E-006   'RiserEps' 'RiserEps'
+  308   'Riser1-HS-09'   Right   'Riser2-HS-03'   Right   9.706794E-006   'RiserEps' 'RiserEps'
+  309   'Riser1-HS-09'   Right   'Riser2-HS-04'   Right   1.921134E-005   'RiserEps' 'RiserEps'
+  310   'Riser1-HS-09'   Right   'Riser2-HS-05'   Right   3.488115E-005   'RiserEps' 'RiserEps'
+  311   'Riser1-HS-09'   Right   'Riser2-HS-06'   Right   8.883707E-005   'RiserEps' 'RiserEps'
+  312   'Riser1-HS-09'   Right   'Riser2-HS-07'   Right   3.105875E-004   'RiserEps' 'RiserEps'
+  313   'Riser1-HS-09'   Right   'Riser2-HS-08'   Right   2.612466E-003   'RiserEps' 'RiserEps'
+  314   'Riser1-HS-09'   Right   'Riser2-HS-09'   Right   9.458633E-003   'RiserEps' 'RiserEps'
+  315   'Riser1-HS-09'   Right   'Riser2-HS-10'   Right   2.436575E-003   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 10 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  316   'Riser1-HS-10'   Right   'Riser2-HS-01'   Right   2.909143E-006   'RiserEps' 'RiserEps'
+  317   'Riser1-HS-10'   Right   'Riser2-HS-02'   Right   4.292084E-006   'RiserEps' 'RiserEps'
+  318   'Riser1-HS-10'   Right   'Riser2-HS-03'   Right   6.427067E-006   'RiserEps' 'RiserEps'
+  319   'Riser1-HS-10'   Right   'Riser2-HS-04'   Right   9.653833E-006   'RiserEps' 'RiserEps'
+  320   'Riser1-HS-10'   Right   'Riser2-HS-05'   Right   1.906995E-005   'RiserEps' 'RiserEps'
+  321   'Riser1-HS-10'   Right   'Riser2-HS-06'   Right   3.451231E-005   'RiserEps' 'RiserEps'
+  322   'Riser1-HS-10'   Right   'Riser2-HS-07'   Right   8.774252E-005   'RiserEps' 'RiserEps'
+  323   'Riser1-HS-10'   Right   'Riser2-HS-08'   Right   3.053946E-004   'RiserEps' 'RiserEps'
+  324   'Riser1-HS-10'   Right   'Riser2-HS-09'   Right   2.537834E-003   'RiserEps' 'RiserEps'
+  325   'Riser1-HS-10'   Right   'Riser2-HS-10'   Right   9.042030E-003   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 11 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  326   'Riser2-HS-01'   Right   'Riser2-HS-02'   Right   5.166154E-003   'RiserEps' 'RiserEps'
+  327   'Riser2-HS-01'   Right   'Riser2-HS-03'   Right   1.192850E-004   'RiserEps' 'RiserEps'
+  328   'Riser2-HS-01'   Right   'Riser2-HS-04'   Right   2.785600E-005   'RiserEps' 'RiserEps'
+  329   'Riser2-HS-01'   Right   'Riser2-HS-05'   Right   1.046381E-005   'RiserEps' 'RiserEps'
+  330   'Riser2-HS-01'   Right   'Riser2-HS-06'   Right   5.988794E-006   'RiserEps' 'RiserEps'
+  331   'Riser2-HS-01'   Right   'Riser2-HS-07'   Right   3.512591E-006   'RiserEps' 'RiserEps'
+  332   'Riser2-HS-01'   Right   'Riser2-HS-08'   Right   1.650009E-006   'RiserEps' 'RiserEps'
+  333   'Riser2-HS-01'   Right   'Riser2-HS-09'   Right   1.203819E-006   'RiserEps' 'RiserEps'
+  334   'Riser2-HS-01'   Right   'Riser2-HS-10'   Right   2.877070E-007   'RiserEps' 'RiserEps'
+  335   'Riser2-HS-01'   Right   'Riser3-HS-01'   Right   1.149471E-002   'RiserEps' 'RiserEps'
+  336   'Riser2-HS-01'   Right   'Riser3-HS-02'   Right   3.212730E-003   'RiserEps' 'RiserEps'
+  337   'Riser2-HS-01'   Right   'Riser3-HS-03'   Right   4.057187E-004   'RiserEps' 'RiserEps'
+  338   'Riser2-HS-01'   Right   'Riser3-HS-04'   Right   1.156803E-004   'RiserEps' 'RiserEps'
+  339   'Riser2-HS-01'   Right   'Riser3-HS-05'   Right   4.702036E-005   'RiserEps' 'RiserEps'
+  340   'Riser2-HS-01'   Right   'Riser3-HS-06'   Right   2.208650E-005   'RiserEps' 'RiserEps'
+  341   'Riser2-HS-01'   Right   'Riser3-HS-07'   Right   1.371783E-005   'RiserEps' 'RiserEps'
+  342   'Riser2-HS-01'   Right   'Riser3-HS-08'   Right   8.005616E-006   'RiserEps' 'RiserEps'
+  343   'Riser2-HS-01'   Right   'Riser3-HS-09'   Right   5.472156E-006   'RiserEps' 'RiserEps'
+  344   'Riser2-HS-01'   Right   'Riser3-HS-10'   Right   4.190738E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 12 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  345   'Riser2-HS-02'   Right   'Riser2-HS-03'   Right   5.411782E-003   'RiserEps' 'RiserEps'
+  346   'Riser2-HS-02'   Right   'Riser2-HS-04'   Right   1.233023E-004   'RiserEps' 'RiserEps'
+  347   'Riser2-HS-02'   Right   'Riser2-HS-05'   Right   2.869615E-005   'RiserEps' 'RiserEps'
+  348   'Riser2-HS-02'   Right   'Riser2-HS-06'   Right   1.074848E-005   'RiserEps' 'RiserEps'
+  349   'Riser2-HS-02'   Right   'Riser2-HS-07'   Right   6.132918E-006   'RiserEps' 'RiserEps'
+  350   'Riser2-HS-02'   Right   'Riser2-HS-08'   Right   3.586694E-006   'RiserEps' 'RiserEps'
+  351   'Riser2-HS-02'   Right   'Riser2-HS-09'   Right   1.662512E-006   'RiserEps' 'RiserEps'
+  352   'Riser2-HS-02'   Right   'Riser2-HS-10'   Right   1.189107E-006   'RiserEps' 'RiserEps'
+  353   'Riser2-HS-02'   Right   'Riser3-HS-01'   Right   3.210170E-003   'RiserEps' 'RiserEps'
+  354   'Riser2-HS-02'   Right   'Riser3-HS-02'   Right   1.240264E-002   'RiserEps' 'RiserEps'
+  355   'Riser2-HS-02'   Right   'Riser3-HS-03'   Right   3.354288E-003   'RiserEps' 'RiserEps'
+  356   'Riser2-HS-02'   Right   'Riser3-HS-04'   Right   4.186264E-004   'RiserEps' 'RiserEps'
+  357   'Riser2-HS-02'   Right   'Riser3-HS-05'   Right   1.189561E-004   'RiserEps' 'RiserEps'
+  358   'Riser2-HS-02'   Right   'Riser3-HS-06'   Right   4.823305E-005   'RiserEps' 'RiserEps'
+  359   'Riser2-HS-02'   Right   'Riser3-HS-07'   Right   2.260383E-005   'RiserEps' 'RiserEps'
+  360   'Riser2-HS-02'   Right   'Riser3-HS-08'   Right   1.398639E-005   'RiserEps' 'RiserEps'
+  361   'Riser2-HS-02'   Right   'Riser3-HS-09'   Right   8.078894E-006   'RiserEps' 'RiserEps'
+  362   'Riser2-HS-02'   Right   'Riser3-HS-10'   Right   5.341537E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 13 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  363   'Riser2-HS-03'   Right   'Riser2-HS-04'   Right   5.537389E-003   'RiserEps' 'RiserEps'
+  364   'Riser2-HS-03'   Right   'Riser2-HS-05'   Right   1.256338E-004   'RiserEps' 'RiserEps'
+  365   'Riser2-HS-03'   Right   'Riser2-HS-06'   Right   2.916952E-005   'RiserEps' 'RiserEps'
+  366   'Riser2-HS-03'   Right   'Riser2-HS-07'   Right   1.089738E-005   'RiserEps' 'RiserEps'
+  367   'Riser2-HS-03'   Right   'Riser2-HS-08'   Right   6.191566E-006   'RiserEps' 'RiserEps'
+  368   'Riser2-HS-03'   Right   'Riser2-HS-09'   Right   3.584185E-006   'RiserEps' 'RiserEps'
+  369   'Riser2-HS-03'   Right   'Riser2-HS-10'   Right   1.633485E-006   'RiserEps' 'RiserEps'
+  370   'Riser2-HS-03'   Right   'Riser3-HS-01'   Right   3.848206E-004   'RiserEps' 'RiserEps'
+  371   'Riser2-HS-03'   Right   'Riser3-HS-02'   Right   3.422508E-003   'RiserEps' 'RiserEps'
+  372   'Riser2-HS-03'   Right   'Riser3-HS-03'   Right   1.281817E-002   'RiserEps' 'RiserEps'
+  373   'Riser2-HS-03'   Right   'Riser3-HS-04'   Right   3.426875E-003   'RiserEps' 'RiserEps'
+  374   'Riser2-HS-03'   Right   'Riser3-HS-05'   Right   4.262190E-004   'RiserEps' 'RiserEps'
+  375   'Riser2-HS-03'   Right   'Riser3-HS-06'   Right   1.208374E-004   'RiserEps' 'RiserEps'
+  376   'Riser2-HS-03'   Right   'Riser3-HS-07'   Right   4.887675E-005   'RiserEps' 'RiserEps'
+  377   'Riser2-HS-03'   Right   'Riser3-HS-08'   Right   2.283301E-005   'RiserEps' 'RiserEps'
+  378   'Riser2-HS-03'   Right   'Riser3-HS-09'   Right   1.395434E-005   'RiserEps' 'RiserEps'
+  379   'Riser2-HS-03'   Right   'Riser3-HS-10'   Right   7.818326E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 14 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  380   'Riser2-HS-04'   Right   'Riser2-HS-05'   Right   5.583887E-003   'RiserEps' 'RiserEps'
+  381   'Riser2-HS-04'   Right   'Riser2-HS-06'   Right   1.263653E-004   'RiserEps' 'RiserEps'
+  382   'Riser2-HS-04'   Right   'Riser2-HS-07'   Right   2.926866E-005   'RiserEps' 'RiserEps'
+  383   'Riser2-HS-04'   Right   'Riser2-HS-08'   Right   1.089483E-005   'RiserEps' 'RiserEps'
+  384   'Riser2-HS-04'   Right   'Riser2-HS-09'   Right   6.116204E-006   'RiserEps' 'RiserEps'
+  385   'Riser2-HS-04'   Right   'Riser2-HS-10'   Right   3.498532E-006   'RiserEps' 'RiserEps'
+  386   'Riser2-HS-04'   Right   'Riser3-HS-01'   Right   1.109878E-004   'RiserEps' 'RiserEps'
+  387   'Riser2-HS-04'   Right   'Riser3-HS-02'   Right   4.055343E-004   'RiserEps' 'RiserEps'
+  388   'Riser2-HS-04'   Right   'Riser3-HS-03'   Right   3.499441E-003   'RiserEps' 'RiserEps'
+  389   'Riser2-HS-04'   Right   'Riser3-HS-04'   Right   1.296275E-002   'RiserEps' 'RiserEps'
+  390   'Riser2-HS-04'   Right   'Riser3-HS-05'   Right   3.454123E-003   'RiserEps' 'RiserEps'
+  391   'Riser2-HS-04'   Right   'Riser3-HS-06'   Right   4.286542E-004   'RiserEps' 'RiserEps'
+  392   'Riser2-HS-04'   Right   'Riser3-HS-07'   Right   1.212456E-004   'RiserEps' 'RiserEps'
+  393   'Riser2-HS-04'   Right   'Riser3-HS-08'   Right   4.888430E-005   'RiserEps' 'RiserEps'
+  394   'Riser2-HS-04'   Right   'Riser3-HS-09'   Right   2.256882E-005   'RiserEps' 'RiserEps'
+  395   'Riser2-HS-04'   Right   'Riser3-HS-10'   Right   1.330575E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 15 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  396   'Riser2-HS-05'   Right   'Riser2-HS-06'   Right   5.597784E-003   'RiserEps' 'RiserEps'
+  397   'Riser2-HS-05'   Right   'Riser2-HS-07'   Right   1.263641E-004   'RiserEps' 'RiserEps'
+  398   'Riser2-HS-05'   Right   'Riser2-HS-08'   Right   2.916372E-005   'RiserEps' 'RiserEps'
+  399   'Riser2-HS-05'   Right   'Riser2-HS-09'   Right   1.073824E-005   'RiserEps' 'RiserEps'
+  400   'Riser2-HS-05'   Right   'Riser2-HS-10'   Right   5.933960E-006   'RiserEps' 'RiserEps'
+  401   'Riser2-HS-05'   Right   'Riser3-HS-01'   Right   4.336748E-005   'RiserEps' 'RiserEps'
+  402   'Riser2-HS-05'   Right   'Riser3-HS-02'   Right   1.166752E-004   'RiserEps' 'RiserEps'
+  403   'Riser2-HS-05'   Right   'Riser3-HS-03'   Right   4.131446E-004   'RiserEps' 'RiserEps'
+  404   'Riser2-HS-05'   Right   'Riser3-HS-04'   Right   3.527103E-003   'RiserEps' 'RiserEps'
+  405   'Riser2-HS-05'   Right   'Riser3-HS-05'   Right   1.302323E-002   'RiserEps' 'RiserEps'
+  406   'Riser2-HS-05'   Right   'Riser3-HS-06'   Right   3.462692E-003   'RiserEps' 'RiserEps'
+  407   'Riser2-HS-05'   Right   'Riser3-HS-07'   Right   4.287308E-004   'RiserEps' 'RiserEps'
+  408   'Riser2-HS-05'   Right   'Riser3-HS-08'   Right   1.208839E-004   'RiserEps' 'RiserEps'
+  409   'Riser2-HS-05'   Right   'Riser3-HS-09'   Right   4.816480E-005   'RiserEps' 'RiserEps'
+  410   'Riser2-HS-05'   Right   'Riser3-HS-10'   Right   2.149118E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 16 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  411   'Riser2-HS-06'   Right   'Riser2-HS-07'   Right   5.584544E-003   'RiserEps' 'RiserEps'
+  412   'Riser2-HS-06'   Right   'Riser2-HS-08'   Right   1.255937E-004   'RiserEps' 'RiserEps'
+  413   'Riser2-HS-06'   Right   'Riser2-HS-09'   Right   2.867365E-005   'RiserEps' 'RiserEps'
+  414   'Riser2-HS-06'   Right   'Riser2-HS-10'   Right   1.042124E-005   'RiserEps' 'RiserEps'
+  415   'Riser2-HS-06'   Right   'Riser3-HS-01'   Right   2.411944E-005   'RiserEps' 'RiserEps'
+  416   'Riser2-HS-06'   Right   'Riser3-HS-02'   Right   4.540717E-005   'RiserEps' 'RiserEps'
+  417   'Riser2-HS-06'   Right   'Riser3-HS-03'   Right   1.186031E-004   'RiserEps' 'RiserEps'
+  418   'Riser2-HS-06'   Right   'Riser3-HS-04'   Right   4.154003E-004   'RiserEps' 'RiserEps'
+  419   'Riser2-HS-06'   Right   'Riser3-HS-05'   Right   3.535254E-003   'RiserEps' 'RiserEps'
+  420   'Riser2-HS-06'   Right   'Riser3-HS-06'   Right   1.302510E-002   'RiserEps' 'RiserEps'
+  421   'Riser2-HS-06'   Right   'Riser3-HS-07'   Right   3.455197E-003   'RiserEps' 'RiserEps'
+  422   'Riser2-HS-06'   Right   'Riser3-HS-08'   Right   4.264581E-004   'RiserEps' 'RiserEps'
+  423   'Riser2-HS-06'   Right   'Riser3-HS-09'   Right   1.188431E-004   'RiserEps' 'RiserEps'
+  424   'Riser2-HS-06'   Right   'Riser3-HS-10'   Right   4.575848E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 17 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  425   'Riser2-HS-07'   Right   'Riser2-HS-08'   Right   5.536081E-003   'RiserEps' 'RiserEps'
+  426   'Riser2-HS-07'   Right   'Riser2-HS-09'   Right   1.231356E-004   'RiserEps' 'RiserEps'
+  427   'Riser2-HS-07'   Right   'Riser2-HS-10'   Right   2.775148E-005   'RiserEps' 'RiserEps'
+  428   'Riser2-HS-07'   Right   'Riser3-HS-01'   Right   1.202073E-005   'RiserEps' 'RiserEps'
+  429   'Riser2-HS-07'   Right   'Riser3-HS-02'   Right   2.523470E-005   'RiserEps' 'RiserEps'
+  430   'Riser2-HS-07'   Right   'Riser3-HS-03'   Right   4.603157E-005   'RiserEps' 'RiserEps'
+  431   'Riser2-HS-07'   Right   'Riser3-HS-04'   Right   1.189776E-004   'RiserEps' 'RiserEps'
+  432   'Riser2-HS-07'   Right   'Riser3-HS-05'   Right   4.153797E-004   'RiserEps' 'RiserEps'
+  433   'Riser2-HS-07'   Right   'Riser3-HS-06'   Right   3.527430E-003   'RiserEps' 'RiserEps'
+  434   'Riser2-HS-07'   Right   'Riser3-HS-07'   Right   1.296649E-002   'RiserEps' 'RiserEps'
+  435   'Riser2-HS-07'   Right   'Riser3-HS-08'   Right   3.428505E-003   'RiserEps' 'RiserEps'
+  436   'Riser2-HS-07'   Right   'Riser3-HS-09'   Right   4.183125E-004   'RiserEps' 'RiserEps'
+  437   'Riser2-HS-07'   Right   'Riser3-HS-10'   Right   1.127286E-004   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 18 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  438   'Riser2-HS-08'   Right   'Riser2-HS-09'   Right   5.403484E-003   'RiserEps' 'RiserEps'
+  439   'Riser2-HS-08'   Right   'Riser2-HS-10'   Right   1.186139E-004   'RiserEps' 'RiserEps'
+  440   'Riser2-HS-08'   Right   'Riser3-HS-01'   Right   8.006982E-006   'RiserEps' 'RiserEps'
+  441   'Riser2-HS-08'   Right   'Riser3-HS-02'   Right   1.248821E-005   'RiserEps' 'RiserEps'
+  442   'Riser2-HS-08'   Right   'Riser3-HS-03'   Right   2.550468E-005   'RiserEps' 'RiserEps'
+  443   'Riser2-HS-08'   Right   'Riser3-HS-04'   Right   4.601343E-005   'RiserEps' 'RiserEps'
+  444   'Riser2-HS-08'   Right   'Riser3-HS-05'   Right   1.185715E-004   'RiserEps' 'RiserEps'
+  445   'Riser2-HS-08'   Right   'Riser3-HS-06'   Right   4.130306E-004   'RiserEps' 'RiserEps'
+  446   'Riser2-HS-08'   Right   'Riser3-HS-07'   Right   3.499303E-003   'RiserEps' 'RiserEps'
+  447   'Riser2-HS-08'   Right   'Riser3-HS-08'   Right   1.281987E-002   'RiserEps' 'RiserEps'
+  448   'Riser2-HS-08'   Right   'Riser3-HS-09'   Right   3.350190E-003   'RiserEps' 'RiserEps'
+  449   'Riser2-HS-08'   Right   'Riser3-HS-10'   Right   3.956188E-004   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 19 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  450   'Riser2-HS-09'   Right   'Riser2-HS-10'   Right   5.134708E-003   'RiserEps' 'RiserEps'
+  451   'Riser2-HS-09'   Right   'Riser3-HS-01'   Right   5.382634E-006   'RiserEps' 'RiserEps'
+  452   'Riser2-HS-09'   Right   'Riser3-HS-02'   Right   8.229418E-006   'RiserEps' 'RiserEps'
+  453   'Riser2-HS-09'   Right   'Riser3-HS-03'   Right   1.247784E-005   'RiserEps' 'RiserEps'
+  454   'Riser2-HS-09'   Right   'Riser3-HS-04'   Right   2.523412E-005   'RiserEps' 'RiserEps'
+  455   'Riser2-HS-09'   Right   'Riser3-HS-05'   Right   4.537290E-005   'RiserEps' 'RiserEps'
+  456   'Riser2-HS-09'   Right   'Riser3-HS-06'   Right   1.166855E-004   'RiserEps' 'RiserEps'
+  457   'Riser2-HS-09'   Right   'Riser3-HS-07'   Right   4.054569E-004   'RiserEps' 'RiserEps'
+  458   'Riser2-HS-09'   Right   'Riser3-HS-08'   Right   3.423435E-003   'RiserEps' 'RiserEps'
+  459   'Riser2-HS-09'   Right   'Riser3-HS-09'   Right   1.238854E-002   'RiserEps' 'RiserEps'
+  460   'Riser2-HS-09'   Right   'Riser3-HS-10'   Right   3.130598E-003   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 20 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  461   'Riser2-HS-10'   Right   'Riser3-HS-01'   Right   3.592179E-006   'RiserEps' 'RiserEps'
+  462   'Riser2-HS-10'   Right   'Riser3-HS-02'   Right   5.471055E-006   'RiserEps' 'RiserEps'
+  463   'Riser2-HS-10'   Right   'Riser3-HS-03'   Right   8.118203E-006   'RiserEps' 'RiserEps'
+  464   'Riser2-HS-10'   Right   'Riser3-HS-04'   Right   1.218472E-005   'RiserEps' 'RiserEps'
+  465   'Riser2-HS-10'   Right   'Riser3-HS-05'   Right   2.458171E-005   'RiserEps' 'RiserEps'
+  466   'Riser2-HS-10'   Right   'Riser3-HS-06'   Right   4.408594E-005   'RiserEps' 'RiserEps'
+  467   'Riser2-HS-10'   Right   'Riser3-HS-07'   Right   1.131563E-004   'RiserEps' 'RiserEps'
+  468   'Riser2-HS-10'   Right   'Riser3-HS-08'   Right   3.917710E-004   'RiserEps' 'RiserEps'
+  469   'Riser2-HS-10'   Right   'Riser3-HS-09'   Right   3.266539E-003   'RiserEps' 'RiserEps'
+  470   'Riser2-HS-10'   Right   'Riser3-HS-10'   Right   1.140783E-002   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 21 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  471   'Riser3-HS-01'   Right   'Riser3-HS-02'   Right   6.595916E-003   'RiserEps' 'RiserEps'
+  472   'Riser3-HS-01'   Right   'Riser3-HS-03'   Right   1.517337E-004   'RiserEps' 'RiserEps'
+  473   'Riser3-HS-01'   Right   'Riser3-HS-04'   Right   3.498721E-005   'RiserEps' 'RiserEps'
+  474   'Riser3-HS-01'   Right   'Riser3-HS-05'   Right   1.315941E-005   'RiserEps' 'RiserEps'
+  475   'Riser3-HS-01'   Right   'Riser3-HS-06'   Right   7.758001E-006   'RiserEps' 'RiserEps'
+  476   'Riser3-HS-01'   Right   'Riser3-HS-07'   Right   4.419311E-006   'RiserEps' 'RiserEps'
+  477   'Riser3-HS-01'   Right   'Riser3-HS-08'   Right   2.146354E-006   'RiserEps' 'RiserEps'
+  478   'Riser3-HS-01'   Right   'Riser3-HS-09'   Right   1.634970E-006   'RiserEps' 'RiserEps'
+  479   'Riser3-HS-01'   Right   'Riser3-HS-10'   Right   3.751883E-007   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 22 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  480   'Riser3-HS-02'   Right   'Riser3-HS-03'   Right   6.992322E-003   'RiserEps' 'RiserEps'
+  481   'Riser3-HS-02'   Right   'Riser3-HS-04'   Right   1.587774E-004   'RiserEps' 'RiserEps'
+  482   'Riser3-HS-02'   Right   'Riser3-HS-05'   Right   3.647005E-005   'RiserEps' 'RiserEps'
+  483   'Riser3-HS-02'   Right   'Riser3-HS-06'   Right   1.368419E-005   'RiserEps' 'RiserEps'
+  484   'Riser3-HS-02'   Right   'Riser3-HS-07'   Right   8.061012E-006   'RiserEps' 'RiserEps'
+  485   'Riser3-HS-02'   Right   'Riser3-HS-08'   Right   4.571708E-006   'RiserEps' 'RiserEps'
+  486   'Riser3-HS-02'   Right   'Riser3-HS-09'   Right   2.195822E-006   'RiserEps' 'RiserEps'
+  487   'Riser3-HS-02'   Right   'Riser3-HS-10'   Right   1.609023E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 23 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  488   'Riser3-HS-03'   Right   'Riser3-HS-04'   Right   7.135558E-003   'RiserEps' 'RiserEps'
+  489   'Riser3-HS-03'   Right   'Riser3-HS-05'   Right   1.614322E-004   'RiserEps' 'RiserEps'
+  490   'Riser3-HS-03'   Right   'Riser3-HS-06'   Right   3.700026E-005   'RiserEps' 'RiserEps'
+  491   'Riser3-HS-03'   Right   'Riser3-HS-07'   Right   1.385037E-005   'RiserEps' 'RiserEps'
+  492   'Riser3-HS-03'   Right   'Riser3-HS-08'   Right   8.131357E-006   'RiserEps' 'RiserEps'
+  493   'Riser3-HS-03'   Right   'Riser3-HS-09'   Right   4.562194E-006   'RiserEps' 'RiserEps'
+  494   'Riser3-HS-03'   Right   'Riser3-HS-10'   Right   2.113484E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 24 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  495   'Riser3-HS-04'   Right   'Riser3-HS-05'   Right   7.186890E-003   'RiserEps' 'RiserEps'
+  496   'Riser3-HS-04'   Right   'Riser3-HS-06'   Right   1.622311E-004   'RiserEps' 'RiserEps'
+  497   'Riser3-HS-04'   Right   'Riser3-HS-07'   Right   3.710064E-005   'RiserEps' 'RiserEps'
+  498   'Riser3-HS-04'   Right   'Riser3-HS-08'   Right   1.384568E-005   'RiserEps' 'RiserEps'
+  499   'Riser3-HS-04'   Right   'Riser3-HS-09'   Right   8.029889E-006   'RiserEps' 'RiserEps'
+  500   'Riser3-HS-04'   Right   'Riser3-HS-10'   Right   4.375120E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 25 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  501   'Riser3-HS-05'   Right   'Riser3-HS-06'   Right   7.202717E-003   'RiserEps' 'RiserEps'
+  502   'Riser3-HS-05'   Right   'Riser3-HS-07'   Right   1.622147E-004   'RiserEps' 'RiserEps'
+  503   'Riser3-HS-05'   Right   'Riser3-HS-08'   Right   3.698500E-005   'RiserEps' 'RiserEps'
+  504   'Riser3-HS-05'   Right   'Riser3-HS-09'   Right   1.364960E-005   'RiserEps' 'RiserEps'
+  505   'Riser3-HS-05'   Right   'Riser3-HS-10'   Right   7.643402E-006   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 26 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  506   'Riser3-HS-06'   Right   'Riser3-HS-07'   Right   7.187415E-003   'RiserEps' 'RiserEps'
+  507   'Riser3-HS-06'   Right   'Riser3-HS-08'   Right   1.613582E-004   'RiserEps' 'RiserEps'
+  508   'Riser3-HS-06'   Right   'Riser3-HS-09'   Right   3.638281E-005   'RiserEps' 'RiserEps'
+  509   'Riser3-HS-06'   Right   'Riser3-HS-10'   Right   1.302634E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 27 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  510   'Riser3-HS-07'   Right   'Riser3-HS-08'   Right   7.133167E-003   'RiserEps' 'RiserEps'
+  511   'Riser3-HS-07'   Right   'Riser3-HS-09'   Right   1.583334E-004   'RiserEps' 'RiserEps'
+  512   'Riser3-HS-07'   Right   'Riser3-HS-10'   Right   3.464051E-005   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 28 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  513   'Riser3-HS-08'   Right   'Riser3-HS-09'   Right   6.974204E-003   'RiserEps' 'RiserEps'
+  514   'Riser3-HS-08'   Right   'Riser3-HS-10'   Right   1.500334E-004   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 29 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  515   'Riser3-HS-09'   Right   'Riser3-HS-10'   Right   6.521748E-003   'RiserEps' 'RiserEps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                      Riser Section 30 to Unique Riser Sections (except self)                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 1 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  516   'Riser1-HS-01'   Right   'Wall-HS-01'    Right    2.346575E-001   'RiserEps' 'MicroEps'
+  517   'Riser1-HS-01'   Right   'Wall-HS-02'    Right    1.177837E-001   'RiserEps' 'MicroEps'
+  518   'Riser1-HS-01'   Right   'Wall-HS-03'    Left     7.824271E-004   'RiserEps' 'ZirC18Eps'
+  519   'Riser1-HS-01'   Right   'Wall-HS-04'    Right    2.076555E-001   'RiserEps' 'ZirC18Eps'
+  520   'Riser1-HS-01'   Right   'Wall-HS-05'    Right    7.645441E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 2 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  521   'Riser1-HS-02'   Right   'Wall-HS-01'    Right    2.717312E-001   'RiserEps' 'MicroEps'
+  522   'Riser1-HS-02'   Right   'Wall-HS-02'    Right    1.370098E-001   'RiserEps' 'MicroEps'
+  523   'Riser1-HS-02'   Right   'Wall-HS-03'    Left     1.003517E-003   'RiserEps' 'ZirC18Eps'
+  524   'Riser1-HS-02'   Right   'Wall-HS-04'    Right    4.311420E-002   'RiserEps' 'ZirC18Eps'
+  525   'Riser1-HS-02'   Right   'Wall-HS-05'    Right    7.028879E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 3 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  526   'Riser1-HS-03'   Right   'Wall-HS-01'    Right    2.788015E-001   'RiserEps' 'MicroEps'
+  527   'Riser1-HS-03'   Right   'Wall-HS-02'    Right    1.416620E-001   'RiserEps' 'MicroEps'
+  528   'Riser1-HS-03'   Right   'Wall-HS-03'    Left     1.334846E-003   'RiserEps' 'ZirC18Eps'
+  529   'Riser1-HS-03'   Right   'Wall-HS-04'    Right    1.554685E-002   'RiserEps' 'ZirC18Eps'
+  530   'Riser1-HS-03'   Right   'Wall-HS-05'    Right    6.951594E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 4 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  531   'Riser1-HS-04'   Right   'Wall-HS-01'    Right    2.808161E-001   'RiserEps' 'MicroEps'
+  532   'Riser1-HS-04'   Right   'Wall-HS-02'    Right    1.432044E-001   'RiserEps' 'MicroEps'
+  533   'Riser1-HS-04'   Right   'Wall-HS-03'    Left     1.827898E-003   'RiserEps' 'ZirC18Eps'
+  534   'Riser1-HS-04'   Right   'Wall-HS-04'    Right    7.506992E-003   'RiserEps' 'ZirC18Eps'
+  535   'Riser1-HS-04'   Right   'Wall-HS-05'    Right    7.000878E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 5 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  536   'Riser1-HS-05'   Right   'Wall-HS-01'    Right    2.815628E-001   'RiserEps' 'MicroEps'
+  537   'Riser1-HS-05'   Right   'Wall-HS-02'    Right    1.437807E-001   'RiserEps' 'MicroEps'
+  538   'Riser1-HS-05'   Right   'Wall-HS-03'    Left     2.651921E-003   'RiserEps' 'ZirC18Eps'
+  539   'Riser1-HS-05'   Right   'Wall-HS-04'    Right    4.273262E-003   'RiserEps' 'ZirC18Eps'
+  540   'Riser1-HS-05'   Right   'Wall-HS-05'    Right    7.047774E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 6 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  541   'Riser1-HS-06'   Right   'Wall-HS-01'    Right    2.815837E-001   'RiserEps' 'MicroEps'
+  542   'Riser1-HS-06'   Right   'Wall-HS-02'    Right    1.437864E-001   'RiserEps' 'MicroEps'
+  543   'Riser1-HS-06'   Right   'Wall-HS-03'    Left     4.132411E-003   'RiserEps' 'ZirC18Eps'
+  544   'Riser1-HS-06'   Right   'Wall-HS-04'    Right    2.725394E-003   'RiserEps' 'ZirC18Eps'
+  545   'Riser1-HS-06'   Right   'Wall-HS-05'    Right    7.037619E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 7 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  546   'Riser1-HS-07'   Right   'Wall-HS-01'    Right    2.808622E-001   'RiserEps' 'MicroEps'
+  547   'Riser1-HS-07'   Right   'Wall-HS-02'    Right    1.432126E-001   'RiserEps' 'MicroEps'
+  548   'Riser1-HS-07'   Right   'Wall-HS-03'    Left     7.236519E-003   'RiserEps' 'ZirC18Eps'
+  549   'Riser1-HS-07'   Right   'Wall-HS-04'    Right    1.875260E-003   'RiserEps' 'ZirC18Eps'
+  550   'Riser1-HS-07'   Right   'Wall-HS-05'    Right    6.991689E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 8 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  551   'Riser1-HS-08'   Right   'Wall-HS-01'    Right    2.786980E-001   'RiserEps' 'MicroEps'
+  552   'Riser1-HS-08'   Right   'Wall-HS-02'    Right    1.416146E-001   'RiserEps' 'MicroEps'
+  553   'Riser1-HS-08'   Right   'Wall-HS-03'    Left     1.510147E-002   'RiserEps' 'ZirC18Eps'
+  554   'Riser1-HS-08'   Right   'Wall-HS-04'    Right    1.357793E-003   'RiserEps' 'ZirC18Eps'
+  555   'Riser1-HS-08'   Right   'Wall-HS-05'    Right    6.933255E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 9 to Walls                                     !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  556   'Riser1-HS-09'   Right   'Wall-HS-01'    Right    2.717460E-001   'RiserEps' 'MicroEps'
+  557   'Riser1-HS-09'   Right   'Wall-HS-02'    Right    1.369635E-001   'RiserEps' 'MicroEps'
+  558   'Riser1-HS-09'   Right   'Wall-HS-03'    Left     4.275049E-002   'RiserEps' 'ZirC18Eps'
+  559   'Riser1-HS-09'   Right   'Wall-HS-04'    Right    1.014872E-003   'RiserEps' 'ZirC18Eps'
+  560   'Riser1-HS-09'   Right   'Wall-HS-05'    Right    6.703707E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 10 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  561   'Riser1-HS-10'   Right   'Wall-HS-01'    Right    2.341887E-001   'RiserEps' 'MicroEps'
+  562   'Riser1-HS-10'   Right   'Wall-HS-02'    Right    1.174527E-001   'RiserEps' 'MicroEps'
+  563   'Riser1-HS-10'   Right   'Wall-HS-03'    Left     2.063884E-001   'RiserEps' 'ZirC18Eps'
+  564   'Riser1-HS-10'   Right   'Wall-HS-04'    Right    7.779795E-004   'RiserEps' 'ZirC18Eps'
+  565   'Riser1-HS-10'   Right   'Wall-HS-05'    Right    5.860071E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 11 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  566   'Riser2-HS-01'   Right   'Wall-HS-01'    Right    6.078461E-002   'RiserEps' 'MicroEps'
+  567   'Riser2-HS-01'   Right   'Wall-HS-02'    Right    5.962555E-002   'RiserEps' 'MicroEps'
+  568   'Riser2-HS-01'   Right   'Wall-HS-03'    Left     9.484191E-004   'RiserEps' 'ZirC18Eps'
+  569   'Riser2-HS-01'   Right   'Wall-HS-04'    Right    2.682933E-001   'RiserEps' 'ZirC18Eps'
+  570   'Riser2-HS-01'   Right   'Wall-HS-05'    Right    1.223651E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 12 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  571   'Riser2-HS-02'   Right   'Wall-HS-01'    Right    8.139287E-002   'RiserEps' 'MicroEps'
+  572   'Riser2-HS-02'   Right   'Wall-HS-02'    Right    7.983087E-002   'RiserEps' 'MicroEps'
+  573   'Riser2-HS-02'   Right   'Wall-HS-03'    Left     1.248517E-003   'RiserEps' 'ZirC18Eps'
+  574   'Riser2-HS-02'   Right   'Wall-HS-04'    Right    5.933101E-002   'RiserEps' 'ZirC18Eps'
+  575   'Riser2-HS-02'   Right   'Wall-HS-05'    Right    1.215582E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 13 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  576   'Riser2-HS-03'   Right   'Wall-HS-01'    Right    8.757567E-002   'RiserEps' 'MicroEps'
+  577   'Riser2-HS-03'   Right   'Wall-HS-02'    Right    8.590660E-002   'RiserEps' 'MicroEps'
+  578   'Riser2-HS-03'   Right   'Wall-HS-03'    Left     1.676129E-003   'RiserEps' 'ZirC18Eps'
+  579   'Riser2-HS-03'   Right   'Wall-HS-04'    Right    2.055451E-002   'RiserEps' 'ZirC18Eps'
+  580   'Riser2-HS-03'   Right   'Wall-HS-05'    Right    1.216718E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 14 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  581   'Riser2-HS-04'   Right   'Wall-HS-01'    Right    8.950255E-002   'RiserEps' 'MicroEps'
+  582   'Riser2-HS-04'   Right   'Wall-HS-02'    Right    8.779873E-002   'RiserEps' 'MicroEps'
+  583   'Riser2-HS-04'   Right   'Wall-HS-03'    Left     2.305134E-003   'RiserEps' 'ZirC18Eps'
+  584   'Riser2-HS-04'   Right   'Wall-HS-04'    Right    9.638960E-003   'RiserEps' 'ZirC18Eps'
+  585   'Riser2-HS-04'   Right   'Wall-HS-05'    Right    1.227033E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 15 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  586   'Riser2-HS-05'   Right   'Wall-HS-01'    Right    9.015239E-002   'RiserEps' 'MicroEps'
+  587   'Riser2-HS-05'   Right   'Wall-HS-02'    Right    8.844032E-002   'RiserEps' 'MicroEps'
+  588   'Riser2-HS-05'   Right   'Wall-HS-03'    Left     3.341149E-003   'RiserEps' 'ZirC18Eps'
+  589   'Riser2-HS-05'   Right   'Wall-HS-04'    Right    5.380488E-003   'RiserEps' 'ZirC18Eps'
+  590   'Riser2-HS-05'   Right   'Wall-HS-05'    Right    1.234861E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 16 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  591   'Riser2-HS-06'   Right   'Wall-HS-01'    Right    9.017957E-002   'RiserEps' 'MicroEps'
+  592   'Riser2-HS-06'   Right   'Wall-HS-02'    Right    8.846519E-002   'RiserEps' 'MicroEps'
+  593   'Riser2-HS-06'   Right   'Wall-HS-03'    Left     5.237344E-003   'RiserEps' 'ZirC18Eps'
+  594   'Riser2-HS-06'   Right   'Wall-HS-04'    Right    3.376528E-003   'RiserEps' 'ZirC18Eps'
+  595   'Riser2-HS-06'   Right   'Wall-HS-05'    Right    1.233278E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 17 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  596   'Riser2-HS-07'   Right   'Wall-HS-01'    Right    8.953874E-002   'RiserEps' 'MicroEps'
+  597   'Riser2-HS-07'   Right   'Wall-HS-02'    Right    8.783302E-002   'RiserEps' 'MicroEps'
+  598   'Riser2-HS-07'   Right   'Wall-HS-03'    Left     9.257704E-003   'RiserEps' 'ZirC18Eps'
+  599   'Riser2-HS-07'   Right   'Wall-HS-04'    Right    2.300359E-003   'RiserEps' 'ZirC18Eps'
+  600   'Riser2-HS-07'   Right   'Wall-HS-05'    Right    1.225865E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 18 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  601   'Riser2-HS-08'   Right   'Wall-HS-01'    Right    8.758875E-002   'RiserEps' 'MicroEps'
+  602   'Riser2-HS-08'   Right   'Wall-HS-02'    Right    8.591526E-002   'RiserEps' 'MicroEps'
+  603   'Riser2-HS-08'   Right   'Wall-HS-03'    Left     1.991506E-002   'RiserEps' 'ZirC18Eps'
+  604   'Riser2-HS-08'   Right   'Wall-HS-04'    Right    1.653279E-003   'RiserEps' 'ZirC18Eps'
+  605   'Riser2-HS-08'   Right   'Wall-HS-05'    Right    1.214535E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 19 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  606   'Riser2-HS-09'   Right   'Wall-HS-01'    Right    8.137829E-002   'RiserEps' 'MicroEps'
+  607   'Riser2-HS-09'   Right   'Wall-HS-02'    Right    7.981429E-002   'RiserEps' 'MicroEps'
+  608   'Riser2-HS-09'   Right   'Wall-HS-03'    Left     5.894374E-002   'RiserEps' 'ZirC18Eps'
+  609   'Riser2-HS-09'   Right   'Wall-HS-04'    Right    1.220861E-003   'RiserEps' 'ZirC18Eps'
+  610   'Riser2-HS-09'   Right   'Wall-HS-05'    Right    1.171929E-001   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 20 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  611   'Riser2-HS-10'   Right   'Wall-HS-01'    Right    6.063829E-002   'RiserEps' 'MicroEps'
+  612   'Riser2-HS-10'   Right   'Wall-HS-02'    Right    5.950969E-002   'RiserEps' 'MicroEps'
+  613   'Riser2-HS-10'   Right   'Wall-HS-03'    Left     2.664689E-001   'RiserEps' 'ZirC18Eps'
+  614   'Riser2-HS-10'   Right   'Wall-HS-04'    Right    9.244479E-004   'RiserEps' 'ZirC18Eps'
+  615   'Riser2-HS-10'   Right   'Wall-HS-05'    Right    9.858397E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 21 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  616   'Riser3-HS-01'   Right   'Wall-HS-01'    Right    2.523793E-002   'RiserEps' 'MicroEps'
+  617   'Riser3-HS-01'   Right   'Wall-HS-02'    Right    1.497004E-001   'RiserEps' 'MicroEps'
+  618   'Riser3-HS-01'   Right   'Wall-HS-03'    Left     1.001726E-003   'RiserEps' 'ZirC18Eps'
+  619   'Riser3-HS-01'   Right   'Wall-HS-04'    Right    2.592795E-001   'RiserEps' 'ZirC18Eps'
+  620   'Riser3-HS-01'   Right   'Wall-HS-05'    Right    9.452630E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 22 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  621   'Riser3-HS-02'   Right   'Wall-HS-01'    Right    3.443744E-002   'RiserEps' 'MicroEps'
+  622   'Riser3-HS-02'   Right   'Wall-HS-02'    Right    1.800135E-001   'RiserEps' 'MicroEps'
+  623   'Riser3-HS-02'   Right   'Wall-HS-03'    Left     1.327145E-003   'RiserEps' 'ZirC18Eps'
+  624   'Riser3-HS-02'   Right   'Wall-HS-04'    Right    5.562118E-002   'RiserEps' 'ZirC18Eps'
+  625   'Riser3-HS-02'   Right   'Wall-HS-05'    Right    8.977753E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 23 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  626   'Riser3-HS-03'   Right   'Wall-HS-01'    Right    3.865426E-002   'RiserEps' 'MicroEps'
+  627   'Riser3-HS-03'   Right   'Wall-HS-02'    Right    1.869264E-001   'RiserEps' 'MicroEps'
+  628   'Riser3-HS-03'   Right   'Wall-HS-03'    Left     1.760593E-003   'RiserEps' 'ZirC18Eps'
+  629   'Riser3-HS-03'   Right   'Wall-HS-04'    Right    2.015291E-002   'RiserEps' 'ZirC18Eps'
+  630   'Riser3-HS-03'   Right   'Wall-HS-05'    Right    8.903545E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 24 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  631   'Riser3-HS-04'   Right   'Wall-HS-01'    Right    4.033364E-002   'RiserEps' 'MicroEps'
+  632   'Riser3-HS-04'   Right   'Wall-HS-02'    Right    1.891658E-001   'RiserEps' 'MicroEps'
+  633   'Riser3-HS-04'   Right   'Wall-HS-03'    Left     2.413494E-003   'RiserEps' 'ZirC18Eps'
+  634   'Riser3-HS-04'   Right   'Wall-HS-04'    Right    9.717953E-003   'RiserEps' 'ZirC18Eps'
+  635   'Riser3-HS-04'   Right   'Wall-HS-05'    Right    8.973744E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 25 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  636   'Riser3-HS-05'   Right   'Wall-HS-01'    Right    4.093087E-002   'RiserEps' 'MicroEps'
+  637   'Riser3-HS-05'   Right   'Wall-HS-02'    Right    1.899606E-001   'RiserEps' 'MicroEps'
+  638   'Riser3-HS-05'   Right   'Wall-HS-03'    Left     3.481452E-003   'RiserEps' 'ZirC18Eps'
+  639   'Riser3-HS-05'   Right   'Wall-HS-04'    Right    5.545248E-003   'RiserEps' 'ZirC18Eps'
+  640   'Riser3-HS-05'   Right   'Wall-HS-05'    Right    9.031572E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 26 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  641   'Riser3-HS-06'   Right   'Wall-HS-01'    Right    4.093336E-002   'RiserEps' 'MicroEps'
+  642   'Riser3-HS-06'   Right   'Wall-HS-02'    Right    1.899920E-001   'RiserEps' 'MicroEps'
+  643   'Riser3-HS-06'   Right   'Wall-HS-03'    Left     5.401635E-003   'RiserEps' 'ZirC18Eps'
+  644   'Riser3-HS-06'   Right   'Wall-HS-04'    Right    3.525920E-003   'RiserEps' 'ZirC18Eps'
+  645   'Riser3-HS-06'   Right   'Wall-HS-05'    Right    9.010585E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 27 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  646   'Riser3-HS-07'   Right   'Wall-HS-01'    Right    4.033314E-002   'RiserEps' 'MicroEps'
+  647   'Riser3-HS-07'   Right   'Wall-HS-02'    Right    1.892144E-001   'RiserEps' 'MicroEps'
+  648   'Riser3-HS-07'   Right   'Wall-HS-03'    Left     9.359459E-003   'RiserEps' 'ZirC18Eps'
+  649   'Riser3-HS-07'   Right   'Wall-HS-04'    Right    2.415657E-003   'RiserEps' 'ZirC18Eps'
+  650   'Riser3-HS-07'   Right   'Wall-HS-05'    Right    8.956909E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 28 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  651   'Riser3-HS-08'   Right   'Wall-HS-01'    Right    3.865624E-002   'RiserEps' 'MicroEps'
+  652   'Riser3-HS-08'   Right   'Wall-HS-02'    Right    1.869509E-001   'RiserEps' 'MicroEps'
+  653   'Riser3-HS-08'   Right   'Wall-HS-03'    Left     1.952630E-002   'RiserEps' 'ZirC18Eps'
+  654   'Riser3-HS-08'   Right   'Wall-HS-04'    Right    1.743784E-003   'RiserEps' 'ZirC18Eps'
+  655   'Riser3-HS-08'   Right   'Wall-HS-05'    Right    8.874808E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 29 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  656   'Riser3-HS-09'   Right   'Wall-HS-01'    Right    3.444956E-002   'RiserEps' 'MicroEps'
+  657   'Riser3-HS-09'   Right   'Wall-HS-02'    Right    1.800239E-001   'RiserEps' 'MicroEps'
+  658   'Riser3-HS-09'   Right   'Wall-HS-03'    Left     5.517118E-002   'RiserEps' 'ZirC18Eps'
+  659   'Riser3-HS-09'   Right   'Wall-HS-04'    Right    1.288026E-003   'RiserEps' 'ZirC18Eps'
+  660   'Riser3-HS-09'   Right   'Wall-HS-05'    Right    8.564913E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                     Riser Section 30 to Walls                                    !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  661   'Riser3-HS-10'   Right   'Wall-HS-01'    Right    2.516705E-002   'RiserEps' 'MicroEps'
+  662   'Riser3-HS-10'   Right   'Wall-HS-02'    Right    1.493999E-001   'RiserEps' 'MicroEps'
+  663   'Riser3-HS-10'   Right   'Wall-HS-03'    Left     2.576841E-001   'RiserEps' 'ZirC18Eps'
+  664   'Riser3-HS-10'   Right   'Wall-HS-04'    Right    9.607015E-004   'RiserEps' 'ZirC18Eps'
+  665   'Riser3-HS-10'   Right   'Wall-HS-05'    Right    7.233179E-002   'RiserEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 1 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  666   'Heater-HS-01'   Right   'Wall-HS-01'    Right    1.054865E-001   'HeaterEps' 'MicroEps'
+  667   'Heater-HS-01'   Right   'Wall-HS-02'    Right    1.033935E-001   'HeaterEps' 'MicroEps'
+  668   'Heater-HS-01'   Right   'Wall-HS-03'    Left     2.560336E-004   'HeaterEps' 'ZirC18Eps'
+  669   'Heater-HS-01'   Right   'Wall-HS-04'    Right    9.744962E-002   'HeaterEps' 'ZirC18Eps'
+  670   'Heater-HS-01'   Right   'Wall-HS-05'    Right    0.000000E+000   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 2 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  671   'Heater-HS-02'   Right   'Wall-HS-01'    Right    1.121157E-001   'HeaterEps' 'MicroEps'
+  672   'Heater-HS-02'   Right   'Wall-HS-02'    Right    1.098688E-001   'HeaterEps' 'MicroEps'
+  673   'Heater-HS-02'   Right   'Wall-HS-03'    Left     4.657101E-004   'HeaterEps' 'ZirC18Eps'
+  674   'Heater-HS-02'   Right   'Wall-HS-04'    Right    7.875596E-003   'HeaterEps' 'ZirC18Eps'
+  675   'Heater-HS-02'   Right   'Wall-HS-05'    Right    0.000000E+000   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 3 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  676   'Heater-HS-03'   Right   'Wall-HS-01'    Right    1.122027E-001   'HeaterEps' 'MicroEps'
+  677   'Heater-HS-03'   Right   'Wall-HS-02'    Right    1.099449E-001   'HeaterEps' 'MicroEps'
+  678   'Heater-HS-03'   Right   'Wall-HS-03'    Left     1.033592E-003   'HeaterEps' 'ZirC18Eps'
+  679   'Heater-HS-03'   Right   'Wall-HS-04'    Right    1.920206E-003   'HeaterEps' 'ZirC18Eps'
+  680   'Heater-HS-03'   Right   'Wall-HS-05'    Right    0.000000E+000   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 4 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  681   'Heater-HS-04'   Right   'Wall-HS-01'    Right    1.122059E-001   'HeaterEps' 'MicroEps'
+  682   'Heater-HS-04'   Right   'Wall-HS-02'    Right    1.099452E-001   'HeaterEps' 'MicroEps'
+  683   'Heater-HS-04'   Right   'Wall-HS-03'    Left     2.390973E-003   'HeaterEps' 'ZirC18Eps'
+  684   'Heater-HS-04'   Right   'Wall-HS-04'    Right    8.251897E-004   'HeaterEps' 'ZirC18Eps'
+  685   'Heater-HS-04'   Right   'Wall-HS-05'    Right    0.000000E+000   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 5 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  686   'Heater-HS-05'   Right   'Wall-HS-01'    Right    1.121122E-001   'HeaterEps' 'MicroEps'
+  687   'Heater-HS-05'   Right   'Wall-HS-02'    Right    1.098528E-001   'HeaterEps' 'MicroEps'
+  688   'Heater-HS-05'   Right   'Wall-HS-03'    Left     8.681742E-003   'HeaterEps' 'ZirC18Eps'
+  689   'Heater-HS-05'   Right   'Wall-HS-04'    Right    4.402696E-004   'HeaterEps' 'ZirC18Eps'
+  690   'Heater-HS-05'   Right   'Wall-HS-05'    Right    0.000000E+000   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                Heater Zone 6 to All Riser Sections                               !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  691   'Heater-HS-06'   Right   'Wall-HS-01'    Right    1.037597E-001   'HeaterEps' 'MicroEps'
+  692   'Heater-HS-06'   Right   'Wall-HS-02'    Right    1.016721E-001   'HeaterEps' 'MicroEps'
+  693   'Heater-HS-06'   Right   'Wall-HS-03'    Left     1.169239E-001   'HeaterEps' 'ZirC18Eps'
+  694   'Heater-HS-06'   Right   'Wall-HS-04'    Right    2.428275E-004   'HeaterEps' 'ZirC18Eps'
+  695   'Heater-HS-06'   Right   'Wall-HS-05'    Right    0.000000E+000   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                       Walls to Unique Walls                                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  696   'Wall-HS-01'   Right   'Wall-HS-02'    Right    9.559278E-002   'HeaterEps' 'MicroEps'
+  697   'Wall-HS-01'   Right   'Wall-HS-03'    Left     2.512410E-002   'HeaterEps' 'ZirC18Eps'
+  698   'Wall-HS-01'   Right   'Wall-HS-04'    Right    2.524628E-002   'HeaterEps' 'ZirC18Eps'
+  699   'Wall-HS-01'   Right   'Wall-HS-05'    Right    2.032515E-001   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                       Walls to Unique Walls                                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  700   'Wall-HS-02'   Right   'Wall-HS-03'    Left     2.465452E-002   'HeaterEps' 'ZirC18Eps'
+  701   'Wall-HS-02'   Right   'Wall-HS-04'    Right    2.487963E-002   'HeaterEps' 'ZirC18Eps'
+  702   'Wall-HS-02'   Right   'Wall-HS-05'    Right    1.991376E-001   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                       Walls to Unique Walls                                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  703   'Wall-HS-03'   Left    'Wall-HS-04'    Right    5.016712E-003   'HeaterEps' 'ZirC18Eps'
+  704   'Wall-HS-03'   Left    'Wall-HS-05'    Right    9.530485E-002   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                       Walls to Unique Walls                                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+  705   'Wall-HS-04'   Right   'Wall-HS-05'    Right    1.226187E-001   'HeaterEps' 'ZirC18Eps'
+
+
+
+! ------------------------------------------------------------------------------------------------ !
+!                                       Walls to Unique Walls                                      !
+! ------------------------------------------------------------------------------------------------ !
+!        Surface From     Side     Surface To     Side     View Factor        Emissivity CFs
+!       ==============   ======   ============   ======   =============   ======================
+
+
+

@@ -1,0 +1,100 @@
+HS_INPUT
+! =========================================================================== !
+!                        Heat Structure Definitions                           !
+! =========================================================================== !
+
+!==================  Heat Structure 2000  ==================
+HS_ID   'LoPlen-HS-00'  2000
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.367431E+00       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'LoPlen-Vol-00'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.5428418E-001     0.1022604         4.804918E-1
+HS_RBS  1.6118273E-001     4.804918E-1            4.804918E-1
+HS_FT   Off
+
+!==================  Heat Structure 2001  ==================
+HS_ID   'LoPlen-HS-01'  2001
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.367431E+00       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'LoPlen-Vol-01'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  2.181779E-001     0.1022604         6.794779E-1
+HS_RBS  2.27933357-001     6.794779E-1            6.794779E-1
+HS_FT   Off
+
+!==================  Heat Structure 2002  ==================
+HS_ID   'LoPlen-HS-02'  2002
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.367431E+00       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'LoPlen-Vol-02'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  4.8926133E-002     0.1022604       1.523721E-1
+HS_RBS  5.1113781E-002     1.523721E-1             1.523721E-1
+HS_FT   Off
+
+!==================  Heat Structure 2003  ==================
+HS_ID   'LoPlen-HS-03'  2003
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.367431E+00       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'LoPlen-Vol-03'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  6.9227132E-002     0.1022604      2.155961E-1
+HS_RBS  7.2322504E-002     2.155961E-1            2.155961E-1
+HS_FT   Off
+
+!==================  Heat Structure 2004  ==================
+HS_ID   'LoPlen-HS-04'  2004
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.367431E+00       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'LoPlen-Vol-04'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  6.9227132E-002     0.1022604      2.155961E-1
+HS_RBS  7.2322504E-002     2.155961E-1            2.155961E-1
+HS_FT   Off
+
+!==================  Heat Structure 2005  ==================
+HS_ID   'LoPlen-HS-05'  2005
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.367431E+00       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'LoPlen-Vol-05'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  6.9227132E-002     0.1022604      2.155961E-1
+HS_RBS  7.2322504E-002     2.155961E-1            2.155961E-1
+HS_FT   Off

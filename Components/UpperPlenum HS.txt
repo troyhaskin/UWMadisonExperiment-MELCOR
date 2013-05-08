@@ -1,0 +1,116 @@
+HS_INPUT
+! =========================================================================== !
+!                        Heat Structure Definitions                           !
+! =========================================================================== !
+
+!==================  Heat Structure 4001  ==================
+HS_ID   'HiPlen-HS-01'  4001
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  9.339072E-02       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'HiPlen-Vol-01'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  6.8250389E-002     0.1022604         0.212446447
+HS_RBS  7.1302E-002     0.212446447            0.212446447
+HS_FT   Off
+
+!==================  Heat Structure 4002  ==================
+HS_ID   'HiPlen-HS-02'  4002
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  9.339072E-02       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'HiPlen-Vol-02'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  6.8250389E-002     0.1022604         0.212446447
+HS_RBS  7.1302E-002     0.212446447            0.212446447
+HS_FT   Off
+
+!==================  Heat Structure 4003  ==================
+HS_ID   'HiPlen-HS-03'  4003
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  9.339072E-02       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'HiPlen-Vol-03'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  6.8250389E-002     0.1022604       0.212446447
+HS_RBS  7.1302E-002     0.212446447             0.212446447
+HS_FT   Off
+
+!==================  Heat Structure 4004  ==================
+HS_ID   'HiPlen-HS-04'  4004
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  9.339072E-02       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'HiPlen-Vol-04'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.3330723E-001     0.1022604      0.41495218
+HS_RBS  1.39268E-001     0.41495218            0.41495218
+HS_FT   Off
+
+!==================  Heat Structure 4005  ==================
+HS_ID   'HiPlen-HS-05'  4005
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  9.339072E-02       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'HiPlen-Vol-05'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  8.4347320E-002     0.1022604      0.26255218
+HS_RBS  8.8119E-002     0.26255218            0.26255218
+HS_FT   Off
+
+!==================  Heat Structure 4006  ==================
+HS_ID   'HiPlen-HS-06'  4006
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  9.339072E-02       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'HiPlen-Vol-06'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.2242262E-001     0.1022604      0.38107112
+HS_RBS  1.27897E-001     0.38107112            0.38107112
+HS_FT   Off
+
+!==================  Heat Structure 4007  ==================
+HS_ID   'HiPlen-HS-07'  4007
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  7.692644E-01       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.341619E-002   293.00
+HS_LB   CalcCoefHS  'HiPlen-Vol-07'   No
+HS_RB   CalcCoefHS  'Atmosphere'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  8.8803E-002     0.1022604      0.27642058
+HS_RBS  9.2773E-002     0.27642058            0.27642058
+HS_FT   Off

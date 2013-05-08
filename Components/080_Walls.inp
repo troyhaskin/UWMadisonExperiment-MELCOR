@@ -1,0 +1,115 @@
+AllowReplace
+
+
+HS_INPUT
+! ==================================================================================== !
+!                                        Heaters                                       !
+! ==================================================================================== !
+
+!==================  Heat Structure 8001  ==================
+!        Left Wall
+HS_ID   'Wall-HS-01'  8001
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.812822       1.00
+HS_ND   3
+        1   1   0.0000000   293.00   Carbon-Steel
+        2   2   0.0015875   293.00   'MicroTherm'
+        3   3   0.0269875   293.00
+HS_LB   Symmetry
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.74849657  3.048             3.048
+HS_RBS  0.74849657  3.048             3.048
+HS_FT   Off
+
+
+!==================  Heat Structure 8002  ==================
+!       Right Wall
+HS_ID   'Wall-HS-02'  8002
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.812822       1.00
+HS_ND   3
+       1   1   0.0000000   293.00   Carbon-Steel
+       2   2   0.0015875   293.00   'MicroTherm'
+       3   3   0.0269875   293.00
+HS_LB   Symmetry
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.74849657  3.048             3.048
+HS_RBS  0.74849657  3.048             3.048
+HS_FT   Off
+
+
+!==================  Heat Structure 8003  ==================
+!         Top Wall
+HS_ID   'Wall-HS-03'  8003
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -1.764822E+00   0.00
+HS_ND   3
+       1   1   0.0000000   293.00   'ZirCal18'
+       2   2   0.0508000   293.00   Carbon-Steel
+       3   3   0.0523875   293.00
+HS_LB   CalcCoefHS  'Cavity-Vol-03'   No    
+HS_RB   Symmetry
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Ext         0.90              0.90
+HS_RBP  Int         0.90              0.90
+HS_LBS  0.17241195  3.048             0.0523875
+HS_RBS  0.17241195  3.048             0.0523875
+HS_FT   Off
+
+
+!==================  Heat Structure 8004  ==================
+!      Bottom Wall
+HS_ID   'Wall-HS-04'  8004
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.8652095      0.00
+HS_ND   3
+       1   1   0.0000000   293.00   Carbon-Steel
+       2   2   0.0015875   293.00   'ZirCal18'
+       3   3   0.0523875   293.00
+HS_LB   Symmetry
+HS_RB   CalcCoefHS  'Cavity-Vol-01'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.17241195  3.048             0.0523875
+HS_RBS  0.17241195  3.048             0.0523875
+HS_FT   Off
+
+
+!==================  Heat Structure 8005  ==================
+!        Back Wall
+HS_ID   'Wall-HS-05'  8005
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.812822       1.00
+HS_ND   3
+       1   1   0.0000000   293.00   Carbon-Steel
+       2   2   0.0015875   293.00   'ZirCal18'
+       3   3   0.0523875   293.00
+HS_LB   Symmetry
+HS_RB   CalcCoefHS  'Cavity-Vol-02'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.56322468  3.048             3.048
+HS_RBS  0.56322468  3.048             3.048
+HS_FT   Off
+
+
+
+

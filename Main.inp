@@ -1,0 +1,96 @@
+! =============================
+! RCCS MELCOR Model
+! =============================
+
+! =================================================================================================
+!                                        Environmental Data
+! =================================================================================================
+MEG_DiagFile      'MELGEN.diag'
+MEL_DiagFile      'Dumps\MELCOR.diag'
+MEG_OutputFile    'Dumps\MELGEN-output.dump'
+MEL_OutputFile    'Dumps\MELCOR-output.dump'
+MEG_RestartFile   'Dumps\MELGEN.rst'
+MEL_RestartFile   'Dumps\MELCORControls.rst'    Ncycle  -1
+MessageFile       'Dumps\Messages.dump'
+StatusFile        'Dumps\MELCOR-status.dump'
+StopFile          'Dumps\MELCOR-stop.dump'
+WriteNewInp       'Dumps\NewInput.can'
+ExtDiagFile       'Dumps\MELCOR.diag.xtnd'
+PlotFile          'PTFs\Plot.ptf'
+
+
+
+
+! =================================================================================================
+!                                               MELGEN Input
+! =================================================================================================
+!/*
+Program MELGEN
+
+! =============================================================================
+!                                  EXEC Data
+! =============================================================================
+EXEC_INPUT 
+  EXEC_TITLE  'RCCS - test' 
+  EXEC_JOBID  'RCCS -' 
+
+
+! ==============================================================================
+!                                   NCG Data
+! ==============================================================================
+NCG_INPUT
+  NCG_ID  N2  ! Nitrogen
+  NCG_ID  O2  ! Oxygen
+! NCG_ID  HE  ! Helium
+! NCG_ID  H2  ! Hydrogen
+! NCG_ID  CO  ! Carbon monoxide
+! NCG_ID  CO2 ! Carbon dioxide
+! NCG_ID  CH4 ! Methane
+
+
+
+! ==============================================================================
+!                               File Inclusions
+! ==============================================================================
+  Include   'Container-TF.inp'          ! Tabular functions
+  Include   'Container-CF.inp'          ! Control functions
+  Include   'Container-MP.inp'          ! Material properties
+  Include   'Container-EDF.inp'         ! ASCII data dumps
+  Include   'Manifest-Components.inp'   ! Control Models
+
+End Program MELGEN Data
+!*/
+
+
+
+
+! ==================================================================================================
+!                                               MELCOR Input
+! ==================================================================================================
+!/*
+Program MELCOR
+
+! ==============================================================================
+!                               MEX (EXEC) Data
+! ==============================================================================
+EXEC_INPUT
+  EXEC_TITLE    'RCCS - test'
+  EXEC_JOBID    'RCCS -'
+  EXEC_TEND     500.0E3 ! End of calculation time
+  EXEC_TIME     3 ! Times   dt_Max  dt_Min  dt_WriteEdit  dt_WritePlot  dt_WriteRestart   dCPUt_WriteRestart
+                1   0.0E0   5.0E+0   1.0E-6  600.0          5.0          100.0             10.0E9
+                2   15.0E3  1.0E+2   1.0E-6  600.0         25.0          100.0             10.0E9
+                3   20.0E3  1.0E+2   1.0E-6  600.0         25.0          100.0             10.0E9
+  EXEC_CPULEFT  50.0E0 ! CPU time left at end of calculation [s]
+  EXEC_CPULIM   10.0E9 ! Maximum number of CPU seconds allowed for this execution
+  Exec_CyMesF   100
+
+
+! ==============================================================================
+!                               CVH MELCOR Data
+! ==============================================================================
+CVH_INPUT
+  CVH_TRACE   100  ! Calculational trace activation
+
+End Program MELCOR Data
+!*/

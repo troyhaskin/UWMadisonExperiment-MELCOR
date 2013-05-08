@@ -1,0 +1,90 @@
+AllowReplace
+
+CF_INPUT
+
+CF_ID   'Flux'  Tab-Fun
+CF_SAI  1.0   0.0
+CF_MSC  'LinearRamp'
+CF_Arg  1 ! Value Origin    Scale   Additive Constant
+        1   Exec-Time       1.0     0.0
+
+
+
+
+! ------------------------------------------------------ !
+!              Tank Energy Storage Term                  !
+! ------------------------------------------------------ !
+CF_ID        'EnergyStorage'  Formula
+CF_SAI        1.0   1.0   0.0
+CF_FORMULA    3   (A2-A1)/B
+              1   A2  CVH-ECV('Tank',ALL)
+              2   A1  CF-VALU('OldUint')
+              3   B   Exec-dt
+
+
+CF_ID        'OldUint'  Formula
+CF_SAI        1.0   1.0   0.0
+CF_FORMULA    1   A1
+              1   A1  CVH-ECV('Tank',ALL)
+
+! ------------------------------------------------------ !
+!           Emissivities for Radiating Surfaces          !
+! ------------------------------------------------------ !
+CF_ID   'RiserEps'  Equals
+CF_SAI  0.0   0.5
+CF_Arg  1 ! Value Origin    Scale   Additive Constant
+        1   Exec-Time       0.0     0.0
+        
+CF_ID   'HeaterEps'  Equals
+CF_SAI  0.0   0.7
+CF_Arg  1 ! Value Origin    Scale   Additive Constant
+        1   Exec-Time       0.0     0.0
+        
+CF_ID   'MicroEps'  Equals
+CF_SAI  0.0   0.9
+CF_Arg  1 ! Value Origin    Scale   Additive Constant
+        1   Exec-Time       0.0     0.0
+        
+CF_ID   'ZirC18Eps'  Equals
+CF_SAI  0.0   0.9
+CF_Arg  1 ! Value Origin    Scale   Additive Constant
+        1   Exec-Time       0.0     0.0
+
+
+
+! ------------------------------------------------------ !
+!              Reynolds & Rayliegh Numbers               !
+! ------------------------------------------------------ !
+CF_ID        'ReynoldsR'  Formula
+CF_SAI        1.0   1.0   0.0
+CF_FORMULA    4   A*B*C/D
+              1   A   CVH-RHO('Riser1-Vol-01',Pool)
+              2   B   0.1022604
+              3   C   CVH-VEL('Riser1-Vol-01',Pool)
+              4   D   0.0006976305
+
+CF_ID        'GrashofR' Formula
+CF_SAI        1.0   1.0   0.0
+CF_FORMULA    7   A*B*C*C*C*F*F*(H-I)/(J*J)
+              1   A   9.81
+              2   B   3.6667E-4
+              3   C   5.250180E-2
+              4   F   CVH-RHO('Riser1-Vol-01',Pool)
+              5   H   HS-TEMP('Riser1-HS-01',1)
+              6   I   CVH-TLIQ('Riser1-Vol-01')
+              7   J   6.976305E-4
+
+CF_ID        'RayleighR' Formula
+CF_SAI        1.0   1.0   0.0
+CF_FORMULA    2   A*B
+              1   A   CF-VALU('GrashofR')
+              2   B   4.678
+
+
+CF_ID        'BuoyancyR' Formula
+CF_SAI        1.0   1.0   0.0
+CF_FORMULA    2   B*B/A
+              1   A   CF-VALU('GrashofR')
+              2   B   CF-VALU('ReynoldsR')
+
+

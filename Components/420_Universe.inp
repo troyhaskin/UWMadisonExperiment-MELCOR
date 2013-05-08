@@ -1,0 +1,59 @@
+AllowReplace
+
+
+CVH_INPUT
+! ==================================================================================== !
+!                                        Unverise                                      !
+! ==================================================================================== !
+CV_ID   'Universe'  42000
+CV_TYP  'Boundary Condition'
+CV_VAT  2 ! Number Elevation Volume
+        1   1.9886422   0.0
+        2   2.0         1.0
+CV_THR  NonEquil  NoFog    Active
+CV_PAS  Separate  OnlyAtm  SuperHeated
+CV_PTD  Pvol  101325.0
+CV_AAD  Tatm  293.00
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+
+        
+CV_ID   'TrueUniverse'  42001
+CV_TYP  'Boundary Condition'
+CV_VAT  2 ! Number Elevation Volume
+        1   2.0   0.0
+        2   3.0   1.0
+CV_THR  NonEquil  NoFog    Time-Indep
+CV_PAS  Separate  OnlyAtm  SuperHeated
+CV_PTD  Pvol  101125.0
+CV_AAD  Tatm  293.00
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+        
+CV_ID   'Atmosphere'  42002
+CV_TYP  'Boundary Condition'
+CV_VAT  2 ! Number Elevation Volume
+        1   -5.5   0.0
+        2    3.0   500.0
+CV_THR  NonEquil  NoFog    Active
+CV_PAS  Separate  OnlyAtm  SuperHeated
+CV_PTD  Pvol  101125.0
+CV_AAD  Tatm  293.00
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+        
+        
+        
+FL_INPUT
+! ==================================================================================== !
+!                                        Flow Paths                                    !
+! ==================================================================================== !
+FL_ID   'UniConn' 42000
+FL_FT   'Universe'    'TrueUniverse'   2.0    2.0
+FL_GEO  8.107320E-003     0.000001     1.000000E+000
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1   8.107320E-003   0.000001  0.1022604

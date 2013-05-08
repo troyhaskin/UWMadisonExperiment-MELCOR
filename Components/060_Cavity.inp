@@ -1,0 +1,170 @@
+AllowReplace
+
+
+CVH_INPUT
+! ==================================================================================== !
+!                                Cavity Volumes                                        !
+! ==================================================================================== !
+
+!==================  Control Volume 6000  ==================
+!
+! Risers convect to this volume
+!
+CV_ID   'Cavity-Vol-00'  6000
+CV_TYP  'Cavity'
+CV_VAT  2 ! Number Elevation Volume
+        1   -4.812822E+00     0.000
+        2   -1.764822E+00     2.109952E-1
+CV_THR  NonEquil  NoFog       Active
+CV_PAS  Separate  OnlyAtm     SuperHeated
+CV_PTD  Pvol  101325.00
+CV_AAD  Tatm  293.00
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+
+!==================  Control Volume 6001  ==================
+!
+! Wall-04 (the 'Bottom') convects to this volume
+!
+CV_ID   'Cavity-Vol-01'  6001 
+CV_TYP  'Cavity'
+CV_VAT  2 ! Number Elevation Volume
+        1   -4.812822E+00     0.000
+        2   -4.558822E+00     4.257949E-2
+CV_THR  NonEquil  NoFog       Active
+CV_PAS  Separate  OnlyAtm     SuperHeated
+CV_PTD  Pvol  101325.00
+CV_AAD  Tatm  293.00
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+        
+
+!==================  Control Volume 6002  ==================
+!
+! Heaters, Wall-01 (Left), Wall-02 (Right), Wall-05 (back) 
+! convect to this volume
+!
+CV_ID   'Cavity-Vol-02'  6002
+CV_TYP  'Cavity'
+CV_VAT  2 ! Number Elevation Volume
+        1   -4.812822E+00     0.000
+        2   -1.764822E+00     2.109952E-1
+CV_THR  NonEquil  NoFog       Active
+CV_PAS  Separate  OnlyAtm     SuperHeated
+CV_PTD  Pvol  101325.00
+CV_AAD  Tatm  293.00
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+
+
+!==================  Control Volume 6003  ==================
+!
+! Wall-03 (the 'Top') convects to this volume
+!
+CV_ID   'Cavity-Vol-03'  6003
+CV_TYP  'Cavity'
+CV_VAT  2 ! Number Elevation Volume
+        1   -2.018822E+00     0.000
+        2   -1.764822E+00     4.257949E-2
+CV_THR  NonEquil  NoFog       Active
+CV_PAS  Separate  OnlyAtm     SuperHeated
+CV_PTD  Pvol  101325.00
+CV_AAD  Tatm  293.00
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+
+        
+!==================  Control Volume 6004  ==================
+!
+! All fake volumes
+!
+CV_ID   'FakeCavity'  6004
+CV_TYP  'Cavity'
+CV_VAT  2 ! Number Elevation Volume
+        1   -4.812822E+00     0.000
+        2   -1.764822E+00     2.109952E-1
+CV_THR  NonEquil  NoFog       Time-Indep
+CV_PAS  Separate  OnlyAtm     SuperHeated
+CV_PTD  Pvol  101325.00
+CV_AAD  Tatm  293.00
+CV_NCG  2 PH2O  0.0
+        1 'N2'  0.8
+        2 'O2'  0.2
+
+
+
+
+
+FL_INPUT
+! ==================================================================================== !
+!                                Cavity Flow Paths                                     !
+! ==================================================================================== !
+
+! ==================  Flow Path 6000  ==================
+! 
+!   A_flow = 1/2 * EffectiveCavityArea
+!   L_fric = 1/2 * (CavityHeight + DistanceFromFinToHeater)
+!   P_wet  = DistanceFromLeftToRightWalls + DistanceFromFinToHeater
+!   L_char = 4 * A_flow / P_wet
+!
+FL_ID  'Cavity-Pth-00'  6000
+FL_FT  'Cavity-Vol-00'  'Cavity-Vol-01'  -4.558822E+00      -4.558822E+00
+FL_GEO  8.319379E-02  1.640523E+00  1.000
+FL_USL  0.00  0.00  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  8.319379E-02  1.640523E+00  3.494168E-01
+
+
+! ==================  Flow Path 6001  ==================
+! 
+!   A_flow = 1/2 * EffectiveCavityArea
+!   L_fric = 1/2 * (CavityHeight + DistanceFromFinToHeater)
+!   P_wet  = DistanceFromLeftToRightWalls + DistanceFromFinToHeater
+!   L_char = 4 * A_flow / P_wet
+!
+FL_ID  'Cavity-Pth-01'  6001
+FL_FT  'Cavity-Vol-01'  'Cavity-Vol-02'  -4.558822E+00      -4.558822E+00
+FL_GEO  8.319379E-02  1.640523E+00  1.000
+FL_USL  0.00  0.00  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  8.319379E-02  1.640523E+00  3.494168E-01
+
+
+! ==================  Flow Path 6002  ==================
+! 
+!   A_flow = 1/2 * EffectiveCavityArea
+!   L_fric = 1/2 * (CavityHeight + DistanceFromFinToHeater)
+!   P_wet  = DistanceFromLeftToRightWalls + DistanceFromFinToHeater
+!   L_char = 4 * A_flow / P_wet
+!
+FL_ID  'Cavity-Pth-02'  6002
+FL_FT  'Cavity-Vol-02'  'Cavity-Vol-03'  -2.018822E+00      -2.018822E+00
+FL_GEO  8.319379E-02  1.640523E+00  1.000
+FL_USL  0.00  0.00  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  8.319379E-02  1.640523E+00  3.494168E-01
+
+
+! ==================  Flow Path 6003  ==================
+! 
+!   A_flow = 1/2 * EffectiveCavityArea
+!   L_fric = 1/2 * (CavityHeight + DistanceFromFinToHeater)
+!   P_wet  = DistanceFromLeftToRightWalls + DistanceFromFinToHeater
+!   L_char = 4 * A_flow / P_wet
+!
+FL_ID  'Cavity-Pth-03'  6003
+FL_FT  'Cavity-Vol-03'  'Cavity-Vol-00'  -2.018822E+00      -2.018822E+00
+FL_GEO  8.319379E-02  1.640523E+00  1.000
+FL_USL  0.00  0.00  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  8.319379E-02  1.640523E+00  3.494168E-01
+
+

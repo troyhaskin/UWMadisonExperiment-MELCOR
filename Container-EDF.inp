@@ -1,0 +1,53 @@
+AllowReplace
+!/*
+!*/
+
+
+EDF_INPUT
+! =========================================================================== !
+!                       External Data File Definitions                        !
+! =========================================================================== !
+
+EDF_ID    'RiserEbal'    Write   'Outputs\RiserEnergyBalance.output'
+EDF_CHN   9 
+          1   FL-Mflow('Riser1-Pth-01',ALL) ! Mass flow rate [kg/s]
+          2   FL-Mflow('Riser2-Pth-01',ALL) ! Mass flow rate [kg/s]
+          3   FL-Mflow('Riser3-Pth-01',ALL) ! Mass flow rate [kg/s]
+          4   CVH-H('Riser1-Vol-00'   ,ALL) ! Specific enthalpy before heating [J/kg]
+          5   CVH-H('Riser1-Vol-11'   ,ALL) ! Specific enthalpy after  heating [J/kg]          
+          6   CVH-H('Riser2-Vol-00'   ,ALL) ! Specific enthalpy before heating [J/kg]
+          7   CVH-H('Riser2-Vol-11'   ,ALL) ! Specific enthalpy after  heating [J/kg]          
+          8   CVH-H('Riser3-Vol-00'   ,ALL) ! Specific enthalpy before heating [J/kg]
+          9   CVH-H('Riser3-Vol-11'   ,ALL) ! Specific enthalpy after  heating [J/kg]
+EDF_FMT   '(10(F22.14,TR2))'
+EDF_DTW   3 !   Time      dTime/dWrite
+          1     00.0E0      100.0
+          2     5.0E3        10.0
+          3     20.0E3       25.0
+
+
+EDF_ID    'TankEbal'    Write   'Outputs\TankEnergyBalance.output'
+EDF_CHN   6 
+          1   FL-Mflow('Tank-Downer'  ,ALL) ! Mass flow rate [kg/s]
+          2   FL-Mflow('HiPlen-Tank'  ,ALL) ! Mass flow rate [kg/s]
+          3   FL-Mflow('UniverseBleed',ALL) ! Mass flow rate [kg/s]
+          4   CVH-H('Downer-Vol-00'   ,ALL) ! Specific enthalpy before heating  [J/kg]
+          5   CVH-H('HiPlen-Vol-07'   ,ALL) ! Specific enthalpy after  heating  [J/kg]
+          6   CVH-H('Universe'        ,ALL) ! Specific enthalpy for evaporation [J/kg]
+EDF_FMT   '(7(F22.14,TR2))'
+EDF_DTW   3 !   Time      dTime/dWrite
+          1     00.0E0      100.0
+          2     5.0E3        10.0
+          3     20.0E3       25.0
+
+
+EDF_ID    'Numbers'    Write   'Outputs\DimensionlessParameters.output'
+EDF_CHN   3 
+          1   CF-VALU('ReynoldsR')
+          2   CF-VALU('RayleighR')
+          3   CF-VALU('BuoyancyR')
+EDF_FMT   '(4(E22.14,TR2))'
+EDF_DTW   3 !   Time      dTime/dWrite
+          1     00.0E0      100.0
+          2     5.0E3        10.0
+          3     20.0E3       25.0

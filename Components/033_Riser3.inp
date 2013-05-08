@@ -1,0 +1,605 @@
+AllowReplace
+
+CVH_INPUT
+! =========================================================================== !
+!                       Control Volume Definitions                            !
+! =========================================================================== !
+
+!==================  Control Volume 3300  ==================
+!
+!   Length prior to heating:  0.4523486    m
+!   Flow Area:                2.164902E-03 m^2
+!
+CV_ID   'Riser3-Vol-00'  3300
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -5.265171E+00    0.000000E+000
+        2  -4.812822E+00    9.792913E-004
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  169322.8
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+
+
+
+! ******************************************************** !
+! ******************************************************** !
+! ********        Heated Region: START            ******** !
+! ******************************************************** !
+! ******************************************************** !
+!                                                                         
+!   Height:     0.3048       m
+!   Flow Area:  2.164902E-03 m^2
+!
+
+!==================  Control Volume 3301  ==================
+CV_ID   'Riser3-Vol-01'  3301
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -4.812822E+00   0.000000E+00
+        2  -4.508022E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  164435.8
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3101'
+
+
+!==================  Control Volume 3302  ==================
+CV_ID   'Riser3-Vol-02'  3302
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -4.508022E+00   0.000000E+00
+        2  -4.203222E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  159548.8
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3102'
+
+
+!==================  Control Volume 3303  ==================
+CV_ID   'Riser3-Vol-03'  3303
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -4.203222E+00   0.000000E+00
+        2  -3.898422E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  154661.9
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3103'
+
+
+!==================  Control Volume 3304  ==================
+CV_ID   'Riser3-Vol-04'  3304
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -3.898422E+00   0.000000E+00
+        2  -3.593622E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3104'
+
+!==================  Control Volume 3305  ==================
+CV_ID   'Riser3-Vol-05'  3305
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -3.593622E+00   0.000000E+00 
+        2  -3.288822E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3105'
+
+!==================  Control Volume 3306  ==================
+CV_ID   'Riser3-Vol-06'  3306
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -3.288822E+00   0.000000E+00 
+        2  -2.984022E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3106'
+
+!==================  Control Volume 3307  ==================
+CV_ID   'Riser3-Vol-07'  3307
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -2.984022E+00   0.000000E+00 
+        2  -2.679222E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3107'
+
+!==================  Control Volume 3308  ==================
+CV_ID   'Riser3-Vol-08'  3308
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -2.679222E+00   0.000000E+00 
+        2  -2.374422E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3108'
+
+!==================  Control Volume 3309  ==================
+CV_ID   'Riser3-Vol-09'  3309
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -2.374422E+00   0.000000E+00 
+        2  -2.069622E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3109'
+
+!==================  Control Volume 3310  ==================
+CV_ID   'Riser3-Vol-10'  3310
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -2.069622E+00   0.000000E+00 
+        2  -1.764822E+00   6.598621E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+! CV_SOU  1
+!         1   PE  Rate  TF  'Source' ! 'Source-3110'
+
+
+
+! ******************************************************** !
+! ******************************************************** !
+! ********        Heated Region: END              ******** !
+! ******************************************************** !
+! ******************************************************** !
+
+
+
+!==================  Control Volume 3311  ==================
+CV_ID   'Riser3-Vol-11'  3311
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -1.764822E+00   0.000000E+00 
+        2  -1.364822E+00   1.082451E-03
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+
+
+!==================  Control Volume 3312  ==================
+CV_ID   'Riser3-Vol-12'  3312
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -1.364822E+00   0.000000E+00 
+        2  -8.648220E-01   1.082451E-03
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+
+
+!==================  Control Volume 3313  ==================
+CV_ID   'Riser3-Vol-13'  3313
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -8.648220E-01   0.000000E+00 
+        2  -3.648220E-01   1.082451E-03
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  151448.2
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+
+
+!==================  Control Volume 3314  ==================
+CV_ID   'Riser3-Vol-14'  3314
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -3.648220E-01   0.000000E+00 
+        2   9.339072E-02   2.701646E-04
+CV_THR  NonEquil  NoFog     Active
+CV_PAS  Separate  OnlyPool  Subcooled
+CV_PTD  Pvol  120906.9
+CV_PAD  333.16 
+CV_VEL    0.00  0.00
+
+
+
+
+
+FL_INPUT
+! =========================================================================== !
+!                         Flow Path Definitions                               !
+! =========================================================================== !
+
+!==================  Flow Path 3300  ==================
+FL_ID  'Riser3-Pth-00'  3300
+FL_FT  'Riser3-Vol-00'  'Riser3-Vol-01'  -4.812822    -4.812822
+FL_GEO  2.164902E-03  0.3785743   1.00
+FL_USL  0.00  0.00  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3785743  5.250180E-02
+
+
+!==================  Flow Path 3301  ==================
+FL_ID  'Riser3-Pth-01'  3301
+FL_FT  'Riser3-Vol-01'  'Riser3-Vol-02'  -4.508022    -4.508022
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-00' 'Riser3-Pth-02'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+
+!==================  Flow Path 3302  ==================
+FL_ID  'Riser3-Pth-02'  3302
+FL_FT  'Riser3-Vol-02'  'Riser3-Vol-03'  -4.203222    -4.203222
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-01' 'Riser3-Pth-03'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+
+!==================  Flow Path 3303  ==================
+FL_ID  'Riser3-Pth-03'  3303
+FL_FT  'Riser3-Vol-03'  'Riser3-Vol-04'  -3.898422    -3.898422
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-02' 'Riser3-Pth-04'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+
+!==================  Flow Path 3304  ==================
+FL_ID  'Riser3-Pth-04'  3304
+FL_FT  'Riser3-Vol-04'  'Riser3-Vol-05'  -3.593622    -3.593622
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-03' 'Riser3-Pth-05'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+
+!==================  Flow Path 3305  ==================
+FL_ID  'Riser3-Pth-05'  3305
+FL_FT  'Riser3-Vol-05'  'Riser3-Vol-06'  -3.288822    -3.288822
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-04' 'Riser3-Pth-06'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+
+!==================  Flow Path 3306  ==================
+FL_ID  'Riser3-Pth-06'  3306
+FL_FT  'Riser3-Vol-06'  'Riser3-Vol-07'  -2.984022      -2.984022
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-05' 'Riser3-Pth-07'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+
+!==================  Flow Path 3307  ==================
+FL_ID  'Riser3-Pth-07'  3307
+FL_FT  'Riser3-Vol-07'  'Riser3-Vol-08'  -2.679222      -2.679222
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-06' 'Riser3-Pth-08'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+
+!==================  Flow Path 3308  ==================
+FL_ID  'Riser3-Pth-08'  3308
+FL_FT  'Riser3-Vol-08'  'Riser3-Vol-09'  -2.374422      -2.374422
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-07' 'Riser3-Pth-09'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+
+!==================  Flow Path 3309  ==================
+FL_ID  'Riser3-Pth-09'  3309
+FL_FT  'Riser3-Vol-09'  'Riser3-Vol-10'  -2.069622      -2.069622
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-08' 'Riser3-Pth-10'
+FL_GEO  2.164902E-03  0.3048  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3048  5.250180E-02
+
+        
+! ******************************************************** !
+! *                                                      * !
+! *               Heated Region: END                     * !
+! *                                                      * !
+! ******************************************************** !
+
+
+
+!==================  Flow Path 3310  ==================
+FL_ID  'Riser3-Pth-10'  3310
+FL_FT  'Riser3-Vol-10'  'Riser3-Vol-11'  -1.764822      -1.764822
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-09' 'Riser3-Pth-11'
+FL_GEO  2.164902E-03  0.3524  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.3524  5.250180E-02
+
+
+!==================  Flow Path 3311  ==================
+FL_ID  'Riser3-Pth-11'  3311
+FL_FT  'Riser3-Vol-11'  'Riser3-Vol-12'  -1.364822      -1.364822
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-10' 'Riser3-Pth-12'
+FL_GEO  2.164902E-03  0.50  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.50  5.250180E-02
+
+
+!==================  Flow Path 3312  ==================
+FL_ID  'Riser3-Pth-12'  3312
+FL_FT  'Riser3-Vol-12'  'Riser3-Vol-13'  -8.648220E-01      -8.648220E-01
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-11' 'Riser3-Pth-13'
+FL_GEO  2.164902E-03  0.50  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.50  5.250180E-02
+
+
+!==================  Flow Path 3313  ==================
+FL_ID  'Riser3-Pth-13'  3313
+FL_FT  'Riser3-Vol-13'  'Riser3-Vol-14' -3.648220E-01     -3.648220E-01
+FL_MFX  2.164902E-03 2.164902E-03 'Riser3-Pth-12' No
+FL_GEO  2.164902E-03 0.47910636  1.00
+FL_USL  0.00  0.00    0.00    0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  2.164902E-03  0.47910636 5.250180E-02
+
+
+
+
+HS_INPUT
+! =========================================================================== !
+!                        Heat Structure Definitions                           !
+! =========================================================================== !
+
+!==================  Heat Structure 3301  ==================
+HS_ID   'Riser3-HS-01'  3301
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.812822       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-01'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3302  ==================
+HS_ID   'Riser3-HS-02'  3302
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.508022       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-02'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3303  ==================
+HS_ID   'Riser3-HS-03'  3303
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -4.203222       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-03'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3304  ==================
+HS_ID   'Riser3-HS-04'  3304
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -3.898422       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-04'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3305  ==================
+HS_ID   'Riser3-HS-05'  3305
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -3.593622       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-05'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3306  ==================
+HS_ID   'Riser3-HS-06'  3306
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -3.288822       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-06'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3307  ==================
+HS_ID   'Riser3-HS-07'  3307
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -2.984022       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-07'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3308  ==================
+HS_ID   'Riser3-HS-08'  3308
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -2.679222       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-08'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3309  ==================
+HS_ID   'Riser3-HS-09'  3309
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -2.374422       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-09'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+
+
+!==================  Heat Structure 3310  ==================
+HS_ID   'Riser3-HS-10'  3310
+HS_SRC  No
+HS_GD   Rectangular     No
+HS_EOD  -2.069622       1.00
+HS_ND   2
+        1   1   0.000000E+0   293.00   Stainless-Steel-304
+        2   2   6.518442E-3   293.00
+HS_LB   CalcCoefHS  'Riser3-Vol-10'   No
+HS_RB   CalcCoefHS  'Cavity-Vol-00'   No    
+HS_LBR  0.90        Equiv-Band        0.18
+HS_RBR  0.90        Equiv-Band        0.42
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  0.08113     5.250180E-02      0.3048
+HS_RBS  0.08113     0.3048            0.3048
+HS_FT   Off
+

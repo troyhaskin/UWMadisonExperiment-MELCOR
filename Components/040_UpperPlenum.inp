@@ -1,0 +1,365 @@
+AllowReplace
+!
+CVH_INPUT
+
+!==================  Control Volume 4001  ==================
+!
+!   Straight Length:  25.0921/3 in. = 0.212446447 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'HiPlen-Vol-01'  4001
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  9.339072E-02  0.000000E+000
+        2  1.956511E-01  1.744835E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  119907.4
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+!==================  Control Volume 4002  ==================
+!
+!   Straight Length:  25.0921/3 in. = 0.212446447 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'HiPlen-Vol-02'  4002
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  9.339072E-02  0.000000E+000
+        2  1.956511E-01  1.744835E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  119907.4
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+!==================  Control Volume 4003  ==================
+!
+!   Straight Length:  25.0921/3 in. = 0.212446447 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'HiPlen-Vol-03'  4003
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  9.339072E-02  0.000000E+000
+        2  1.956511E-01  1.744835E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  119907.4
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+!==================  Control Volume 4004  ==================
+!
+!   Straight Length:  22.3367 in. - 6 in. = 0.41495218    m
+!   Length From Bend: (2*pi/4)/2 * 6 in.  = 1.196947E-1   m
+!   Total:                                  5.346469E-001 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'HiPlen-Vol-04'  4004
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  9.339072E-02  0.000000E+000
+        2  1.956511E-01  4.391086E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  119907.4
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+!==================  Control Volume 4005  ==================
+!
+!   Straight Length:  22.3367 in. - 2 * 6 in. = 0.26255218    m
+!   Length From Bend: (2*pi/4)/2 * 2  * 6 in. = 2.393894E-1   m
+!   Total:                                      5.019416E-001 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'HiPlen-Vol-05'  4005
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  9.339072E-02  0.000000E+000
+        2  1.956511E-01  4.122475E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  119907.4
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+!==================  Control Volume 4006  ==================
+!
+!   Straight Length:  27.0028 in. - 2 * 6 in. = 0.38107112     m
+!   Length From Bend: (2*pi/4)/2 * 2  * 6 in. = 2.393894E-1   m
+!   Total:                                      6.204605E-001 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'HiPlen-Vol-06'  4006
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  9.339072E-02  0.000000E+000
+        2  8.715248E-01  5.095878E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  113301.6
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+!==================  Control Volume 4007  ==================
+!
+!   Straight Length:  16.8827 in. -  6 in. = 0.27642058    m
+!   Length From Bend: (2*pi/4)/2 *   6 in. = 1.196947E-1   m
+!   Total:                                   3.961153E-001 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'HiPlen-Vol-07'  4007
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  7.692644E-01  0.000000E+000
+        2  8.715248E-01  3.253318E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  113301.6
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+
+
+FL_INPUT
+
+!==================  Flow Path 4001  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:                       2.045208     m
+! LoPlen Length:                    +  0.212446447  m   
+! ---------------------------------------------------
+! TOTAL:                               2.25765445 m
+!
+FL_ID  'HiPlen-Pth-01' 4001
+FL_FT  'HiPlen-Vol-01'  'HiPlen-Vol-02'  1.445209E-01   1.445209E-01
+FL_GEO  8.213057E-003  0.212446447  1.000000E+000
+FL_USL  0.20  0.20
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.212446447  1.022604E-01
+!        1  8.213057E-003  2.25765445  1.022604E-01
+
+        
+!==================  Flow Path 4002  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:                       2.045208     m
+! LoPlen Length:                    +  0.212446447  m   
+! ---------------------------------------------------
+! TOTAL:                               2.25765445   m
+!
+FL_ID  'HiPlen-Pth-02' 4002
+FL_FT  'HiPlen-Vol-02'  'HiPlen-Vol-03'  1.445209E-01   1.445209E-01
+FL_GEO  8.213057E-003   0.212446447  1.000000E+000
+FL_USL  0.20  0.20
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.212446447  1.022604E-01
+!       1  8.213057E-003  2.25765445  1.022604E-01
+
+
+!==================  Flow Path 4003  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:                       2.045208   m
+! LoPlen Length:                    +  0.373546674  m   
+! ---------------------------------------------------
+! TOTAL:                               2.41875467 m
+!
+FL_ID  'HiPlen-Pth-03' 4003
+FL_FT  'HiPlen-Vol-03'  'HiPlen-Vol-04'  1.445209E-01   1.445209E-01
+FL_GEO  8.213057E-003  0.373546674  1.000000E+000
+FL_USL  0.20  0.20
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.373546674  1.022604E-01
+!       1  8.213057E-003  2.41875467  1.022604E-01
+
+
+!==================  Flow Path 4004  ==================
+!
+! BEND
+!
+FL_ID  'HiPlen-Pth-04' 4004
+FL_FT  'HiPlen-Vol-04'  'HiPlen-Vol-05'  1.445209E-01   1.445209E-01
+FL_GEO  8.213057E-003  0.51829425  1.000000E+000
+!FL_USL  1.00  1.00  0.00  0.00 
+FL_USL  0.39 0.39   ! 0.30  0.30
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.51829425  1.022604E-01
+
+
+!==================  Flow Path 4005  ==================
+!
+! BEND: Vertical
+! 
+FL_ID  'HiPlen-Pth-05' 4005
+FL_FT  'HiPlen-Vol-05'  'HiPlen-Vol-06'  1.445209E-01     0.2969209
+FL_GEO  8.213057E-003  0.51829425  1.000000E+000
+!FL_USL  1.00  1.00  0.00  0.00 
+FL_USL  0.39 0.39   ! 0.30  0.30
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  8.213057E-003  0.51829425  1.022604E-01
+
+
+!==================  Flow Path 4006  ==================
+!
+! BEND: Vertical
+!
+FL_ID  'HiPlen-Pth-06' 4006
+FL_FT  'HiPlen-Vol-06'  'HiPlen-Vol-07'  0.53347112     0.8203946
+FL_GEO  8.213057E-003  0.51829425  1.000000E+000
+!FL_USL  1.00  1.00  0.00  0.00 
+FL_USL  0.39 0.39   ! 0.30  0.30
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  8.213057E-003  0.51829425  1.022604E-01
+
+
+
+
+
+
+!**HS_INPUT
+! =========================================================================== !
+!                        Heat Structure Definitions                           !
+! =========================================================================== !
+
+!==================  Heat Structure 4001  ==================
+!**HS_ID   'HiPlen-HS-01'  4001
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  8.737072E-2     0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'HiPlen-Vol-01'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  6.8250389E-002     0.1022604         0.212446447
+!**HS_RBS  7.1302E-002     0.212446447          0.212446447
+!**HS_FT   Off
+
+!==================  Heat Structure 4002  ==================
+!**HS_ID   'HiPlen-HS-02'  4002
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  8.737072E-2     0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'HiPlen-Vol-02'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  6.8250389E-002     0.1022604         0.212446447
+!**HS_RBS  7.1302E-002     0.212446447            0.212446447
+!**HS_FT   Off
+
+!==================  Heat Structure 4003  ==================
+!**HS_ID   'HiPlen-HS-03'  4003
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  8.737072E-2     0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'HiPlen-Vol-03'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  6.8250389E-002     0.1022604       0.212446447
+!**HS_RBS  7.1302E-002     0.212446447             0.212446447
+!**HS_FT   Off
+
+!==================  Heat Structure 4004  ==================
+!**HS_ID   'HiPlen-HS-04'  4004
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  8.737072E-2     0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'HiPlen-Vol-04'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  1.3330723E-001     0.1022604      0.41495218
+!**HS_RBS  1.39268E-001     0.41495218            0.41495218
+!**HS_FT   Off
+
+!==================  Heat Structure 4005  ==================
+!**HS_ID   'HiPlen-HS-05'  4005
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  8.737072E-2     0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'HiPlen-Vol-05'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  8.4347320E-002     0.1022604      0.26255218
+!**HS_RBS  8.8119E-002     0.26255218            0.26255218
+!**HS_FT   Off
+
+!==================  Heat Structure 4006  ==================
+!**HS_ID   'HiPlen-HS-06'  4006
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  9.339072E-02       1.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'HiPlen-Vol-06'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  1.2242262E-001     0.1022604      0.77813408
+!**HS_RBS  1.27897E-001     0.38107112       0.77813408
+!**HS_FT   Off
+
+!==================  Heat Structure 4007  ==================
+!**HS_ID   'HiPlen-HS-07'  4007
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  7.692644E-01       1.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'HiPlen-Vol-07'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  8.8803E-002     0.1022604      0.1022604
+!**HS_RBS  9.2773E-002     0.27642058     0.1022604
+!**HS_FT   Off

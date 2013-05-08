@@ -1,0 +1,181 @@
+HS_INPUT
+! =========================================================================== !
+!                        Heat Structure Definitions                           !
+! =========================================================================== !
+
+!==================  Heat Structure 1001  ==================
+HS_ID   'Downer-HS-01'  1001
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.000000E-001       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-01'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604         5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1002  ==================
+HS_ID   'Downer-HS-02'  1002
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -1.000000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-02'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604         5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1003  ==================
+HS_ID   'Downer-HS-03'  1003
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -1.500000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-03'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1004  ==================
+HS_ID   'Downer-HS-04'  1004
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -2.000000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-04'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1005  ==================
+HS_ID   'Downer-HS-05'  1005
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -2.500000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-05'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1006  ==================
+HS_ID   'Downer-HS-06'  1006
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -3.000000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-06'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1007  ==================
+HS_ID   'Downer-HS-07'  1007
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -3.500000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-07'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1008  ==================
+HS_ID   'Downer-HS-08'  1008
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -4.000000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-08'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1009  ==================
+HS_ID   'Downer-HS-09'  1009
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -4.500000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-09'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+!==================  Heat Structure 1010  ==================
+HS_ID   'Downer-HS-10'  1010
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.000000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-10'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off
+
+
+!==================  Heat Structure 1010  ==================
+HS_ID   'Downer-HS-10'  1010
+HS_SRC  No
+HS_GD   Cylindrical     No
+HS_EOD  -5.500000E+000       1.00
+HS_ND   2
+        1   1   5.113E-002   293.00   CARBON-STEEL
+        2   2   5.57022E-002   293.00
+HS_LB   CalcCoefHS  'Downer-Vol-10'   No
+HS_RB   CalcCoefHS  'Universe'   No    
+HS_LBP  Int         0.90              0.90
+HS_RBP  Ext         0.90              0.90
+HS_LBS  1.606302E-001     0.1022604      5.000000E-001
+HS_RBS  4.8737649E-003     5.000000E-001            5.000000E-001
+HS_FT   Off

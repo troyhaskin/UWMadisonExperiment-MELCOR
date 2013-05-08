@@ -1,0 +1,320 @@
+
+AllowReplace
+!
+CVH_INPUT
+
+!==================  Control Volume 2000  ==================
+!
+!   Straight Length:  24.917 in. - 6 in.  = 4.804918E-1 m
+!   Length from Bend: (2*pi/4)/2 * 6 in.  = 1.196947E-1 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'LoPlen-Vol-00'  2000
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -5.367431E+00  0.000000E+000
+        2  -5.265171E+00  4.929366E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+
+!==================  Control Volume 2001  ==================
+!
+!   Straight Length:  26.7511 in.            = 6.794779E-1 m
+!   Length from Bend: (2*pi/4)/2 * 2 * 6 in. = 2.393894E-1 m 
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'LoPlen-Vol-01'  2001
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -5.367431E+00  0.000000E+000
+        2  -5.265171E+00  7.546710E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+
+!==================  Control Volume 2002  ==================
+!
+!   Straight Length:  5.9989 in.         = 1.523721E-1 m
+!   Length from Bend: (2*pi/4)/2 * 6 in. = 1.196947E-1 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'LoPlen-Vol-02'  2002
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -5.367431E+00  0.000000E+000
+        2  -5.265171E+00  2.234500E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+
+!==================  Control Volume 2003  ==================
+!
+!   Straight Length:  25.4641/3 in.      = 2.155961E-1 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'LoPlen-Vol-03'  2003
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -5.367431E+00  0.000000E+000
+        2  -5.265171E+00  1.770703E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+!
+!==================  Control Volume 2004  ==================
+!
+!   Straight Length:  25.4641/3 in.      = 2.155961E-1 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'LoPlen-Vol-04'  2004
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -5.367431E+00  0.000000E+000
+        2  -5.265171E+00  1.770703E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+!
+!==================  Control Volume 2005  ==================
+!
+!   Straight Length:  25.4641/3 in.      = 2.155961E-1 m
+!   Flow Area:        8.213057E-3 m^2
+!
+CV_ID  'LoPlen-Vol-05'  2005
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -5.367431E+00  0.000000E+000
+        2  -5.265171E+00  1.770703E-003
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  8.213057E-3
+
+
+
+
+
+FL_INPUT
+
+!==================  Flow Path 2000  ==================
+!
+! BEND
+!
+FL_ID  'LoPlen-Pth-0'  2000
+FL_FT  'LoPlen-Vol-00'  'LoPlen-Vol-01'  -5.316301E+00  -5.316301E+00
+FL_GEO  8.213057E-003  0.7595269  1.000000E+000
+FL_USL  0.39 0.39   ! 0.30  0.30
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.7595269  1.022604E-01
+
+        
+!==================  Flow Path 2001  ==================
+!
+! BEND
+!
+FL_ID  'LoPlen-Pth-1'  2001
+FL_FT  'LoPlen-Vol-01'  'LoPlen-Vol-02'  -5.316301E+00  -5.316301E+00
+FL_GEO  8.213057E-003  0.59546705  1.000000E+000
+FL_USL  0.39 0.39   ! 0.30  0.30
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.59546705  1.022604E-01
+
+        
+!==================  Flow Path 2002  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:                       2.045208    m
+! LoPlen Length:                    +  0.24383145  m   
+! ---------------------------------------------------
+! TOTAL:                               2.28903945  m
+!
+FL_ID  'LoPlen-Pth-2'  2002
+FL_FT  'LoPlen-Vol-02'  'LoPlen-Vol-03'  -5.316301E+00  -5.316301E+00
+FL_GEO  8.213057E-003  0.24383145  1.000000E+000
+FL_USL  0.20  0.20
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.24383145  1.022604E-01
+!        1  8.213057E-003  2.28903945  1.022604E-01
+
+        
+!==================  Flow Path 2003  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:                       2.045208   m
+! LoPlen Length:                    +  0.2155961  m   
+! ---------------------------------------------------
+! TOTAL:                               2.2608041 m
+!
+FL_ID  'LoPlen-Pth-3'  2003
+FL_FT  'LoPlen-Vol-03'  'LoPlen-Vol-04'  -5.316301E+00  -5.316301E+00
+FL_GEO  8.213057E-003   0.2155961  1.000000E+000
+FL_USL  0.20  0.20
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.2155961  1.022604E-01
+!        1  8.213057E-003  2.2608041  1.022604E-01
+
+                
+!==================  Flow Path 2004  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:                       2.045208    m
+! LoPlen Length:                    +  0.2155961   m   
+! ---------------------------------------------------
+! TOTAL:                               2.2608041 m
+!
+FL_ID  'LoPlen-Pth-4'  2004
+FL_FT  'LoPlen-Vol-04'  'LoPlen-Vol-05'  -5.316301E+00  -5.316301E+00
+FL_GEO  8.213057E-003   0.2155961  1.000000E+000
+FL_USL  0.20  0.20
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  8.213057E-003  0.2155961 1.022604E-01
+!       1  8.213057E-003  2.2608041 1.022604E-01
+
+
+
+
+
+
+
+        
+!**HS_INPUT
+! =========================================================================== !
+!                        Heat Structure Definitions                           !
+! =========================================================================== !
+
+!==================  Heat Structure 2000  ==================
+!**HS_ID   'LoPlen-HS-00'  2000
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  -5.373451       0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'LoPlen-Vol-00'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  1.5428418E-001     0.1022604         4.804918E-1
+!**HS_RBS  1.6118273E-001     4.804918E-1       4.804918E-1
+!**HS_FT   Off
+
+!==================  Heat Structure 2001  ==================
+!**HS_ID   'LoPlen-HS-01'  2001
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  -5.373451       0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'LoPlen-Vol-01'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  2.181779E-001     0.1022604         6.794779E-1
+!**HS_RBS  2.27933357-001     6.794779E-1            6.794779E-1
+!**HS_FT   Off
+
+!==================  Heat Structure 2002  ==================
+!**HS_ID   'LoPlen-HS-02'  2002
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  -5.373451       0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'LoPlen-Vol-02'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  4.8926133E-002     0.1022604       1.523721E-1
+!**HS_RBS  5.1113781E-002     1.523721E-1             1.523721E-1
+!**HS_FT   Off
+
+!==================  Heat Structure 2003  ==================
+!**HS_ID   'LoPlen-HS-03'  2003
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  -5.373451       0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'LoPlen-Vol-03'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  6.9227132E-002     0.1022604      2.155961E-1
+!**HS_RBS  7.2322504E-002     2.155961E-1            2.155961E-1
+!**HS_FT   Off
+
+!==================  Heat Structure 2004  ==================
+!**HS_ID   'LoPlen-HS-04'  2004
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  -5.373451       0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'LoPlen-Vol-04'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  6.9227132E-002     0.1022604      2.155961E-1
+!**HS_RBS  7.2322504E-002     2.155961E-1            2.155961E-1
+!**HS_FT   Off
+
+!==================  Heat Structure 2005  ==================
+!**HS_ID   'LoPlen-HS-05'  2005
+!**HS_SRC  No
+!**HS_GD   Cylindrical     No
+!**HS_EOD  -5.373451       0.00
+!**HS_ND   2
+!!!        1   1   5.113000E-2   293.00   CARBON-STEEL
+!!!        2   2   5.715000E-2   293.00
+!**HS_LB   CalcCoefHS  'LoPlen-Vol-05'   No
+!**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
+!**HS_LBP  Int         0.90              0.90
+!**HS_RBP  Ext         0.90              0.90
+!**HS_LBS  6.9227132E-002     0.1022604      2.155961E-1
+!**HS_RBS  7.2322504E-002     2.155961E-1            2.155961E-1
+!**HS_FT   Off
