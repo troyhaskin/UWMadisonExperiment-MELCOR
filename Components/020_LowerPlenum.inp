@@ -5,118 +5,136 @@ CVH_INPUT
 
 !==================  Control Volume 2000  ==================
 !
-!   Straight Length:  24.917 in. - 6 in.  = 4.804918E-1 m
-!   Length from Bend: (2*pi/4)/2 * 6 in.  = 1.196947E-1 m
-!   Flow Area:        8.213057E-3 m^2
+!   Length from Bend: (2*pi/4)/2 * 6 in.  = 1.196947E-01 [m]
 !
 CV_ID  'LoPlen-Vol-00'  2000
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.367431E+00  0.000000E+000
-        2  -5.265171E+00  4.929366E-003
+        1  -5.367101E+00  +0.000000E+00
+        2  -5.265501E+00  +9.704032E-04
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  173280.6
 CV_PAD  333.16  
 CV_VEL  0.00  0.00
-CV_ARE  NoCF  8.213057E-3
+CV_ARE  NoCF  +8.107320E-03
 
 
 
 !==================  Control Volume 2001  ==================
 !
-!   Straight Length:  26.7511 in.            = 6.794779E-1 m
-!   Length from Bend: (2*pi/4)/2 * 2 * 6 in. = 2.393894E-1 m 
-!   Flow Area:        8.213057E-3 m^2
+!   Straight Length:  24.917[in.] - 2*6[in.]      = 3.280918E-01 [m]
+!   Length from Bend: 2*pi*6[in.] * 1/4 * 1/2 * 1 = 1.196947E-01 [m]
+!   Flow Area:        +8.107320E-03 [m^2]
 !
 CV_ID  'LoPlen-Vol-01'  2001
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.367431E+00  0.000000E+000
-        2  -5.265171E+00  7.546710E-003
+        1  -5.367101E+00  +0.000000E+00
+        2  -5.265501E+00  +3.630348E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  173280.6
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
-CV_ARE  NoCF  8.213057E-3
+CV_ARE  NoCF  +8.107320E-03
 
 
 
 !==================  Control Volume 2002  ==================
 !
-!   Straight Length:  5.9989 in.         = 1.523721E-1 m
-!   Length from Bend: (2*pi/4)/2 * 6 in. = 1.196947E-1 m
-!   Flow Area:        8.213057E-3 m^2
+!   Straight Length:  26.7511[in.]                = 6.794779E-01 [m]
+!   Length from Bend: 2*pi*6[in.] * 1/4 * 1/2 * 2 = 2.393894E-01 [m]
+!   Flow Area:        +8.107320E-03 [m^2]
 !
 CV_ID  'LoPlen-Vol-02'  2002
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.367431E+00  0.000000E+000
-        2  -5.265171E+00  2.234500E-003
+        1  -5.367101E+00  +0.000000E+00
+        2  -5.265501E+00  +7.449551E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  173280.6
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
-CV_ARE  NoCF  8.213057E-3
+CV_ARE  NoCF  +8.107320E-03
 
 
 
 !==================  Control Volume 2003  ==================
 !
-!   Straight Length:  25.4641/3 in.      = 2.155961E-1 m
-!   Flow Area:        8.213057E-3 m^2
+!   Straight Length:  11.9989[in.] - 6[in.]       = 1.523721E-01 [m]
+!   Length from Bend: 2*pi*6[in.] * 1/4 * 1/2 * 1 = 1.196947E-01 [m]
+!   Flow Area:        +8.107320E-03 [m^2]
 !
 CV_ID  'LoPlen-Vol-03'  2003
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.367431E+00  0.000000E+000
-        2  -5.265171E+00  1.770703E-003
+        1  -5.367101E+00  +0.000000E+00
+        2  -5.265501E+00  +2.205733E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  173280.6
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
-CV_ARE  NoCF  8.213057E-3
+CV_ARE  NoCF  +8.107320E-03
 
 
-!
+
 !==================  Control Volume 2004  ==================
 !
-!   Straight Length:  25.4641/3 in.      = 2.155961E-1 m
-!   Flow Area:        8.213057E-3 m^2
+!   Straight Length:  25.4641/3 in.      = 2.1559605E-01 [m]
+!   Flow Area:        +8.107320E-03 [m^2]
 !
 CV_ID  'LoPlen-Vol-04'  2004
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.367431E+00  0.000000E+000
-        2  -5.265171E+00  1.770703E-003
+        1  -5.367101E+00  +0.000000E+00
+        2  -5.265501E+00  +1.747906E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  173280.6
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
-CV_ARE  NoCF  8.213057E-3
+CV_ARE  NoCF  +8.107320E-03
 
 
-!
+
 !==================  Control Volume 2005  ==================
 !
-!   Straight Length:  25.4641/3 in.      = 2.155961E-1 m
-!   Flow Area:        8.213057E-3 m^2
+!   Straight Length:  25.4641/3 in.      = 2.1559605E-01 [m]
+!   Flow Area:        +8.107320E-03 [m^2]
 !
 CV_ID  'LoPlen-Vol-05'  2005
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.367431E+00  0.000000E+000
-        2  -5.265171E+00  1.770703E-003
+        1  -5.367101E+00  +0.000000E+00
+        2  -5.265501E+00  +1.747906E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  173280.6
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
-CV_ARE  NoCF  8.213057E-3
+CV_ARE  NoCF  +8.107320E-03
+
+
+
+!==================  Control Volume 2006  ==================
+!
+!   Straight Length:  25.4641/3 in.      = 2.1559605E-01 [m]
+!   Flow Area:        +8.107320E-03 [m^2]
+!
+CV_ID  'LoPlen-Vol-06'  2006
+CV_TYP  'RCCS'
+CV_VAT  2  !Number Elevation Volume
+        1  -5.367101E+00  +0.000000E+00
+        2  -5.265501E+00  +1.747906E-03
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16 
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.107320E-03
 
 
 
@@ -125,99 +143,84 @@ CV_ARE  NoCF  8.213057E-3
 FL_INPUT
 
 !==================  Flow Path 2000  ==================
-!
-! BEND
-!
-FL_ID  'LoPlen-Pth-0'  2000
-FL_FT  'LoPlen-Vol-00'  'LoPlen-Vol-01'  -5.316301E+00  -5.316301E+00
-FL_GEO  8.213057E-003  0.7595269  1.000000E+000
-FL_USL  0.39 0.39   ! 0.30  0.30
+FL_ID  'LoPlen-Pth-00'  2000
+FL_FT  'LoPlen-Vol-00'  'LoPlen-Vol-01'      -5.316301E+00 -5.316301E+00
+FL_GEO  +8.107320E-03  +2.837406E-01  +1.00  +5.080000E-02 +5.080000E-02
+FL_USL  0.00  0.00  
 FL_VEL  0.00  0.00
-FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_JSW  3 NoBubbleRise  NoBubbleRise
 FL_SEG  1
-        1  8.213057E-003  0.7595269  1.022604E-01
+        1  +8.107320E-03  +2.837406E-01  +1.01600E-01
 
         
 !==================  Flow Path 2001  ==================
 !
 ! BEND
 !
-FL_ID  'LoPlen-Pth-1'  2001
+FL_ID  'LoPlen-Pth-01'  2001
 FL_FT  'LoPlen-Vol-01'  'LoPlen-Vol-02'  -5.316301E+00  -5.316301E+00
-FL_GEO  8.213057E-003  0.59546705  1.000000E+000
+FL_GEO  +8.107320E-03  +6.833269E-01  1.000000E+000  5.080000E-02 5.080000E-02
 FL_USL  0.39 0.39   ! 0.30  0.30
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  8.213057E-003  0.59546705  1.022604E-01
+        1  +8.107320E-03  +6.833269E-01  1.01600E-01
 
         
 !==================  Flow Path 2002  ==================
-! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
-! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! L_eff for run:                       2.045208    m
-! LoPlen Length:                    +  0.24383145  m   
-! ---------------------------------------------------
-! TOTAL:                               2.28903945  m
+!   Bend
 !
-FL_ID  'LoPlen-Pth-2'  2002
+FL_ID  'LoPlen-Pth-02'  2002
 FL_FT  'LoPlen-Vol-02'  'LoPlen-Vol-03'  -5.316301E+00  -5.316301E+00
-FL_GEO  8.213057E-003  0.24383145  1.000000E+000
-FL_USL  0.20  0.20
+FL_GEO  +8.107320E-03  5.954671E-01  1.000000E+000  5.080000E-02 5.080000E-02
+FL_USL  0.39  0.39
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  8.213057E-003  0.24383145  1.022604E-01
-!        1  8.213057E-003  2.28903945  1.022604E-01
+        1  +8.107320E-03  5.954671E-01  1.01600E-01
 
         
 !==================  Flow Path 2003  ==================
-! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
-! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! L_eff for run:                       2.045208   m
-! LoPlen Length:                    +  0.2155961  m   
-! ---------------------------------------------------
-! TOTAL:                               2.2608041 m
-!
-FL_ID  'LoPlen-Pth-3'  2003
+FL_ID  'LoPlen-Pth-03'  2003
 FL_FT  'LoPlen-Vol-03'  'LoPlen-Vol-04'  -5.316301E+00  -5.316301E+00
-FL_GEO  8.213057E-003   0.2155961  1.000000E+000
-FL_USL  0.20  0.20
+FL_GEO  +8.107320E-03    +2.438314E-01  1.000000E+000  5.080000E-02 5.080000E-02
+FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  8.213057E-003  0.2155961  1.022604E-01
-!        1  8.213057E-003  2.2608041  1.022604E-01
+        1  +8.107320E-03  +2.438314E-01  1.01600E-01
 
-                
+
 !==================  Flow Path 2004  ==================
-! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
-! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! L_eff for run:                       2.045208    m
-! LoPlen Length:                    +  0.2155961   m   
-! ---------------------------------------------------
-! TOTAL:                               2.2608041 m
-!
-FL_ID  'LoPlen-Pth-4'  2004
+FL_ID  'LoPlen-Pth-04'  2004
 FL_FT  'LoPlen-Vol-04'  'LoPlen-Vol-05'  -5.316301E+00  -5.316301E+00
-FL_GEO  8.213057E-003   0.2155961  1.000000E+000
+FL_GEO  +8.107320E-03    +1.077980E-01 1.000000E+000  5.080000E-02 5.080000E-02
 FL_USL  0.20  0.20
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  8.213057E-003  0.2155961 1.022604E-01
-!       1  8.213057E-003  2.2608041 1.022604E-01
+        1  +8.107320E-03  +1.077980E-01 1.01600E-01
+
+
+!==================  Flow Path 2005  ==================
+!
+FL_ID  'LoPlen-Pth-05'  2005
+FL_FT  'LoPlen-Vol-05'  'LoPlen-Vol-06'  -5.316301E+00  -5.316301E+00
+FL_GEO  +8.107320E-03    +1.077980E-01 1.000000E+000  5.080000E-02 5.080000E-02
+FL_USL  0.20  0.20
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  +8.107320E-03  +1.077980E-01 1.01600E-01
 
 
 
 
 
 
-
-        
 !**HS_INPUT
 ! =========================================================================== !
 !                        Heat Structure Definitions                           !

@@ -13,8 +13,8 @@ CVH_INPUT
 CV_ID   'Cavity-Vol-00'  6000
 CV_TYP  'Cavity'
 CV_VAT  2 ! Number Elevation Volume
-        1   -4.812822E+00     0.000
-        2   -1.764822E+00     2.109952E-1
+        1   -4.809431E+00     0.000
+        2   -1.761431E+00     2.109952E-1
 CV_THR  NonEquil  NoFog       Active
 CV_PAS  Separate  OnlyAtm     SuperHeated
 CV_PTD  Pvol  101325.00
@@ -30,8 +30,8 @@ CV_NCG  2 PH2O  0.0
 CV_ID   'Cavity-Vol-01'  6001 
 CV_TYP  'Cavity'
 CV_VAT  2 ! Number Elevation Volume
-        1   -4.812822E+00     0.000
-        2   -4.558822E+00     4.257949E-2
+        1   -4.809431E+00     0.000
+        2   -4.555431E+00     4.257949E-2
 CV_THR  NonEquil  NoFog       Active
 CV_PAS  Separate  OnlyAtm     SuperHeated
 CV_PTD  Pvol  101325.00
@@ -49,8 +49,8 @@ CV_NCG  2 PH2O  0.0
 CV_ID   'Cavity-Vol-02'  6002
 CV_TYP  'Cavity'
 CV_VAT  2 ! Number Elevation Volume
-        1   -4.812822E+00     0.000
-        2   -1.764822E+00     2.109952E-1
+        1   -4.809431E+00     0.000
+        2   -1.761431E+00     2.109952E-1
 CV_THR  NonEquil  NoFog       Active
 CV_PAS  Separate  OnlyAtm     SuperHeated
 CV_PTD  Pvol  101325.00
@@ -68,7 +68,7 @@ CV_ID   'Cavity-Vol-03'  6003
 CV_TYP  'Cavity'
 CV_VAT  2 ! Number Elevation Volume
         1   -2.018822E+00     0.000
-        2   -1.764822E+00     4.257949E-2
+        2   -1.761431E+00     4.257949E-2
 CV_THR  NonEquil  NoFog       Active
 CV_PAS  Separate  OnlyAtm     SuperHeated
 CV_PTD  Pvol  101325.00
@@ -85,8 +85,8 @@ CV_NCG  2 PH2O  0.0
 CV_ID   'FakeCavity'  6004
 CV_TYP  'Cavity'
 CV_VAT  2 ! Number Elevation Volume
-        1   -4.812822E+00     0.000
-        2   -1.764822E+00     2.109952E-1
+        1   -4.809431E+00     0.000
+        2   -1.761431E+00     2.109952E-1
 CV_THR  NonEquil  NoFog       Time-Indep
 CV_PAS  Separate  OnlyAtm     SuperHeated
 CV_PTD  Pvol  101325.00
@@ -112,7 +112,7 @@ FL_INPUT
 !   L_char = 4 * A_flow / P_wet
 !
 FL_ID  'Cavity-Pth-00'  6000
-FL_FT  'Cavity-Vol-00'  'Cavity-Vol-01'  -4.558822E+00      -4.558822E+00
+FL_FT  'Cavity-Vol-00'  'Cavity-Vol-01' -4.555431E+00   -4.555431E+00
 FL_GEO  8.319379E-02  1.640523E+00  1.000
 FL_USL  0.00  0.00  0.00  0.00 
 FL_VEL  0.00  0.00
@@ -128,7 +128,7 @@ FL_SEG  1
 !   L_char = 4 * A_flow / P_wet
 !
 FL_ID  'Cavity-Pth-01'  6001
-FL_FT  'Cavity-Vol-01'  'Cavity-Vol-02'  -4.558822E+00      -4.558822E+00
+FL_FT  'Cavity-Vol-01'  'Cavity-Vol-02' -4.555431E+00   -4.555431E+00
 FL_GEO  8.319379E-02  1.640523E+00  1.000
 FL_USL  0.00  0.00  0.00  0.00 
 FL_VEL  0.00  0.00

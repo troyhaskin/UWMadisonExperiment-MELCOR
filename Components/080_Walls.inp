@@ -11,7 +11,7 @@ HS_INPUT
 HS_ID   'Wall-HS-01'  8001
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -4.812822       1.00
+HS_EOD  -4.809431       1.00
 HS_ND   3
         1   1   0.0000000   293.00   Carbon-Steel
         2   2   0.0015875   293.00   'MicroTherm'
@@ -32,7 +32,7 @@ HS_FT   Off
 HS_ID   'Wall-HS-02'  8002
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -4.812822       1.00
+HS_EOD  -4.809431       1.00
 HS_ND   3
        1   1   0.0000000   293.00   Carbon-Steel
        2   2   0.0015875   293.00   'MicroTherm'
@@ -53,7 +53,7 @@ HS_FT   Off
 HS_ID   'Wall-HS-03'  8003
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -1.764822E+00   0.00
+HS_EOD  -1.761431E+00   0.00
 HS_ND   3
        1   1   0.0000000   293.00   'ZirCal18'
        2   2   0.0508000   293.00   Carbon-Steel
@@ -74,7 +74,7 @@ HS_FT   Off
 HS_ID   'Wall-HS-04'  8004
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -4.8652095      0.00
+HS_EOD  -4.8618185      0.00
 HS_ND   3
        1   1   0.0000000   293.00   Carbon-Steel
        2   2   0.0015875   293.00   'ZirCal18'
@@ -95,7 +95,7 @@ HS_FT   Off
 HS_ID   'Wall-HS-05'  8005
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -4.812822       1.00
+HS_EOD  -4.809431       1.00
 HS_ND   3
        1   1   0.0000000   293.00   Carbon-Steel
        2   2   0.0015875   293.00   'ZirCal18'
