@@ -170,5 +170,7 @@ pip-log.txt
 *.xtnd
 *.rst
 *.can
+*.key
+*.dll
 
 
