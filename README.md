@@ -1,4 +1,5 @@
- UW-Madison RCCS Experiment: MELCOR Model
+ UW-Madison RCCS Experiment: 
+ MELCOR Model
 ==========================================
 
 **Maintainer:** 
@@ -16,4 +17,7 @@ The model is written for a safety analysis program called [`MELCOR`](http://melc
 
  To do List
 ------------
-* [ ] Documentation
+- [ ] Need to update the diameters to the experiment's true values
+- [ ] Need to adjust the height of the risers and chimney for two phase experiments
+- [ ] In-file documentation of components
+- [ ] Comprehensive calculation notebook (for Mr. Oh)
