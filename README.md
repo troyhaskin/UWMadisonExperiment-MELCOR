@@ -1,5 +1,4 @@
- UW-Madison RCCS Experiment: 
- MELCOR Model
+ UW-Madison RCCS Experiment: <br/> MELCOR Model
 ==========================================
 
 **Maintainer:** 
