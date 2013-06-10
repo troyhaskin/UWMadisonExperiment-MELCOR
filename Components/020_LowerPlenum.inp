@@ -154,31 +154,41 @@ FL_SEG  1
 
         
 !==================  Flow Path 2001  ==================
+! L_eff/D for Standard Tee Branch:  60 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! BEND
+! L_eff for tee:        +3.150108E+00 [m]
+! Physical Length:      +6.833269E-01 [m] 
+! ---------------------------------------------------
+! TOTAL:                +3.833435E+00 [m]
 !
 FL_ID  'LoPlen-Pth-01'  2001
 FL_FT  'LoPlen-Vol-01'  'LoPlen-Vol-02'  -5.316631E+00  -5.316631E+00
 FL_GEO  +8.213057E-03  +6.833269E-01  1.000000E+000  5.080000E-02 5.080000E-02
-FL_USL  0.39 0.39   ! 0.30  0.30
+FL_USL  0.00  0.00   ! 0.30  0.30
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +6.833269E-01  1.01600E-01
+        1  +8.213057E-03  +3.833435E+00  1.01600E-01
 
         
 !==================  Flow Path 2002  ==================
+! L_eff/D for Standard Tee Branch:  60 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-!   Bend
+! L_eff for tee:        +3.150108E+00 [m]
+! Physical Length:      +5.954671E-01 [m]  
+! ---------------------------------------------------
+! TOTAL:                               3.263622 m
 !
 FL_ID  'LoPlen-Pth-02'  2002
 FL_FT  'LoPlen-Vol-02'  'LoPlen-Vol-03'  -5.316631E+00  -5.316631E+00
 FL_GEO  +8.213057E-03  5.954671E-01  1.000000E+000  5.080000E-02 5.080000E-02
-FL_USL  0.39  0.39
+FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  5.954671E-01  1.01600E-01
+        1  +8.213057E-03  +3.745575E+00  1.01600E-01
 
         
 !==================  Flow Path 2003  ==================
@@ -194,27 +204,41 @@ FL_SEG  1
 
 
 !==================  Flow Path 2004  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:        +2.045208E+00 [m]
+! Physical Length:      +1.077980E-01 [m]
+! ---------------------------------------------------
+! TOTAL:                +2.153006E+00 [m]
 !
 FL_ID  'LoPlen-Pth-04'  2004
 FL_FT  'LoPlen-Vol-04'  'LoPlen-Vol-05'  -5.316631E+00  -5.316631E+00
 FL_GEO  +8.213057E-03    +1.077980E-01 1.000000E+000  5.080000E-02 5.080000E-02
-FL_USL  0.20  0.20
+FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +1.077980E-01 1.01600E-01
+        1  +8.213057E-03  +2.153006E+00 1.01600E-01
 
 
 !==================  Flow Path 2005  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:        +2.045208E+00 [m]
+! Physical Length:      +1.077980E-01 [m]
+! ---------------------------------------------------
+! TOTAL:                               2.28903945  m
 !
 FL_ID  'LoPlen-Pth-05'  2005
 FL_FT  'LoPlen-Vol-05'  'LoPlen-Vol-06'  -5.316631E+00  -5.316631E+00
 FL_GEO  +8.213057E-03    +1.077980E-01 1.000000E+000  5.080000E-02 5.080000E-02
-FL_USL  0.20  0.20
+FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +1.077980E-01 1.01600E-01
+        1  +8.213057E-03  +2.153006E+00 1.01600E-01
 
 
 

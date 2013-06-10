@@ -276,27 +276,41 @@ CV_ARE  NoCF  +8.213057E-03
 FL_INPUT
 
 !==================  Flow Path 4001  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:        +2.045208E+00 [m]
+! Physical Length:      +2.124464E-01 [m]
+! ---------------------------------------------------
+! TOTAL:                +2.257654E+00 [m]
 !
 FL_ID  'HiPlen-Pth-01' 4001
 FL_FT  'HiPlen-Vol-01'  'HiPlen-Vol-02'  +1.445212E-01  +1.445212E-01
 FL_GEO  +8.213057E-03  0.212446447  1.0
-FL_USL  0.20  0.20
+FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  0.212446447  0.1016
+        1  +8.213057E-03  +2.257654E+00  0.1016
 
         
 !==================  Flow Path 4002  ==================
+! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
+!
+! L_eff for run:        +2.045208E+00 [m]
+! Physical Length:      +2.124464E-01 [m]
+! ---------------------------------------------------
+! TOTAL:                +2.257654E+00 [m]
 !
 FL_ID  'HiPlen-Pth-02' 4002
 FL_FT  'HiPlen-Vol-02'  'HiPlen-Vol-03'  +1.445212E-01  +1.445212E-01
 FL_GEO  +8.213057E-03  0.212446447  1.0
-FL_USL  0.20  0.20
+FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  0.212446447  0.1016
+        1  +8.213057E-03  +2.257654E+00  0.1016
 
 
 !==================  Flow Path 4003  ==================
@@ -312,17 +326,22 @@ FL_SEG  1
 
 
 !==================  Flow Path 4004  ==================
+! L_eff/D for 90 degree elbow:  30 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! BEND
+! L_eff for bend:       +3.067812E+00 [m]
+! Physical Length:      +4.121020E-01 [m] 
+! ---------------------------------------------------
+! TOTAL:                +3.479914E+00 [m]
 !
 FL_ID  'HiPlen-Pth-04' 4004
 FL_FT  'HiPlen-Vol-04'  'HiPlen-Vol-05'  +1.445212E-01  +1.445212E-01
 FL_GEO  +8.213057E-03  +4.1210204E-01  1.000000E+000
-FL_USL  0.39  0.39 
+FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +4.1210204E-01  0.1016
+        1  +8.213057E-03  +3.479914E+00  0.1016
 
 
 !==================  Flow Path 4005  ==================
@@ -362,16 +381,21 @@ FL_SEG  1
 
 
 !==================  Flow Path 4008  ==================
+! L_eff/D for 90 degree elbow:  30 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-!   BEND
+! L_eff for bend:       +3.067812E+00 [m]
+! Physical Length:      +2.895572E-01 [m] 
+! ---------------------------------------------------
+! TOTAL:                +3.357369E+00 [m]
 !
 FL_ID  'HiPlen-Pth-08' 4008
 FL_FT  'HiPlen-Vol-08'  'HiPlen-Vol-09'  +1.956511E-01  +1.956511E-01
 FL_GEO  +8.213057E-03   +1.619370E-01  1.00   0.0508   0.111137
-FL_USL  0.39  0.39
+FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  +8.213057E-03  +2.895572E-01    0.1016
+        1  +8.213057E-03  +3.357369E+00    0.1016
 
 
 !==================  Flow Path 4009  ==================
@@ -397,16 +421,21 @@ FL_SEG  1
 
 
 !==================  Flow Path 4011  ==================
+! L_eff/D for 90 degree elbow:  30 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
+! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-!   BEND
+! L_eff for bend:       +3.067812E+00 [m]
+! Physical Length:      +2.506960E-01 [m] 
+! ---------------------------------------------------
+! TOTAL:                +3.318508E+00 [m]
 !
 FL_ID  'HiPlen-Pth-11' 4011
 FL_FT  'HiPlen-Vol-11'  'HiPlen-Vol-12' +8.100610E-01   +8.100610E-01
 FL_GEO  +8.213057E-03   +1.619370E-01  1.00  0.111137    0.0508
-FL_USL  0.39  0.39
+FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  +8.213057E-03  +2.5069604E-01    0.1016
+        1  +8.213057E-03  +3.318508E+00    0.1016
 
 
 !==================  Flow Path 4012  ==================
