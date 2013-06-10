@@ -18,10 +18,10 @@ AllowReplace
 !   Hydraulic Information:
 !       Diameter:      
 !           Type:   Constant
-!           Value:  +1.016E-01 [m]
+!           Value:  1.022604E-01 [m] (4.026 [in.])
 !       Flow Area: 
 !           Type:   Constant
-!           Value:  +8.107320E-03 [m^2]
+!           Value:  +8.213057E-03[m^2]
 !       Altitude:  
 !           Type:   Span
 !           Value:  [-5.265171E+00,0.00]
@@ -36,22 +36,23 @@ CVH_INPUT
 CV_ID  'Downer-Vol-00'  1000
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.000000E-001  0.000000E+000
-        2   0.000000E+000  4.053660E-003
+        1  -5.000000E-01  0.000000E+00
+        2   0.000000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  121819.6
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
+
 !
 !==================  Control Volume 1001  ==================
 CV_ID  'Downer-Vol-01'  1001
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -1.000000E+000  0.000000E+000
-        2  -5.000000E-001  4.053660E-003
+        1  -1.000000E+00  0.000000E+00
+        2  -5.000000E-01  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  126706.5
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -60,10 +61,10 @@ CV_VEL  0.00  0.00
 CV_ID  'Downer-Vol-02'  1002
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -1.500000E+000  0.000000E+000
-        2  -1.000000E+000  4.053660E-003
+        1  -1.500000E+00  0.000000E+00
+        2  -1.000000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  131593.4
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -72,10 +73,10 @@ CV_VEL  0.00  0.00
 CV_ID  'Downer-Vol-03'  1003
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -2.000000E+000  0.000000E+000
-        2  -1.500000E+000  4.053660E-003
+        1  -2.000000E+00  0.000000E+00
+        2  -1.500000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  136480.3
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -84,10 +85,10 @@ CV_VEL  0.00  0.00
 CV_ID  'Downer-Vol-04'  1004
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -2.500000E+000  0.000000E+000
-        2  -2.000000E+000  4.053660E-003
+        1  -2.500000E+00  0.000000E+00
+        2  -2.000000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  141367.2
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -96,10 +97,10 @@ CV_VEL  0.00  0.00
 CV_ID  'Downer-Vol-05'  1005
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -3.000000E+000  0.000000E+000
-        2  -2.500000E+000  4.053660E-003
+        1  -3.000000E+00  0.000000E+00
+        2  -2.500000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  146254.1
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -108,10 +109,10 @@ CV_VEL  0.00  0.00
 CV_ID  'Downer-Vol-06'  1006
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -3.500000E+000  0.000000E+000
-        2  -3.000000E+000  4.053660E-003
+        1  -3.500000E+00  0.000000E+00
+        2  -3.000000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  151141.0
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -120,10 +121,10 @@ CV_VEL  0.00  0.00
 CV_ID  'Downer-Vol-07'  1007
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -4.000000E+000  0.000000E+000
-        2  -3.500000E+000  4.053660E-003
+        1  -4.000000E+00  0.000000E+00
+        2  -3.500000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  156028.0
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -132,10 +133,10 @@ CV_VEL  0.00  0.00
 CV_ID  'Downer-Vol-08'  1008
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -4.500000E+000  0.000000E+000
-        2  -4.000000E+000  4.053660E-003
+        1  -4.500000E+00  0.000000E+00
+        2  -4.000000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  160914.9
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -145,9 +146,9 @@ CV_ID  'Downer-Vol-09'  1009
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
         1  -5.000000E+00  0.000000E+00
-        2  -4.500000E+00  4.053660E-03
+        2  -4.500000E+00  4.106529E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  165801.9
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -160,9 +161,9 @@ CV_ID   'Downer-Vol-10'  1010
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
         1  -5.170251E+00  +0.000000E+00 
-        2  -5.000000E+00  +1.380282E-03
+        2  -5.000000E+00  +1.398284E-03
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  170688.8
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -178,9 +179,9 @@ CV_ID   'Downer-Vol-11'  1011
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
         1  -5.265501E+00  +0.000000E+00 
-        2  -5.170251E+00  +9.704032E-04
+        2  -5.170251E+00  +9.830594E-04
 CV_THR  NonEquil  NoFog      Active
-CV_PAS  Separate  OnlyPool      Subcooled
+CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  170688.8
 CV_PAD 333.16 
 CV_VEL  0.00  0.00
@@ -194,113 +195,102 @@ FL_INPUT
 !
 !==================  Flow Path 1000  ==================
 FL_ID  'Downer-Pth-00'  1000
-FL_FT  'Downer-Vol-00'  'Downer-Vol-01'  -5.000000E-001  -5.000000E-001
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-00'  'Downer-Vol-01'  -5.000000E-01  -5.000000E-01
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1001  ==================
 FL_ID  'Downer-Pth-01'  1001
-FL_FT  'Downer-Vol-01'  'Downer-Vol-02'  -1.000000E+000  -1.000000E+000
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-01'  'Downer-Vol-02'  -1.000000E+00  -1.000000E+00
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1002  ==================
 FL_ID  'Downer-Pth-02'  1002
-FL_FT  'Downer-Vol-02'  'Downer-Vol-03'  -1.500000E+000  -1.500000E+000
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-02'  'Downer-Vol-03'  -1.500000E+00  -1.500000E+00
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1003  ==================
 FL_ID  'Downer-Pth-03'  1003
-FL_FT  'Downer-Vol-03'  'Downer-Vol-04'  -2.000000E+000  -2.000000E+000
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-03'  'Downer-Vol-04'  -2.000000E+00  -2.000000E+00
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1004  ==================
 FL_ID  'Downer-Pth-04'  1004
-FL_FT  'Downer-Vol-04'  'Downer-Vol-05'  -2.500000E+000  -2.500000E+000
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-04'  'Downer-Vol-05'  -2.500000E+00  -2.500000E+00
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1005  ==================
 FL_ID  'Downer-Pth-05'  1005
-FL_FT  'Downer-Vol-05'  'Downer-Vol-06'  -3.000000E+000  -3.000000E+000
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-05'  'Downer-Vol-06'  -3.000000E+00  -3.000000E+00
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1006  ==================
 FL_ID  'Downer-Pth-06'  1006
-FL_FT  'Downer-Vol-06'  'Downer-Vol-07'  -3.500000E+000  -3.500000E+000
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-06'  'Downer-Vol-07'  -3.500000E+00  -3.500000E+00
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1007  ==================
 FL_ID  'Downer-Pth-07'  1007
-FL_FT  'Downer-Vol-07'  'Downer-Vol-08'  -4.000000E+000  -4.000000E+000
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-07'  'Downer-Vol-08'  -4.000000E+00  -4.000000E+00
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1008  ==================
 FL_ID  'Downer-Pth-08'  1008
-FL_FT  'Downer-Vol-08'  'Downer-Vol-09'  -4.500000E+000  -4.500000E+000
-FL_GEO  8.213057E-003  5.000000E-001  1.000000E+000   0.25    0.25
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-08'  'Downer-Vol-09'  -4.500000E+00  -4.500000E+00
+FL_GEO  8.213057E-03  5.000000E-01  1.000000E+00   0.25    0.25
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  5.000000E-001  0.1022604
+        1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1009  ==================
 FL_ID  'Downer-Pth-09'  1009
-FL_FT  'Downer-Vol-09'  'Downer-Vol-10'  -5.000000E+000  -5.000000E+000
-FL_GEO  8.213057E-003  3.319505E-001  1.000000E+000   0.25    8.512565E-02
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_FT  'Downer-Vol-09'  'Downer-Vol-10'  -5.000000E+00  -5.000000E+00
+FL_GEO  8.213057E-03  3.319505E-01  1.000000E+00   0.25    8.512565E-02
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  3.3512565E-01  0.1022604
+        1  8.213057E-03  3.3512565E-01  0.1022604
 !
 !==================  Flow Path 1010  ==================
 FL_ID  'Downer-Pth-10' 1010
 FL_FT  'Downer-Vol-10'  'Downer-Vol-11'  -5.170251E+00  -5.170251E+00
-FL_GEO  8.213057E-003  3.319505E-001  1.000000E+000   8.512565E-02    4.762500E-02
-!FL_USL  0.00  0.00  0.00  0.00 
+FL_GEO  8.213057E-03  3.319505E-01  1.000000E+00   8.512565E-02    4.762500E-02
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-003  1.449730E-01  0.1022604
+        1  8.213057E-03  1.449730E-01  0.1022604
 
 
 
@@ -313,160 +303,160 @@ FL_SEG  1
 !**HS_ID   'Downer-HS-00'  1000
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -5.000000E-001       1.00
+!**HS_EOD  -5.000000E-01       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-00'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604         5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604         5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1001  ==================
 !**HS_ID   'Downer-HS-01'  1001
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -1.000000E+000       1.00
+!**HS_EOD  -1.000000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-01'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604         5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604         5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1002  ==================
 !**HS_ID   'Downer-HS-02'  1002
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -1.500000E+000       1.00
+!**HS_EOD  -1.500000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-02'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604      5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604      5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1003  ==================
 !**HS_ID   'Downer-HS-03'  1003
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -2.000000E+000       1.00
+!**HS_EOD  -2.000000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-03'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604      5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604      5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1004  ==================
 !**HS_ID   'Downer-HS-04'  1004
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -2.500000E+000       1.00
+!**HS_EOD  -2.500000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-04'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604      5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604      5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1005  ==================
 !**HS_ID   'Downer-HS-05'  1005
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -3.000000E+000       1.00
+!**HS_EOD  -3.000000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-05'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604      5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604      5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1006  ==================
 !**HS_ID   'Downer-HS-06'  1006
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -3.500000E+000       1.00
+!**HS_EOD  -3.500000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-06'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604      5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604      5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1007  ==================
 !**HS_ID   'Downer-HS-07'  1007
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -4.000000E+000       1.00
+!**HS_EOD  -4.000000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-07'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604      5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604      5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1008  ==================
 !**HS_ID   'Downer-HS-08'  1008
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -4.500000E+000       1.00
+!**HS_EOD  -4.500000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-08'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604      5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604      5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 !==================  Heat Structure 1009  ==================
 !**HS_ID   'Downer-HS-09'  1009
 !**HS_SRC  No
 !**HS_GD   Cylindrical     No
-!**HS_EOD  -5.000000E+000       1.00
+!**HS_EOD  -5.000000E+00       1.00
 !**HS_ND   2
-!!!        1   1   5.113E-002   293.00   CARBON-STEEL
-!!!        2   2   5.57022E-002   293.00
+!!!        1   1   5.113E-02   293.00   CARBON-STEEL
+!!!        2   2   5.57022E-02   293.00
 !**HS_LB   CalcCoefHS  'Downer-Vol-09'   No
 !**HS_RB   Symmetry  !$CalcCoefHS  'Atmosphere'   No    
 !**HS_LBP  Int         0.90              0.90
 !**HS_RBP  Ext         0.90              0.90
-!**HS_LBS  1.606302E-001     0.1022604      5.000000E-001
-!**HS_RBS  1.749936E-001     5.000000E-001            5.000000E-001
+!**HS_LBS  1.606302E-01     0.1022604      5.000000E-01
+!**HS_RBS  1.749936E-01     5.000000E-01            5.000000E-01
 !**HS_FT   Off
 
 

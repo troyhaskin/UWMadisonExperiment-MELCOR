@@ -26,7 +26,7 @@ CV_VAT  2 ! Number Elevation Volume
         2   3.0   1.0
 CV_THR  NonEquil  NoFog    Time-Indep
 CV_PAS  Separate  OnlyAtm  SuperHeated
-CV_PTD  Pvol  101125.0
+CV_PTD  Pvol  101325.0
 CV_AAD  Tatm  293.00
 CV_NCG  2 PH2O  0.0
         1 'N2'  0.8
