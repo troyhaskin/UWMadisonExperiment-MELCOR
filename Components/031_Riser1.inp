@@ -23,7 +23,7 @@ AllowReplace
 !           Value:  +2.164902E-03[m^2]
 !       Altitude:  
 !           Type:   Span
-!           Value:  [-5.265501E+00,+9.372120E-02]
+!           Value:  [-5.156022E+00,+1.532384E-01]
 !
 
 
@@ -33,13 +33,13 @@ CVH_INPUT
 ! =========================================================================== !
 
 !==================  Control Volume 3100  ==================
-!   Length prior to heating:  0.4560697 [m]
+!   Length prior to heating:    3.96494000E-01  [m]
 !
 CV_ID   'Riser1-Vol-00'  3100
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.265501E+00    +0.000000E+00
-        2  -4.809431E+00    +9.873463E-04
+        1  -5.156022E+00    +0.000000E+00
+        2  -4.759528E+00    +8.583707E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  169322.8
@@ -55,15 +55,15 @@ CV_VEL  0.00  0.00
 ! ******************************************************** !
 !                                                                         
 !   Height:     0.3048       m
-!   Flow Area:  2.02682992E-03 [m^2]
+!   Flow Area:  +2.164902E-03 [m^2]
 !
 
 !==================  Control Volume 3101  ==================
 CV_ID   'Riser1-Vol-01'  3101
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -4.809431E+00   +0.000000E+00
-        2  -4.504631E+00   +6.598622E-04
+        1  -4.759528E+00   +0.000000E+00
+        2  -4.454728E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  164435.8
@@ -77,8 +77,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-02'  3102
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -4.504631E+00   +0.000000E+00
-        2  -4.199831E+00   +6.598622E-04
+        1  -4.454728E+00   +0.000000E+00
+        2  -4.149928E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  159548.8
@@ -92,8 +92,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-03'  3103
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -4.199831E+00   +0.000000E+00
-        2  -3.895031E+00   +6.598622E-04
+        1  -4.149928E+00   +0.000000E+00
+        2  -3.845128E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  154661.9
@@ -107,8 +107,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-04'  3104
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -3.895031E+00   +0.000000E+00
-        2  -3.590231E+00   +6.598622E-04
+        1  -3.845128E+00   +0.000000E+00
+        2  -3.540328E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -121,8 +121,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-05'  3105
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -3.590231E+00   +0.000000E+00 
-        2  -3.285431E+00   +6.598622E-04
+        1  -3.540328E+00   +0.000000E+00 
+        2  -3.235528E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -135,8 +135,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-06'  3106
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -3.285431E+00   +0.000000E+00 
-        2  -2.980631E+00   +6.598622E-04
+        1  -3.235528E+00   +0.000000E+00 
+        2  -2.930728E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -149,8 +149,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-07'  3107
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -2.980631E+00   +0.000000E+00 
-        2  -2.675831E+00   +6.598622E-04
+        1  -2.930728E+00   +0.000000E+00 
+        2  -2.625928E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -163,8 +163,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-08'  3108
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -2.675831E+00   +0.000000E+00 
-        2  -2.371031E+00   +6.598622E-04
+        1  -2.625928E+00   +0.000000E+00 
+        2  -2.321128E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -177,8 +177,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-09'  3109
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -2.371031E+00   +0.000000E+00 
-        2  -2.066231E+00   +6.598622E-04
+        1  -2.321128E+00   +0.000000E+00 
+        2  -2.016328E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -191,8 +191,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-10'  3110
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -2.066231E+00   +0.000000E+00 
-        2  -1.761431E+00   +6.598622E-04
+        1  -2.016328E+00   +0.000000E+00 
+        2  -1.711528E+00   +6.598622E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -215,8 +215,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-11'  3111
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -1.761431E+00   +0.000000E+00 
-        2  -1.261431E+00   +1.082451E-03
+        1  -1.711528E+00   +0.000000E+00 
+        2  -1.211528E+00   +1.082451E-03
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -228,8 +228,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-12'  3112
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -1.261431E+00   +0.000000E+00 
-        2  -7.614310E-01   +1.082451E-03
+        1  -1.211528E+00   +0.000000E+00 
+        2  -7.115280E-01   +1.082451E-03
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -241,8 +241,8 @@ CV_VEL    0.00  0.00
 CV_ID   'Riser1-Vol-13'  3113
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -7.614310E-01   +0.000000E+00 
-        2  -2.614310E-01   +1.082451E-03
+        1  -7.115280E-01   +0.000000E+00 
+        2  -2.115280E-01   +1.082451E-03
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  151448.2
@@ -251,11 +251,11 @@ CV_VEL    0.00  0.00
 
 
 !==================  Control Volume 3114  ==================
-CV_ID   'Riser1-Vol-14'  3114
+CV_ID   'Riser1-Vol-14'  3114 
 CV_TYP  'RCCS'
 CV_VAT  2  !Number Elevation Volume
-        1  -2.614310E-01   +0.000000E+00 
-        2  +9.372120E-02   +7.688698E-04
+        1  -2.115280E-01   +0.000000E+00 
+        2  +1.532384E-01   +7.896836E-04
 CV_THR  NonEquil  NoFog     Active
 CV_PAS  Separate  OnlyPool  Subcooled
 CV_PTD  Pvol  120906.9
@@ -272,19 +272,35 @@ FL_INPUT
 ! =========================================================================== !
 
 !==================  Flow Path 3100  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.964940E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.506470E-01       [m]
+!
 FL_ID  'Riser1-Pth-00'  3100
-FL_FT  'Riser1-Vol-00'  'Riser1-Vol-01'  -4.809431E+00  -4.809431E+00
+FL_FT  'Riser1-Vol-00'  'Riser1-Vol-01'  -4.759528E+00  -4.759528E+00
 FL_MFX  2.164902E-03   2.164902E-03 No 'Riser1-Pth-01'
-FL_GEO  2.164902E-03   3.804349E-01   1.00     2.280349E-01    1.524000E-01
+FL_GEO  2.164902E-03   3.506470E-01   1.00   +1.982470E-01  1.524000E-01
 FL_USL  0.00  0.00  0.00  0.00 
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  2.164902E-03  3.804349E-01  5.080000E-02
+        1  2.164902E-03  3.506470E-01  5.080000E-02
 
 
 !==================  Flow Path 3101  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-01'  3101
-FL_FT  'Riser1-Vol-01'  'Riser1-Vol-02'  -4.504631E+00  -4.504631E+00
+FL_FT  'Riser1-Vol-01'  'Riser1-Vol-02'  -4.454728E+00  -4.454728E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-00' 'Riser1-Pth-02'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -294,8 +310,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3102  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-02'  3102
-FL_FT  'Riser1-Vol-02'  'Riser1-Vol-03'  -4.199831E+00  -4.199831E+00
+FL_FT  'Riser1-Vol-02'  'Riser1-Vol-03'  -4.149928E+00  -4.149928E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-01' 'Riser1-Pth-03'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -305,8 +329,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3103  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-03'  3103
-FL_FT  'Riser1-Vol-03'  'Riser1-Vol-04'  -3.895031E+00  -3.895031E+00
+FL_FT  'Riser1-Vol-03'  'Riser1-Vol-04'  -3.845128E+00  -3.845128E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-02' 'Riser1-Pth-04'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -316,8 +348,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3104  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-04'  3104
-FL_FT  'Riser1-Vol-04'  'Riser1-Vol-05'  -3.590231E+00  -3.590231E+00
+FL_FT  'Riser1-Vol-04'  'Riser1-Vol-05'  -3.540328E+00  -3.540328E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-03' 'Riser1-Pth-05'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -327,8 +367,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3105  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-05'  3105
-FL_FT  'Riser1-Vol-05'  'Riser1-Vol-06'  -3.285431E+00  -3.285431E+00
+FL_FT  'Riser1-Vol-05'  'Riser1-Vol-06'  -3.235528E+00  -3.235528E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-04' 'Riser1-Pth-06'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -338,8 +386,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3106  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-06'  3106
-FL_FT  'Riser1-Vol-06'  'Riser1-Vol-07'  -2.980631E+00  -2.980631E+00
+FL_FT  'Riser1-Vol-06'  'Riser1-Vol-07'  -2.930728E+00  -2.930728E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-05' 'Riser1-Pth-07'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -349,8 +405,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3107  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-07'  3107
-FL_FT  'Riser1-Vol-07'  'Riser1-Vol-08'  -2.675831E+00  -2.675831E+00
+FL_FT  'Riser1-Vol-07'  'Riser1-Vol-08'  -2.625928E+00  -2.625928E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-06' 'Riser1-Pth-08'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -360,8 +424,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3108  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-08'  3108
-FL_FT  'Riser1-Vol-08'  'Riser1-Vol-09'  -2.371031E+00  -2.371031E+00
+FL_FT  'Riser1-Vol-08'  'Riser1-Vol-09'  -2.321128E+00  -2.321128E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-07' 'Riser1-Pth-09'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -371,8 +443,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3109  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +3.048000E-01 / 2   [m]
+!       Total:          +3.048000E-01       [m]
+!
 FL_ID  'Riser1-Pth-09'  3109
-FL_FT  'Riser1-Vol-09'  'Riser1-Vol-10'  -2.066231E+00  -2.066231E+00
+FL_FT  'Riser1-Vol-09'  'Riser1-Vol-10'  -2.016328E+00  -2.016328E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-08' 'Riser1-Pth-10'
 FL_GEO  2.164902E-03  0.3048  1.00     1.524000E-01    1.524000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -390,8 +470,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3110  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +5.000000E-01 / 2   [m]
+!       Total:          +4.024000E-01       [m]
+!
 FL_ID  'Riser1-Pth-10'  3110
-FL_FT  'Riser1-Vol-10'  'Riser1-Vol-11'  -1.761431E+00  -1.761431E+00
+FL_FT  'Riser1-Vol-10'  'Riser1-Vol-11'  -1.711528E+00  -1.711528E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-09' 'Riser1-Pth-11'
 FL_GEO  2.164902E-03  4.024000E-01  1.00   1.524000E-01    2.500000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -401,8 +489,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3111  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +5.000000E-01 / 2   [m]
+!       Total:          +4.024000E-01       [m]
+!
 FL_ID  'Riser1-Pth-11'  3111
-FL_FT  'Riser1-Vol-11'  'Riser1-Vol-12'  -1.261431E+00  -1.261431E+00
+FL_FT  'Riser1-Vol-11'  'Riser1-Vol-12'  -1.211528E+00  -1.211528E+00
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-10' 'Riser1-Pth-12'
 FL_GEO  2.164902E-03  0.50  1.00   2.500000E-01    2.500000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -412,8 +508,16 @@ FL_SEG  1
 
 
 !==================  Flow Path 3112  ==================
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +3.048000E-01 / 2   [m]
+!       To   Volume:    +5.000000E-01 / 2   [m]
+!       Total:          +4.024000E-01       [m]
+!
 FL_ID  'Riser1-Pth-12'  3112
-FL_FT  'Riser1-Vol-12'  'Riser1-Vol-13'  -7.614310E-01  -7.614310E-01
+FL_FT  'Riser1-Vol-12'  'Riser1-Vol-13'  -7.115280E-01  -7.115280E-01
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-11' 'Riser1-Pth-13'
 FL_GEO  2.164902E-03  0.50  1.00   2.500000E-01    2.500000E-01
 FL_USL  0.00  0.00    0.00    0.00 
@@ -423,14 +527,22 @@ FL_SEG  1
 
 
 !==================  Flow Path 3113  ==================
-FL_ID  'Riser1-Pth-13'  3113
-FL_FT  'Riser1-Vol-13'  'Riser1-Vol-14' -2.614310E-01   -2.614310E-01
+!
+!   Form losses:    None
+!
+!   Length:
+!       From Volume:    +5.000000E-01 / 2   [m]
+!       To   Volume:    +3.647664E-01 / 2   [m]
+!       Total:          +4.323832E-01       [m]
+!
+FL_ID  'Riser1-Pth-13'  3113 
+FL_FT  'Riser1-Vol-13'  'Riser1-Vol-14' -2.115280E-01   -2.115280E-01
 FL_MFX  2.164902E-03 2.164902E-03 'Riser1-Pth-12' No
-FL_GEO  2.164902E-03  4.275761E-01 1.00   2.500000E-01  1.775761E-01
+FL_GEO  2.164902E-03  4.323832E-01 1.00   2.500000E-01  +1.823832E-01
 FL_USL  0.00  0.00    0.00    0.00 
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  2.164902E-03  4.275761E-01 5.080000E-02
+        1  2.164902E-03  4.323832E-01 5.080000E-02
 
 
 
@@ -444,7 +556,7 @@ HS_INPUT
 HS_ID   'Riser1-HS-01'  3101
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -4.809431       1.00
+HS_EOD  -4.759528       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -463,7 +575,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-02'  3102
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -4.504631       1.00
+HS_EOD  -4.454728       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -482,7 +594,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-03'  3103
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -4.199831       1.00
+HS_EOD  -4.149928       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -501,7 +613,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-04'  3104
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -3.895031       1.00
+HS_EOD  -3.845128       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -520,7 +632,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-05'  3105
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -3.590231       1.00
+HS_EOD  -3.540328       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -539,7 +651,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-06'  3106
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -3.285431       1.00
+HS_EOD  -3.235528       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -558,7 +670,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-07'  3107
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -2.980631       1.00
+HS_EOD  -2.930728       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -577,7 +689,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-08'  3108
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -2.675831       1.00
+HS_EOD  -2.625928       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -596,7 +708,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-09'  3109
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -2.371031       1.00
+HS_EOD  -2.321128       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00
@@ -615,7 +727,7 @@ HS_FT   Off
 HS_ID   'Riser1-HS-10'  3110
 HS_SRC  No
 HS_GD   Rectangular     No
-HS_EOD  -2.066231       1.00
+HS_EOD  -2.016328       1.00
 HS_ND   2
         1   1   0.000000E+0   293.00   Stainless-Steel-304
         2   2   6.518442E-3   293.00

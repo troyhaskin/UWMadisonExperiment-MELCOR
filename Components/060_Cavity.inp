@@ -14,7 +14,7 @@ CV_ID   'Cavity-Vol-00'  6000
 CV_TYP  'Cavity'
 CV_VAT  2 ! Number Elevation Volume
         1   -4.809431E+00     0.000
-        2   -1.761431E+00     2.109952E-1
+        2   -1.711528E+00     2.109952E-1
 CV_THR  NonEquil  NoFog       Active
 CV_PAS  Separate  OnlyAtm     SuperHeated
 CV_PTD  Pvol  101325.00

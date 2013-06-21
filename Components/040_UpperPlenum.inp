@@ -4,271 +4,683 @@ CVH_INPUT
 
 !==================  Control Volume 4001  ==================
 !
-!   Pipe Diameter:      0.1016 [m]    = 4 in.
-!   Straight Length:    25.0921/3 in. = 0.212446447 m
-!   Flow Area:          +8.213057E-03
+!   Tee-component:
+!       Length:     L   = +8.252211E+00 [in.]     <====== Estimated from DDL Thesis (pg. 196)
+!                       = +2.096061E-01 [m]
+!       Volume      V   = +1.580000E+02 [in.^3]   <====== From CAD Model directly
+!                       = +2.589156E-03 [m^3]
+!       Flow Area:  Af  = V/L
+!                       = +1.914639E+01 [in.^2]
+!                       = +1.235248E-02 [m^2]
 !
-CV_ID  'HiPlen-Vol-01'  4001
-CV_TYP  'RCCS'
+!   Hemi-spherical cap:
+!       Length:     R   = +2.013000E+00 [in.]     <====== Estimated from DDL Thesis (pg. 196)
+!                       = +5.113020E-02 [m]
+!       Flow Area:  Af  = -----
+!       Volume      V   = 4*pi/3*R^3 * 1/2
+!                       = +1.708401E+01 [in.^3]
+!                       = +2.799568E-04 [m^3]
+!
+!   Totals:
+!       Length:     +2.096061E-01   [m]     <====== Ignores cap
+!       Flow Area:  +8.213057E-03   [m^2]
+!       Volume:     +2.869113E-03   [m^3]
+!
+!   Exceptions:
+!       Elevations:
+!           Note:   The tee-components are special parts that are being treated with care.
+!                   The volume for the tee comes from the computer model used for the drawings
+!                   in Darius's thesis.  The tees also have an odd curve upward to the flanges
+!                   that connect the lower piping to the riser tubes; this curvature is taken
+!                   into account by these elevations.  The flow area is taken as the rest of
+!                   Schedule 40 piping for some simplicity (and any adjustment would be 
+!                   extremely arbitrary).
+!           Bottom: +1.532384E-01 [m]
+!           Top:    +3.057906E-01 [m]
+!
+CV_ID   'HiPlen-Vol-01'  4001
+CV_TYP  'Horz:Misc'
 CV_VAT  2  !Number Elevation Volume
-        1  +9.372120E-02  +0.000000E+00
-        2  +1.959816E-01  +1.744835E-03
+        1  +1.532384E-01  +0.000000E+00
+        2  +3.057906E-01  +2.869113E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4002  ==================
 !
-!   Straight Length:    25.0921/3 in. = 0.212446447 m
-!   Flow Area:          +8.213057E-03
+!   Tee-component:
+!       Length:     L   = +8.252211E+00 [in.]     <====== Estimated from DDL Thesis (pg. 196)
+!                       = +2.096061E-01 [m]
+!       Volume      V   = +1.580000E+02 [in.^3]   <====== From CAD Model directly
+!                       = +2.589156E-03 [m^3]
+!       Flow Area:  Af  = V/L
+!                       = +1.914639E+01 [in.^2]
+!                       = +1.235248E-02 [m^2]
 !
-CV_ID  'HiPlen-Vol-02'  4002
-CV_TYP  'RCCS'
+!   Collar (bridges tee-components):
+!       Length:     L   = +1.203447E+00 [in.]     <====== Estimated from DDL Thesis (pg. 196)
+!                       = +3.056756E-02 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01 [in.]
+!                       = +8.213057E-03 [m^2]
+!       Volume      V   = +1.532020E+01 [in.^3]   <====== From CAD Model directly
+!                       = +2.510531E-04 [m^3]
+!
+!   Totals:
+!       Length:     +2.401737E-01   [m]
+!       Flow Area:  +8.213057E-03   [m^2]
+!       Volume:     +2.840209E-03   [m^3]
+!
+!   Exceptions:
+!       Elevations:
+!           Note:   The tee-components are special parts that are being treated with care.
+!                   The volume for the tee comes from the computer model used for the drawings
+!                   in Darius's thesis.  The tees also have an odd curve upward to the flanges
+!                   that connect the lower piping to the riser tubes; this curvature is taken
+!                   into account by these elevations.  The flow area is taken as the rest of
+!                   Schedule 40 piping for some simplicity (and any adjustment would be 
+!                   extremely arbitrary).
+!           Bottom: +1.532384E-01 [m]
+!           Top:    +3.057906E-01 [m]
+!
+CV_ID   'HiPlen-Vol-02'  4002
+CV_TYP  'Horz:Misc'
 CV_VAT  2  !Number Elevation Volume
-        1  +9.372120E-02  +0.000000E+00
-        2  +1.959816E-01  +1.744835E-03
+        1  +1.532384E-01  +0.000000E+00
+        2  +3.057906E-01  +2.840209E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4003  ==================
 !
-!   Straight Length:    25.0921/3 in. = 0.212446447 m
-!   Flow Area:          +8.213057E-03
+!   Tee-component:
+!       Length:     L   = +8.252211E+00 [in.]     <====== Estimated from DDL Thesis (pg. 196)
+!                       = +2.096061E-01 [m]
+!       Volume      V   = +1.580000E+02 [in.^3]   <====== From CAD Model directly
+!                       = +2.589156E-03 [m^3]
+!       Flow Area:  Af  = V/L
+!                       = +1.914639E+01 [in.^2]
+!                       = +1.235248E-02 [m^2]
 !
-CV_ID  'HiPlen-Vol-03'  4003
-CV_TYP  'RCCS'
+!   Collar (bridges tee-components):
+!       Length:     L   = +1.203447E+00 [in.]     <====== Estimated from DDL Thesis (pg. 196)
+!                       = +3.056756E-02 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01 [in.]
+!                       = +8.213057E-03 [m^2]
+!       Volume      V   = +1.532020E+01 [in.^3]   <====== From CAD Model directly
+!                       = +2.510531E-04 [m^3]
+!
+!   Totals:
+!       Length:     +2.401737E-01   [m]
+!       Flow Area:  +8.213057E-03   [m^2]
+!       Volume:     +2.840209E-03   [m^3]
+!
+!   Exceptions:
+!       Elevations:
+!           Note:   The tee-components are special parts that are being treated with care.
+!                   The volume for the tee comes from the computer model used for the drawings
+!                   in Darius's thesis.  The tees also have an odd curve upward to the flanges
+!                   that connect the lower piping to the riser tubes; this curvature is taken
+!                   into account by these elevations.  The flow area is taken as the rest of
+!                   Schedule 40 piping for some simplicity (and any adjustment would be 
+!                   extremely arbitrary).
+!           Bottom: +1.532384E-01 [m]
+!           Top:    +3.057906E-01 [m]
+!
+CV_ID   'HiPlen-Vol-03'  4003
+CV_TYP  'Horz:Misc'
 CV_VAT  2  !Number Elevation Volume
-        1  +9.372120E-02  +0.000000E+00
-        2  +1.959816E-01  +1.744835E-03
+        1  +1.532384E-01  +0.000000E+00
+        2  +3.057906E-01  +2.840209E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4004  ==================
 !
-!   Straight Length:  22.3367 in. - 6 in.         = 0.41495218    [m]
-!   Length From Bend: 2*pi*6[in.] * 1/4 * 1/2 * 1 = 1.196947E-1   [m]
-!   Total:            5.3464688E-01 [m]
-!   Flow Area:        8.213057E-3  [m^2]
+!   Straight run:
+!       Length:     L   = (18.432[in.] + 3[in.] - 6[in.])/3
+!                       = +5.144000E+00 [in.]
+!                       = +1.306576E-01 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = Af * L
+!                       = +1.073098E-03 [m^3]
 !
-CV_ID  'HiPlen-Vol-04'  4004
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-04'  4004
+CV_TYP  'Horz:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +9.372120E-02  +0.000000E+00
-        2  +1.959816E-01  +4.391085E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +1.073098E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4005  ==================
 !
-!   Straight Length:  (38.75 [in.] - 2 * 6[in.])/4  = +1.698625E-01 [m]
-!   Length From Bend: 2*pi*6[in.] * 1/4 * 1/2 * 1   = +1.196947E-01 [m]
-!   Total:           +2.8955720E-01  [m]
-!   Flow Area:       +8.213057E-03  [m^2]
+!   Straight run:
+!       Length:     L   = (18.432[in.] + 3[in.] - 6[in.])/3
+!                       = +5.144000E+00 [in.]
+!                       = +1.306576E-01 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = Af * L
+!                       = +1.073098E-03 [m^3]
 !
-CV_ID  'HiPlen-Vol-05'  4005
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-05'  4005
+CV_TYP  'Horz:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +9.339072E-02  +0.000000E+00
-        2  +1.956511E-01  +2.378150E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +1.073098E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4006  ==================
 !
-!   Straight Length:  (38.75 [in.] - 2 * 6[in.])/4  = +1.698625E-01 [m]
-!   Total:           +1.698625E-01  [m]
-!   Flow Area:       +8.213057E-03  [m^2]
+!   Straight run:
+!       Length:     L   = (18.432[in.] + 3[in.] - 6[in.])/3
+!                       = +5.144000E+00 [in.]
+!                       = +1.306576E-01 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = Af * L
+!                       = +1.073098E-03 [m^3]
 !
-CV_ID  'HiPlen-Vol-06'  4006
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-06'  4006
+CV_TYP  'Horz:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +9.339072E-02  +0.000000E+00
-        2  +1.956511E-01  +1.395090E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +1.073098E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4007  ==================
+!   Half Bend 
+!       Count:      N   = 1
+!       Length:     L   = 2*pi*6[in.] * 1/4 * 1/2 
+!                       = 4.712[in.] 
+!                       = +1.196947E-01[m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +9.830593E-04 [m^3]
 !
-!   Straight Length:  (38.75 [in.] - 2 * 6[in.])/4  = +1.698625E-01 [m]
-!   Total:           +1.698625E-01  [m]
-!   Flow Area:       +8.213057E-03  [m^2]
-!
-CV_ID  'HiPlen-Vol-07'  4007
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-07'  4007
+CV_TYP  'Horz:HalfBend'
 CV_VAT  2  !Number Elevation Volume
-        1  +9.339072E-02  +0.000000E+00
-        2  +1.956511E-01  +1.395090E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +9.830593E-04
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
-CV_PTD  Pvol  119907.4
-CV_PAD  333.16 
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4008  ==================
+!   Half Bend 
+!       Count:      N   = 1
+!       Length:     L   = 2*pi*6[in.] * 1/4 * 1/2 
+!                       = 4.712[in.] 
+!                       = +1.196947E-01[m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +9.830593E-04 [m^3]
 !
-!   Straight Length:  (38.75 [in.] - 2 * 6[in.])/4  = +1.698625E-01 [m]
-!   Length From Bend: 2*pi*6[in.] * 1/4 * 1/2 * 1   = +1.196947E-01 [m]
-!   Total:           +2.8955720E-01  [m]
-!   Flow Area:       +8.213057E-03  [m^2]
-!
-CV_ID  'HiPlen-Vol-08'  4008
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-08'  4008
+CV_TYP  'Horz:HalfBend'
 CV_VAT  2  !Number Elevation Volume
-        1  +9.339072E-02  +0.000000E+00
-        2  +1.956511E-01  +2.378150E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +9.830593E-04
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
-CV_PTD  Pvol  119907.4
-CV_PAD  333.16 
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4009  ==================
 !
-!   Elevation Change: 3.75[in.] + (27.0028[in.] - 2 * 6[in.])/3 = +2.222737E-01 [m]
-!   Straight Length:  (27.0028[in.] - 2 * 6[in.])/3             = +1.698625E-01 [m]
-!   Length From Bend: 2*pi*6[in.] * 1/4 * 1/2 * 1               = +1.196947E-01 [m]
-!   Total:           +2.8955720E-01  [m]
-!   Flow Area:       +8.213057E-03  [m^2]
+!   Straight run:
+!       Length:     L   = 26.75[in.]/5
+!                       = +5.350000E+00 [in.]
+!                       = +1.358900E-01 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = Af * L
+!                       = +1.116072E-03 [m^3]
 !
-CV_ID  'HiPlen-Vol-09'  4009
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-09'  4009
+CV_TYP  'Horz:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +1.956511E-01  +0.000000E+00
-        2  +4.179248E-01  +2.378150E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +1.116072E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
-CV_PTD  Pvol  113301.6
+CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4010  ==================
 !
-!   Straight Length:  (27.0028[in.] - 2 * 6[in.])/3 = +1.698625E-01 [m]
-!   Flow Area:        8.213057E-3 m^2
+!   Straight run:
+!       Length:     L   = 26.75[in.]/5
+!                       = +5.350000E+00 [in.]
+!                       = +1.358900E-01 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = Af * L
+!                       = +1.116072E-03 [m^3]
 !
-CV_ID  'HiPlen-Vol-10'  4010
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-10'  4010
+CV_TYP  'Horz:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +4.179248E-01  +0.000000E+00
-        2  +5.877873E-01  +1.395090E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +1.116072E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
-CV_PTD  Pvol  113301.6
+CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
-CV_ARE  NoCF  8.213057E-3
+CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4011  ==================
 !
-!   Elevation Change: 3.75[in.] + (27.0028[in.] - 2 * 6[in.])/3 = +2.222737E-01 [m]
-!   Straight Length:  (27.0028[in.] - 2 * 6[in.])/3             = +1.698625E-01 [m]
-!   Length From Bend: 2*pi*6[in.] * 1/4 * 1/2 * 1               = +1.196947E-01 [m]
-!   Total:           +2.8955720E-01  [m]
-!   Flow Area:       +8.213057E-03  [m^2]
+!   Straight run:
+!       Length:     L   = 26.75[in.]/5
+!                       = +5.350000E+00 [in.]
+!                       = +1.358900E-01 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = Af * L
+!                       = +1.116072E-03 [m^3]
 !
-CV_ID  'HiPlen-Vol-11'  4011
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-11'  4011
+CV_TYP  'Horz:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +5.877873E-01  +0.000000E+00
-        2  +8.100610E-01  +2.378150E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +1.116072E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
-CV_PTD  Pvol  113301.6
+CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4012  ==================
 !
-!   Straight Length:  (16.8827[in.] - 6[in.])/3     = +9.214019E-02 [m]
-!   Length From Bend: 2*pi*6[in.] * 1/4 * 1/2 * 1   = +1.196947E-01 [m]
-!   Total:           +2.1183487E-01  [m]
-!   Flow Area:       +8.213057E-03  [m^2]
+!   Straight run:
+!       Length:     L   = 26.75[in.]/5
+!                       = +5.350000E+00 [in.]
+!                       = +1.358900E-01 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = Af * L
+!                       = +1.116072E-03 [m^3]
 !
-CV_ID  'HiPlen-Vol-12'  4012
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-12'  4012
+CV_TYP  'Horz:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +8.100610E-01  +0.000000E+00
-        2  +9.116610E-01  +1.739812E-03
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +1.116072E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
-CV_PTD  Pvol  113301.6
+CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4013  ==================
 !
-!   Straight Length:  (16.8827[in.] - 6[in.])/3     = +9.214019E-02 [m]
-!   Flow Area:       +8.213057E-03  [m^2]
+!   Straight run:
+!       Length:     L   = 26.75[in.]/5
+!                       = +5.350000E+00 [in.]
+!                       = +1.358900E-01 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = Af * L
+!                       = +1.116072E-03 [m^3]
 !
-CV_ID  'HiPlen-Vol-13'  4013
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-13'  4013
+CV_TYP  'Horz:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +8.100610E-01  +0.000000E+00
-        2  +9.116610E-01  +7.567527E-04
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +1.116072E-03
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
-CV_PTD  Pvol  113301.6
+CV_PTD  Pvol  119907.4
 CV_PAD  333.16 
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
 
 
 !==================  Control Volume 4014  ==================
+!   Half Bend 
+!       Count:      N   = 1
+!       Length:     L   = 2*pi*6[in.] * 1/4 * 1/2 
+!                       = 4.712[in.] 
+!                       = +1.196947E-01[m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +9.830593E-04 [m^3]
 !
-!   Straight Length:  (16.8827[in.] - 6[in.])/3     = +9.214019E-02 [m]
-!   Flow Area:       +8.213057E-03  [m^2]
-!
-CV_ID  'HiPlen-Vol-14'  4014
-CV_TYP  'RCCS'
+CV_ID   'HiPlen-Vol-14'  4014
+CV_TYP  'Vert:HlfBnd:Tall'
 CV_VAT  2  !Number Elevation Volume
-        1  +8.100610E-01  +0.000000E+00
-        2  +9.116610E-01  +7.567527E-04
+        1  +2.035302E-01  +0.000000E+00
+        2  +3.057906E-01  +9.830593E-04
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
-CV_PTD  Pvol  113301.6
-CV_PAD  333.16 
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
 CV_VEL  0.00  0.00
 CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4015  ==================
+!
+!   Half Bend 
+!       Count:      N   = 1
+!       Length:     L   = 2*pi*6[in.] * 1/4 * 1/2 
+!                       = 4.712[in.] 
+!                       = +1.196947E-01[m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +9.830593E-04 [m^3]
+!
+!   Elevation:
+!       Note:   Total elevation change from the Upper Plenum CL to the
+!               end of the bend is 6[in.].  To maintain gravity head,
+!               the elevation change for the top half of the bend is
+!               that change 6[in.] minus half of the Upper Plenum
+!               diameter (4.026[in.]).
+!       Bottom: +3.057906E-01   [m]
+!       Top:    +4.070602E-01   [m]
+!
+CV_ID   'HiPlen-Vol-15'  4015
+CV_TYP  'Vert:HlfBnd:Shrt'
+CV_VAT  2  !Number Elevation Volume
+        1  +3.057906E-01  +0.000000E+00
+        2  +4.070604E-01  +9.830593E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4016  ==================
+!   
+!       Length:     L   = 10.727[in.]/3
+!                       = +3.575667E+00 [in.] 
+!                       = +9.082193E-02 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +7.459257E-04 [m^3]
+!
+CV_ID   'HiPlen-Vol-16'  4016
+CV_TYP  'Vert:Straight'
+CV_VAT  2  !Number Elevation Volume
+        1  +4.070602E-01  +0.000000E+00
+        2  +4.978823E-01  +7.459257E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4017  ==================
+!   
+!       Length:     L   = 10.727[in.]/3
+!                       = +3.575667E+00 [in.] 
+!                       = +9.082193E-02 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +7.459257E-04 [m^3]
+!
+CV_ID   'HiPlen-Vol-17'  4017
+CV_TYP  'Vert:Straight'
+CV_VAT  2  !Number Elevation Volume
+        1  +4.978823E-01  +0.000000E+00
+        2  +5.887043E-01  +7.459257E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4018  ==================
+!   
+!       Length:     L   = 10.727[in.]/3
+!                       = +3.575667E+00 [in.] 
+!                       = +9.082193E-02 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +7.459257E-04 [m^3]
+!
+CV_ID   'HiPlen-Vol-18'  4018
+CV_TYP  'Vert:Straight'
+CV_VAT  2  !Number Elevation Volume
+        1  +5.887043E-01  +0.000000E+00
+        2  +6.795262E-01  +7.459257E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4019  ==================
+!
+!   Half Bend 
+!       Count:      N   = 1
+!       Length:     L   = 2*pi*6[in.] * 1/4 * 1/2 
+!                       = 4.712[in.] 
+!                       = +1.196947E-01[m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +9.830593E-04 [m^3]
+!
+!   Elevation:
+!       Bottom: +6.795260E-01   [m]
+!       Top:    +7.807958E-01   [m]
+!
+CV_ID   'HiPlen-Vol-19'  4019
+CV_TYP  'Vert:HlfBnd:Shrt'
+CV_VAT  2  !Number Elevation Volume
+        1  +6.795262E-01  +0.000000E+00
+        2  +7.807960E-01  +9.830593E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4020  ==================
+!   Half Bend 
+!       Count:      N   = 1
+!       Length:     L   = 2*pi*6[in.] * 1/4 * 1/2 
+!                       = 4.712[in.] 
+!                       = +1.196947E-01[m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +9.830593E-04 [m^3]
+!
+CV_ID   'HiPlen-Vol-20'  4020
+CV_TYP  'Vert:HlfBnd:Tall'
+CV_VAT  2  !Number Elevation Volume
+        1  +7.807960E-01  +0.000000E+00
+        2  +8.830564E-01  +9.830593E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4021  ==================
+!   
+!       Length:     L   = (16.88[in.] - 6[in.])/3
+!                       = +3.626667E+00 [in.] 
+!                       = +9.211733E-02 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +7.565649E-04 [m^3]
+!
+CV_ID   'HiPlen-Vol-21'  4021
+CV_TYP  'Vert:Straight'
+CV_VAT  2  !Number Elevation Volume
+        1  +7.807960E-01  +0.000000E+00
+        2  +8.830564E-01  +9.830593E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4022  ==================
+!   
+!       Length:     L   = (16.88[in.] - 6[in.])/3
+!                       = +3.626667E+00 [in.] 
+!                       = +9.211733E-02 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +7.565649E-04 [m^3]
+!
+CV_ID   'HiPlen-Vol-22'  4022
+CV_TYP  'Vert:Straight'
+CV_VAT  2  !Number Elevation Volume
+        1  +7.807960E-01  +0.000000E+00
+        2  +8.830564E-01  +9.830593E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
+
+
+!==================  Control Volume 4023  ==================
+!   
+!       Length:     L   = (16.88[in.] - 6[in.])/3
+!                       = +3.626667E+00 [in.] 
+!                       = +9.211733E-02 [m]
+!       Flow Area:  Af  = pi*(4.026)^2/4
+!                       = +1.273026E+01[in.]
+!                       = +8.213057E-03[m^2]
+!       Volume:     V   = N * L * Af
+!                       = +7.565649E-04 [m^3]
+!
+CV_ID   'HiPlen-Vol-23'  4023
+CV_TYP  'Vert:Straight'
+CV_VAT  2  !Number Elevation Volume
+        1  +7.807960E-01  +0.000000E+00
+        2  +8.830564E-01  +9.830593E-04
+CV_THR  NonEquil  NoFog      Active
+CV_PAS  Separate  OnlyPool   Subcooled
+CV_PTD  Pvol  173280.6
+CV_PAD  333.16  
+CV_VEL  0.00  0.00
+CV_ARE  NoCF  +8.213057E-03
+
 
 
 
@@ -276,190 +688,457 @@ CV_ARE  NoCF  +8.213057E-03
 FL_INPUT
 
 !==================  Flow Path 4001  ==================
-! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
-! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! L_eff for run:        +2.045208E+00 [m]
-! Physical Length:      +2.124464E-01 [m]
-! ---------------------------------------------------
-! TOTAL:                +2.257654E+00 [m]
+!   Form Losses: Tee-branch run
+!
+!   Length:
+!       From Volume:    +2.096061E-01 / 2   [m]
+!       To   Volume:    +2.401737E-01 / 2   [m]
+!       Total:          +2.248899E-01       [m]
 !
 FL_ID  'HiPlen-Pth-01' 4001
-FL_FT  'HiPlen-Vol-01'  'HiPlen-Vol-02'  +1.445212E-01  +1.445212E-01
-FL_GEO  +8.213057E-03  0.212446447  1.0
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-01'  'HiPlen-Vol-02'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +2.248899E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.19  0.19
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +2.257654E+00  0.1016
+        1  +8.213057E-03  +2.248899E-01  0.1016
 
         
 !==================  Flow Path 4002  ==================
-! L_eff/D for Standard Tee run:  20 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
-! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! L_eff for run:        +2.045208E+00 [m]
-! Physical Length:      +2.124464E-01 [m]
-! ---------------------------------------------------
-! TOTAL:                +2.257654E+00 [m]
+!   Form Losses: Tee-branch run
+!
+!   Length:
+!       From Volume:    +2.401737E-01 / 2   [m]
+!       To   Volume:    +2.401737E-01 / 2   [m]
+!       Total:          +2.401737E-01       [m]
 !
 FL_ID  'HiPlen-Pth-02' 4002
-FL_FT  'HiPlen-Vol-02'  'HiPlen-Vol-03'  +1.445212E-01  +1.445212E-01
-FL_GEO  +8.213057E-03  0.212446447  1.0
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-02'  'HiPlen-Vol-03'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +2.401737E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.19  0.19
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +2.257654E+00  0.1016
+        1  +8.213057E-03  +2.401737E-01  0.1016
 
 
 !==================  Flow Path 4003  ==================
 !
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +2.401737E-01 / 2   [m]
+!       To   Volume:    +1.306576E-01 / 2   [m]
+!       Total:          +1.854156E-01       [m]
+!
 FL_ID  'HiPlen-Pth-03' 4003
-FL_FT  'HiPlen-Vol-03'  'HiPlen-Vol-04'  +1.445212E-01  +1.445212E-01
-FL_GEO  +8.213057E-03  +3.735467E-01  1.0
-FL_USL  0.00  0.00
-FL_VEL  0.00  0.00
-FL_JSW  3 NoBubbleRise  NoBubblerise
-FL_SEG  1
-        1  +8.213057E-03  +3.735467E-01  0.1016
-
-
-!==================  Flow Path 4004  ==================
-! L_eff/D for 90 degree elbow:  30 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
-! Hydraulic diameter:           4.026 in. = 0.1022604   m
-!
-! L_eff for bend:       +3.067812E+00 [m]
-! Physical Length:      +4.121020E-01 [m] 
-! ---------------------------------------------------
-! TOTAL:                +3.479914E+00 [m]
-!
-FL_ID  'HiPlen-Pth-04' 4004
-FL_FT  'HiPlen-Vol-04'  'HiPlen-Vol-05'  +1.445212E-01  +1.445212E-01
-FL_GEO  +8.213057E-03  +4.1210204E-01  1.000000E+000
+FL_FT  'HiPlen-Vol-03'  'HiPlen-Vol-04'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.854156E-01  1.0   +5.113020E-02   +5.113020E-02
 FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
 FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +3.479914E+00  0.1016
+        1  +8.213057E-03  +1.854156E-01  0.1016
+
+
+
+!==================  Flow Path 4004  ==================
+!
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.306576E-01 / 2   [m]
+!       To   Volume:    +1.306576E-01 / 2   [m]
+!       Total:          +1.306576E-01       [m]
+!
+FL_ID  'HiPlen-Pth-04' 4004
+FL_FT  'HiPlen-Vol-04'  'HiPlen-Vol-05'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.306576E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  +8.213057E-03  +1.306576E-01  0.1016
+
 
 
 !==================  Flow Path 4005  ==================
-! 
+!
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.306576E-01 / 2   [m]
+!       To   Volume:    +1.306576E-01 / 2   [m]
+!       Total:          +1.306576E-01       [m]
+!
 FL_ID  'HiPlen-Pth-05' 4005
-FL_FT  'HiPlen-Vol-05'  'HiPlen-Vol-06'  +1.445212E-01  +1.445212E-01
-FL_GEO  +8.213057E-03  +2.297099E-01  1.000000E+000
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-05'  'HiPlen-Vol-06'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.306576E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
-FL_JSW  3 NoBubbleRise  NoBubbleRise
+FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +2.297099E-01    0.1016
+        1  +8.213057E-03  +1.306576E-01  0.1016
+
 
 
 !==================  Flow Path 4006  ==================
 !
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.306576E-01 / 2   [m]
+!       To   Volume:    +1.196947E-01 / 2   [m]
+!       Total:          +1.251762E-01       [m]
+!
 FL_ID  'HiPlen-Pth-06' 4006
-FL_FT  'HiPlen-Vol-06'  'HiPlen-Vol-07'  +1.445212E-01  +1.445212E-01
-FL_GEO  +8.213057E-03  +1.698625E-01  1.000000E+000
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-06'  'HiPlen-Vol-07'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.251762E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
-FL_JSW  3 NoBubbleRise  NoBubbleRise
+FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +1.698625E-01    0.1016
+        1  +8.213057E-03  +1.251762E-01  0.1016
 
-        
+
+
 !==================  Flow Path 4007  ==================
 !
+!   Form Losses: 90 degree elbow.
+!
+!   Length:
+!       From Volume:    +1.196947E-01 / 2   [m]
+!       To   Volume:    +1.196947E-01 / 2   [m]
+!       Total:          +1.196947E-01       [m]
+!
 FL_ID  'HiPlen-Pth-07' 4007
-FL_FT  'HiPlen-Vol-07'  'HiPlen-Vol-08'  +1.445212E-01  +1.445212E-01
-FL_GEO  +8.213057E-03  +2.297099E-01  1.000000E+000
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-07'  'HiPlen-Vol-08'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.196947E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.39  0.39 
 FL_VEL  0.00  0.00
-FL_JSW  3 NoBubbleRise  NoBubbleRise
+FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +2.297099E-01    0.1016
+        1  +8.213057E-03  +1.196947E-01  0.1016
+
 
 
 !==================  Flow Path 4008  ==================
-! L_eff/D for 90 degree elbow:  30 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
-! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! L_eff for bend:       +3.067812E+00 [m]
-! Physical Length:      +2.895572E-01 [m] 
-! ---------------------------------------------------
-! TOTAL:                +3.357369E+00 [m]
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.196947E-01 / 2   [m]
+!       To   Volume:    +1.358900E-01 / 2   [m]
+!       Total:          +1.277924E-01       [m]
 !
 FL_ID  'HiPlen-Pth-08' 4008
-FL_FT  'HiPlen-Vol-08'  'HiPlen-Vol-09'  +1.956511E-01  +1.956511E-01
-FL_GEO  +8.213057E-03   +1.619370E-01  1.00   0.0508   0.111137
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-08'  'HiPlen-Vol-09'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.277924E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +3.357369E+00    0.1016
+        1  +8.213057E-03  +1.277924E-01  0.1016
+
 
 
 !==================  Flow Path 4009  ==================
 !
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.358900E-01 / 2   [m]
+!       To   Volume:    +1.358900E-01 / 2   [m]
+!       Total:          +1.358900E-01       [m]
+!
 FL_ID  'HiPlen-Pth-09' 4009
-FL_FT  'HiPlen-Vol-09'  'HiPlen-Vol-10'  +4.179248E-01  +4.179248E-01
-FL_GEO  +8.213057E-03   +2.2970985E-01  1.00   0.111137    0.0849313
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-09'  'HiPlen-Vol-10'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.358900E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +2.2970985E-01    0.1016
+        1  +8.213057E-03  +1.358900E-01  0.1016
+
 
 
 !==================  Flow Path 4010  ==================
 !
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.358900E-01 / 2   [m]
+!       To   Volume:    +1.358900E-01 / 2   [m]
+!       Total:          +1.358900E-01       [m]
+!
 FL_ID  'HiPlen-Pth-10' 4010
-FL_FT  'HiPlen-Vol-10'  'HiPlen-Vol-11' +5.877873E-01   +5.877873E-01
-FL_GEO  +8.213057E-03   +2.2970985E-01  1.000000E+000  0.0849313 0.111137    
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-10'  'HiPlen-Vol-11'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.358900E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +2.2970985E-01    0.1016
+        1  +8.213057E-03  +1.358900E-01  0.1016
+
 
 
 !==================  Flow Path 4011  ==================
-! L_eff/D for 90 degree elbow:  30 [-]; Reference: Fox & McDonald, 4th edition, pg. 358, Table 8.3
-! Hydraulic diameter:           4.026 in. = 0.1022604   m
 !
-! L_eff for bend:       +3.067812E+00 [m]
-! Physical Length:      +2.506960E-01 [m] 
-! ---------------------------------------------------
-! TOTAL:                +3.318508E+00 [m]
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.358900E-01 / 2   [m]
+!       To   Volume:    +1.358900E-01 / 2   [m]
+!       Total:          +1.358900E-01       [m]
 !
 FL_ID  'HiPlen-Pth-11' 4011
-FL_FT  'HiPlen-Vol-11'  'HiPlen-Vol-12' +8.100610E-01   +8.100610E-01
-FL_GEO  +8.213057E-03   +1.619370E-01  1.00  0.111137    0.0508
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-11'  'HiPlen-Vol-12'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.358900E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03  +3.318508E+00    0.1016
+        1  +8.213057E-03  +1.358900E-01  0.1016
+
 
 
 !==================  Flow Path 4012  ==================
 !
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.358900E-01 / 2   [m]
+!       To   Volume:    +1.358900E-01 / 2   [m]
+!       Total:          +1.358900E-01       [m]
+!
 FL_ID  'HiPlen-Pth-12' 4012
-FL_FT  'HiPlen-Vol-12'  'HiPlen-Vol-13' +8.608610E-01   +8.608610E-01
-FL_GEO  +8.213057E-03    +1.5198753E-01  1.00  0.0508 0.0508
-FL_USL  0.00  0.00
+FL_FT  'HiPlen-Vol-12'  'HiPlen-Vol-13'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.358900E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
 FL_VEL  0.00  0.00
-FL_JSW  3   NoBubbleRise    NoBubbleRise
+FL_JSW  3 NoBubbleRise  NoBubblerise
 FL_SEG  1
-        1  +8.213057E-03   +1.5198753E-01    0.1016
+        1  +8.213057E-03  +1.358900E-01  0.1016
+
 
 
 !==================  Flow Path 4013  ==================
 !
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.561340E-01 / 2   [m]
+!       To   Volume:    +1.196947E-01 / 2   [m]
+!       Total:          +1.277924E-01       [m]
+!
 FL_ID  'HiPlen-Pth-13' 4013
-FL_FT  'HiPlen-Vol-13'  'HiPlen-Vol-14' +8.608610E-01   +8.608610E-01
-FL_GEO  +8.213057E-03    +9.214019E-02  1.00  0.0508 0.0508
+FL_FT  'HiPlen-Vol-13'  'HiPlen-Vol-14'     +2.546604E-01   +2.546604E-01
+FL_GEO  +8.213057E-03  +1.277924E-01  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise  NoBubblerise
+FL_SEG  1
+        1  +8.213057E-03  +1.277924E-01  0.1016
+
+
+
+!==================  Flow Path 4014  ==================
+!
+!   Form Losses: 90 degree elbow.
+!
+!   Length:
+!       Fritional:
+!           From Volume:    +1.196947E-01 / 2   [m]
+!           To   Volume:    +1.196947E-01 / 2   [m]
+!           Total:          +1.196947E-01       [m]
+!       Inertial:
+!           From Volume:    +5.113020E-02 / 2   [m]
+!           To   Volume:    +1.012698E-01 / 2   [m]
+!           Total:          +7.620000E-02       [m]
+!
+FL_ID  'HiPlen-Pth-14' 4014
+FL_FT  'HiPlen-Vol-14'  'HiPlen-Vol-15'     +3.057906E-01   +3.057906E-01
+FL_GEO  +8.213057E-03  +7.620000E-02  1.0   +5.113020E-02   +5.063490E-02
+FL_USL  0.39  0.39
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  +8.213057E-03  +1.196947E-01  0.1016
+
+
+
+!==================  Flow Path 4015  ==================
+!
+!   Form Losses: None.
+!
+!   Length:
+!       Fritional:
+!           From Volume:    +1.196947E-01 / 2   [m]
+!           To   Volume:    +9.082193E-02 / 2   [m]
+!           Total:          +1.052583E-01       [m]
+!       Inertial:
+!           From Volume:    +1.012698E-01 / 2   [m]
+!           To   Volume:    +9.082193E-02 / 2   [m]
+!           Total:          +9.604586E-02       [m]
+!
+FL_ID  'HiPlen-Pth-15' 4015
+FL_FT  'HiPlen-Vol-15'  'HiPlen-Vol-16'     +4.070604E-01   +4.070604E-01
+FL_GEO  +8.213057E-03  +9.604586E-02  1.0   +5.063490E-02   +4.541096E-02
+FL_USL  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  +8.213057E-03  +1.052583E-01  0.1016
+
+
+
+!==================  Flow Path 4016  ==================
+!
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +9.082193E-02 / 2   [m]
+!       To   Volume:    +9.082193E-02 / 2   [m]
+!       Total:          +9.082193E-02       [m]
+!
+FL_ID  'HiPlen-Pth-16' 4016
+FL_FT  'HiPlen-Vol-16'  'HiPlen-Vol-17'     +4.978823E-01   +4.978823E-01
+FL_GEO  +8.213057E-03  +9.082193E-02  1.0   +4.541096E-02   +4.541096E-02
+FL_USL  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  +8.213057E-03  +9.082193E-02  0.1016
+
+
+
+!==================  Flow Path 4017  ==================
+!
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +9.082193E-02 / 2   [m]
+!       To   Volume:    +9.082193E-02 / 2   [m]
+!       Total:          +9.082193E-02       [m]
+!
+FL_ID  'HiPlen-Pth-17' 4017
+FL_FT  'HiPlen-Vol-17'  'HiPlen-Vol-18'     +5.887043E-01   +5.887043E-01
+FL_GEO  +8.213057E-03  +9.082193E-02  1.0   +4.541096E-02   +4.541096E-02
+FL_USL  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  +8.213057E-03  +9.082193E-02  0.1016
+
+
+
+!==================  Flow Path 4018  ==================
+!
+!   Form Losses: None.
+!
+!   Length:
+!       Fritional:
+!           From Volume:    +9.082193E-02 / 2   [m]
+!           To   Volume:    +1.196947E-01 / 2   [m]
+!           Total:          +1.052583E-01       [m]
+!       Inertial:
+!           From Volume:    +9.082193E-02 / 2   [m]
+!           To   Volume:    +1.012698E-01 / 2   [m]
+!           Total:          +9.604586E-02       [m]
+!
+FL_ID  'HiPlen-Pth-18' 4018
+FL_FT  'HiPlen-Vol-18'  'HiPlen-Vol-19'     +6.795262E-01   +6.795262E-01
+FL_GEO  +8.213057E-03  +9.604586E-02  1.0   +4.541096E-02   +5.063490E-02
+FL_USL  0.00  0.00 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  +8.213057E-03  +1.052583E-01  0.1016
+
+
+
+!==================  Flow Path 4019  ==================
+!
+!   Form Losses: 90 degree elbow.
+!
+!   Length:
+!       Fritional:
+!           From Volume:    +1.196947E-01 / 2   [m]
+!           To   Volume:    +1.196947E-01 / 2   [m]
+!           Total:          +1.196947E-01       [m]
+!       Inertial:
+!           From Volume:    +1.012698E-01 / 2   [m]
+!           To   Volume:    +5.113020E-02 / 2   [m]
+!           Total:          +7.620000E-02       [m]
+!
+FL_ID  'HiPlen-Pth-19' 4019
+FL_FT  'HiPlen-Vol-19'  'HiPlen-Vol-20'     +7.807960E-01   +7.807960E-01
+FL_GEO  +8.213057E-03  +7.620000E-02  1.0   +5.063490E-02   +5.113020E-02
+FL_USL  0.39  0.39 
+FL_VEL  0.00  0.00
+FL_SEG  1
+        1  +8.213057E-03  +1.196947E-01  0.1016
+
+
+
+!==================  Flow Path 4020  ==================
+!
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +1.196947E-01 / 2   [m]
+!       To   Volume:    +9.211733E-02 / 2   [m]
+!       Total:          +1.059060E-01       [m]
+!
+FL_ID  'HiPlen-Pth-20' 4020
+FL_FT  'HiPlen-Vol-20'  'HiPlen-Vol-21'     +8.319262E-01   +8.319262E-01
+FL_GEO  +8.213057E-03  +1.059060E-01  1.0   +5.113020E-02   +5.113020E-02
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
-FL_JSW  3   NoBubbleRise    NoBubbleRise
+FL_JSW  3 NoBubbleRise NoBubbleRise
 FL_SEG  1
-        1  +8.213057E-03  +9.214019E-02    0.1016
+        1  +8.213057E-03  +1.059060E-01  0.1016
+
+
+
+!==================  Flow Path 4021  ==================
+!
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +9.211733E-02 / 2   [m]
+!       To   Volume:    +9.211733E-02 / 2   [m]
+!       Total:          +9.211733E-02       [m]
+!
+FL_ID  'HiPlen-Pth-21' 4021
+FL_FT  'HiPlen-Vol-21'  'HiPlen-Vol-22'     +8.319262E-01   +8.319262E-01
+FL_GEO  +8.213057E-03  +9.211733E-02  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise NoBubbleRise
+FL_SEG  1
+        1  +8.213057E-03  +9.211733E-02  0.1016
+
+
+
+!==================  Flow Path 4022  ==================
+!
+!   Form Losses: None.
+!
+!   Length:
+!       From Volume:    +9.211733E-02 / 2   [m]
+!       To   Volume:    +9.211733E-02 / 2   [m]
+!       Total:          +9.211733E-02       [m]
+!
+FL_ID  'HiPlen-Pth-22' 4022
+FL_FT  'HiPlen-Vol-22'  'HiPlen-Vol-23'     +8.319262E-01   +8.319262E-01
+FL_GEO  +8.213057E-03  +9.211733E-02  1.0   +5.113020E-02   +5.113020E-02
+FL_USL  0.00  0.00
+FL_VEL  0.00  0.00
+FL_JSW  3 NoBubbleRise NoBubbleRise
+FL_SEG  1
+        1  +8.213057E-03  +9.211733E-02  0.1016
+
+
+
 
 
 

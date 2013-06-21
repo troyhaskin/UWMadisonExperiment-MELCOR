@@ -13,7 +13,12 @@ AllowReplace
 !           FL
 !           HS
 !       Notes:
-!           o 
+!           o   The last control volume is "half" of the bend that connects the 
+!               downcomer to the lower piping network. "Half" means that it has
+!               half of the bend's volume and frictional length; however, the
+!               the elevation change is from the bottom of the downcomer to the
+!               top of the lower piping network (this maintains consistent
+!               gravity head).
 !
 !   Hydraulic Information:
 !       Diameter:      
@@ -24,7 +29,7 @@ AllowReplace
 !           Value:  +8.213057E-03[m^2]
 !       Altitude:  
 !           Type:   Span
-!           Value:  [-5.265171E+00,0.00]
+!           Value:  [5.1086258,0.00] [m]
 !
 !
 
@@ -33,8 +38,8 @@ AllowReplace
 CVH_INPUT
 !
 !==================  Control Volume 1000  ==================
-CV_ID  'Downer-Vol-00'  1000
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-00'  1000
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -5.000000E-01  0.000000E+00
         2   0.000000E+00  4.106529E-03
@@ -46,8 +51,8 @@ CV_VEL  0.00  0.00
 
 !
 !==================  Control Volume 1001  ==================
-CV_ID  'Downer-Vol-01'  1001
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-01'  1001
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -1.000000E+00  0.000000E+00
         2  -5.000000E-01  4.106529E-03
@@ -58,8 +63,8 @@ CV_PAD 333.16
 CV_VEL  0.00  0.00
 !
 !==================  Control Volume 1002  ==================
-CV_ID  'Downer-Vol-02'  1002
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-02'  1002
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -1.500000E+00  0.000000E+00
         2  -1.000000E+00  4.106529E-03
@@ -70,8 +75,8 @@ CV_PAD 333.16
 CV_VEL  0.00  0.00
 !
 !==================  Control Volume 1003  ==================
-CV_ID  'Downer-Vol-03'  1003
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-03'  1003
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -2.000000E+00  0.000000E+00
         2  -1.500000E+00  4.106529E-03
@@ -82,8 +87,8 @@ CV_PAD 333.16
 CV_VEL  0.00  0.00
 !
 !==================  Control Volume 1004  ==================
-CV_ID  'Downer-Vol-04'  1004
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-04'  1004
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -2.500000E+00  0.000000E+00
         2  -2.000000E+00  4.106529E-03
@@ -94,8 +99,8 @@ CV_PAD 333.16
 CV_VEL  0.00  0.00
 !
 !==================  Control Volume 1005  ==================
-CV_ID  'Downer-Vol-05'  1005
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-05'  1005
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -3.000000E+00  0.000000E+00
         2  -2.500000E+00  4.106529E-03
@@ -106,8 +111,8 @@ CV_PAD 333.16
 CV_VEL  0.00  0.00
 !
 !==================  Control Volume 1006  ==================
-CV_ID  'Downer-Vol-06'  1006
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-06'  1006
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -3.500000E+00  0.000000E+00
         2  -3.000000E+00  4.106529E-03
@@ -118,8 +123,8 @@ CV_PAD 333.16
 CV_VEL  0.00  0.00
 !
 !==================  Control Volume 1007  ==================
-CV_ID  'Downer-Vol-07'  1007
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-07'  1007
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -4.000000E+00  0.000000E+00
         2  -3.500000E+00  4.106529E-03
@@ -130,8 +135,8 @@ CV_PAD 333.16
 CV_VEL  0.00  0.00
 !
 !==================  Control Volume 1008  ==================
-CV_ID  'Downer-Vol-08'  1008
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-08'  1008
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -4.500000E+00  0.000000E+00
         2  -4.000000E+00  4.106529E-03
@@ -142,8 +147,8 @@ CV_PAD 333.16
 CV_VEL  0.00  0.00
 !
 !==================  Control Volume 1009  ==================
-CV_ID  'Downer-Vol-09'  1009
-CV_TYP  'RCCS'
+CV_ID   'Downer-Vol-09'  1009
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
         1  -5.000000E+00  0.000000E+00
         2  -4.500000E+00  4.106529E-03
@@ -155,13 +160,13 @@ CV_VEL  0.00  0.00
 
 ! ==================  Control Volume 1010  ==================
 !
-!   Vertical distance before bend:  +1.702513E-01 [m]
+!   Vertical distance before bend:  +1.086258E-01 [m]
 !
 CV_ID   'Downer-Vol-10'  1010
-CV_TYP  'RCCS'
+CV_TYP  'Vert::Down'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.170251E+00  +0.000000E+00 
-        2  -5.000000E+00  +1.398284E-03
+        1  -5.1086258+00  +0.000000E+00 
+        2  -5.000000E+00  +8.921500E-04
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  170688.8
@@ -171,19 +176,21 @@ CV_VEL  0.00  0.00
 
 ! ==================  Control Volume 1011  ==================
 !
-!   Vertical distance for bend: +9.525000E-02 [m]
-!   Half of Bend Path Length:   +1.196947E-01 [m]
-!   Half of Bend Volume:        +9.704032E-04 [m^3]
+!   Vertical distance for bend: 6[in.] - 4.026[in.]/2   = 3.987         [in.] 
+!                                                       = +1.012698E-01 [m]
+!   Half of Bend Path Length:   2*pi*6[in.] * 1/4 * 1/2 = 4.712         [in.] 
+!                                                       = +1.196947E-01 [m]
+!   Half of Bend Volume:        Lfric * Aflow           = +9.830593E-04 [m^3]
 !
 CV_ID   'Downer-Vol-11'  1011
-CV_TYP  'RCCS'
+CV_TYP  'Vert::HalfBend'
 CV_VAT  2  !Number Elevation Volume
-        1  -5.265501E+00  +0.000000E+00 
-        2  -5.170251E+00  +9.830594E-04
+        1  -5.209896E+00  +0.000000E+00 
+        2  -5.1086258+00  +9.830594E-04
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
 CV_PTD  Pvol  170688.8
-CV_PAD 333.16 
+CV_PAD  333.16 
 CV_VEL  0.00  0.00
 
 
@@ -275,22 +282,23 @@ FL_SEG  1
         1  8.213057E-03  5.000000E-01  0.1022604
 !
 !==================  Flow Path 1009  ==================
+!   Vertical distance before bend:  +1.086258E-01 [m]
 FL_ID  'Downer-Pth-09'  1009
 FL_FT  'Downer-Vol-09'  'Downer-Vol-10'  -5.000000E+00  -5.000000E+00
-FL_GEO  8.213057E-03  3.319505E-01  1.000000E+00   0.25    8.512565E-02
+FL_GEO  8.213057E-03  3.043129E-01  1.000000E+00   0.25    +5.431290E-02
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-03  3.3512565E-01  0.1022604
+        1  8.213057E-03  3.043129E-01  0.1022604
 !
 !==================  Flow Path 1010  ==================
 FL_ID  'Downer-Pth-10' 1010
-FL_FT  'Downer-Vol-10'  'Downer-Vol-11'  -5.170251E+00  -5.170251E+00
-FL_GEO  8.213057E-03  3.319505E-01  1.000000E+00   8.512565E-02    4.762500E-02
+FL_FT  'Downer-Vol-10'  'Downer-Vol-11'  -5.1086258+00  -5.1086258+00
+FL_GEO  8.213057E-03  +1.049478E-01  1.000000E+00   +5.431290E-02   +5.063490E-02
 FL_USL  0.00  0.00
 FL_VEL  0.00  0.00
 FL_SEG  1
-        1  8.213057E-03  1.449730E-01  0.1022604
+        1  8.213057E-03  +1.141602E-01  0.1022604
 
 
 
