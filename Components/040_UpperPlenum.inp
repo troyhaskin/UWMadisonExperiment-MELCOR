@@ -490,7 +490,7 @@ CV_ARE  NoCF  +8.213057E-03
 CV_ID   'HiPlen-Vol-16'  4016
 CV_TYP  'Vert:Straight'
 CV_VAT  2  !Number Elevation Volume
-        1  +4.070602E-01  +0.000000E+00
+        1  +4.070604E-01  +0.000000E+00
         2  +4.978823E-01  +7.459257E-04
 CV_THR  NonEquil  NoFog      Active
 CV_PAS  Separate  OnlyPool   Subcooled
