@@ -173,4 +173,5 @@ pip-log.txt
 *.key
 *.dll
 
-
+# Add all dimensions
+!Dimensions/*
